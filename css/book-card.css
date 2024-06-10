@@ -128,11 +128,11 @@
    align-items: center;
    column-gap: .3em;
 
-   font-size: .75em;
+   font-size: .8em;
 }
 
 .book-specs > img {
-   height: .8em;
+   height: 1em;
 }
 
 
@@ -206,10 +206,18 @@
 
    margin-right: .8em;
 
-   padding: 0em .4em;
+   padding: .2em .6em;
 
    border-radius: .3em;
    background-color: var(--c-white);
+
+   /* background-color: rgb(39, 39, 39);
+   background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+   background-blend-mode: multiply; */
+
+   color:rgb(37, 37, 37);
+
+   background-color: rgb(151, 151, 151);
   
 }
 
@@ -227,7 +235,7 @@
    padding-left: .3em;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: flex-end;
 
 }
 
@@ -240,8 +248,8 @@
 
    font-size: .8em;
 
-   height: 2.5em;
-   width: 5em;
+   height: 2.8em;
+   width: 6em;
    padding: 0em .8em;
 
    display: flex;
@@ -265,7 +273,7 @@
    font-size: .8em;
 
    height: 2.5em;
-   width: 5em;
+   width: 6em;
    padding: 0em .8em;
 
    display: flex;
@@ -292,6 +300,13 @@
    display: flex;
    align-items: center;
    column-gap: .3em;
+
+   background-color: var(--c-dark-white-3);
+
+   padding: .4em .6em;
+   margin-right: .3em;
+
+   border-radius: .3em;
 
 }
 
