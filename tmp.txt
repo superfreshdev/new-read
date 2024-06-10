@@ -1,0 +1,1347 @@
+  <div id="body-container">
+
+        <header>
+
+            <div id="content-block-header">
+                
+                <img src="media/emoji-books.png" id="img-title-header"  alt="img">
+
+                <div id="content-title-block-header">
+                    <div>Superfresh . Reading</div>
+                    <div>»  Bücher die ich gelesen habe </div>
+                </div>
+
+            </div>
+
+            <img src="media/show-left.png" id="img-logo-header"  alt="img">
+            
+
+        </header>
+
+        <main>
+
+            <!-- ------------------------------------------------ -->
+            <!-- Book 1 | Cafe am Rande der Welt -->
+            <!-- ------------------------------------------------ -->
+            <div class="book-layout">
+
+
+                <!-- ----------------------------------------------- -->
+                <!-- Book Title Content  -->
+                <!-- ----------------------------------------------- -->
+                <div class="title-content-book">
+
+                    <img src="media/books/cafe-am-rande-der-welt/cafe-am-rande-der-welt.jpg" class="img-book" alt="img">
+
+                    <div class="title-book">
+                        <div>Cafe am Rande der Welt </div>
+                        <div>John Strelecky</div>
+                    </div>
+
+                </div>
+
+                <div class="youtube-container">
+                    <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" target="_blank" class="youtube-link">
+
+                        <img src="media/youtube.png" alt="img">
+                        <div>Youtube</div>
+    
+                    </a>
+                </div>
+               
+
+                <div class="layout-audio-seperator">
+                    <div class="audio-seperator"></div>
+                </div>
+                
+                <!-- ----------------------------------------------- -->
+                <!-- Book Audio Content | -->
+                <!-- ----------------------------------------------- -->
+                <div class="audio-book-content">
+
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">00 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Vorwort | 04:06 </div>
+                            
+                        </div>
+
+                        <!-- <span style="clear: both;"></span> -->
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/00-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">01 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Stau & Burnout | 09:36 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/01-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">02 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Das gefundene Cafe | 12:24 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/02-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                  
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                        
+                            <div class="item-chapter">
+                                <div class="txt-b">03 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Das Cafe kennen lernen | 12:39 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/03-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout">
+                 
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">04 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>die erste Begnung mit den Fragen | 6:21 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/04-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">05 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>das erst bekommende große Frühstück | 10:06 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/05-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                  
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">06 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>die Geschichte der grünen Meeresschildkröte | 12:41 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/06-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout">
+
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">07 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Was könnne wir bisher lernen ? | 08:47 </div>
+                            
+                        </div>
+                            
+                     
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/07-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+
+                            <div class="item-chapter">
+                                <div class="txt-b">08 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Freundin Anne | 14:26 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/08-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                    
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+ 
+                            <div class="item-chapter">
+                                <div class="txt-b">09 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Habe ich Angst vor dem Tod ? | 06:45 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/09-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout" >
+
+                        <div class="item-text-audio">
+
+
+                            <div class="item-chapter">
+                                <div class="txt-b">10 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Finde  deine Erfüllung - nur so wirst du für dich allein erfolgreich | 11:04 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/10-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                  
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">11 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Die Frage seinen eigenen ZDE zu finden | 11:42 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/11-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                  
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">12 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>Der Rababarer Kuchen | 10:28 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/12-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                
+
+                    </div>
+
+                  
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">13 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+
+                            <div>das 2te Frühstück ? | 09:28</div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/13-c-a-r-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">14 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+
+                            <div>Mike's Geschichte zur Erkenntnis seines eigenen ZDE's | 07:09</div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/14-c-a-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">15 / 15 </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+
+                            <div>Abreise vom Cafe am Rande der Welt | 02:08</div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/15-c-a-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                   
+                    <div class="item-audio-layout" >
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">Epilog </div>
+                                <img src="media/books/cafe-am-rande-der-welt/emoji-car.png" alt="img" class="img-audio-medium">
+                            </div>
+
+                            <div>Das gelernte in seinem Leben immer wieder anwenden & reflektieren | 06:28</div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/cafe-am-rande-der-welt/epilog-c-a-d-w.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+                
+
+                </div>
+
+
+            </div>
+
+            <!-- ------------------------------------------------ -->
+            <!-- Book 1 | Geheimakte Mossad -->
+            <!-- ------------------------------------------------ -->
+            <div class="book-layout">
+
+
+                <!-- ----------------------------------------------- -->
+                <!-- Book Title Content  -->
+                <!-- ----------------------------------------------- -->
+                <div class="title-content-book">
+
+                    <img src="media/books/mossad/mossad.jpg" class="img-book" alt="img">
+
+                    <div class="title-book">
+                        <div>Geheimakte Mossad </div>
+                        <div>Victor Ostrovsky</div>
+                        
+                    </div>
+
+
+                </div>
+
+                <div class="youtube-container">
+                    <a href="https://www.youtube.com/watch?v=9a_hcayRv4Q" target="_blank" class="youtube-link">
+
+                        <img src="media/youtube.png" alt="img">
+                        <div>Youtube</div>
+    
+                    </a>
+                </div>
+
+                <!-- ----------------------------------------------- -->
+                <!-- Book Title Seperator  -->
+                <!-- ----------------------------------------------- -->
+                <div class="layout-audio-seperator">
+                    <div class="audio-seperator"></div>
+                </div>
+                
+                <!-- ----------------------------------------------- -->
+                <!-- Book Audio Content | -->
+                <!-- ----------------------------------------------- -->
+                <div class="audio-book-content">
+
+                        <div class="item-audio-layout">
+
+                            <div class="item-text-audio">
+
+                               
+                                <div class="item-chapter">
+                                    <div class="txt-b">00 / 32 </div>
+                                    <img src="media/books/mossad/israel.png" alt="img" class="img-audio-normal">
+                                </div>
+                        
+                                <div>Vorbemerkung | 03:09 </div>
+                                
+                            </div>
+                            
+
+                            <audio controls preload="none">
+                            
+                                <source src="media/books/mossad/00-vorbemerkung.ogg" type="audio/ogg">
+
+                            </audio>
+
+                        </div>
+
+                        <div class="item-audio-layout">
+
+                            
+                            <div class="item-text-audio">
+
+                            
+                                <div class="item-chapter">
+                                    <div class="txt-b">00 / 32 </div>
+                                    <img src="media/books/mossad/israel.png" alt="img" class="img-audio-normal">
+                                </div>
+                        
+                                <div>Prolog | 12:25  </div>
+                                
+                            </div>
+
+                            <audio controls preload="none" >
+                                <source src="media/books/mossad/00-prolog.ogg" type="audio/ogg">
+                                Your browser does not support the audio element.
+                            </audio>
+
+                        </div>
+
+                        <div class="item-audio-layout">
+
+                            
+                            <div class="item-text-audio">
+
+                              
+                                <div class="item-chapter">
+                                    <div class="txt-b">01 / 32 </div>
+                                    <img src="media/books/mossad/israel.png" alt="img" class="img-audio-normal">
+                                </div>
+                        
+                                <div>Kapitel | 25:51  </div>
+                                
+                            </div>
+
+                            <audio controls preload="none" >
+                                <source src="media/books/mossad/01-kapitel.ogg" type="audio/ogg">
+                                Your browser does not support the audio element.
+                            </audio>
+
+                        </div>
+
+                        <div class="item-audio-layout">
+
+                            
+                            <div class="item-text-audio">
+
+                              
+                                <div class="item-chapter">
+                                    <div class="txt-b">02 / 32 </div>
+                                    <img src="media/books/mossad/israel.png" alt="img" class="img-audio-normal">
+                                </div>
+                        
+                                <div>Kapitel | 19:17  </div>
+                                
+                            </div>
+
+                            <audio controls preload="none" >
+                                <source src="media/books/mossad/02-kapitel.ogg" type="audio/ogg">
+                                Your browser does not support the audio element.
+                            </audio>
+
+                        </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- ------------------------------------------------ -->
+            <!-- Book 1 | Steve Jobs Bio -->
+            <!-- ------------------------------------------------ -->
+            <div class="book-layout">
+
+
+                <!-- ----------------------------------------------- -->
+                <!-- Book Title Content  -->
+                <!-- ----------------------------------------------- -->
+                <div class="title-content-book">
+
+                    <img src="media/books/steve-jobs/steve-jobs.jpg" class="img-book" alt="img">
+
+                    <div class="title-book">
+                        <div>Steve Jobs</div>
+                        <div>Walter Isaacson</div>
+                        
+                    </div>
+
+                 
+                </div>
+
+                <div class="youtube-container">
+                    <a href="https://www.youtube.com/watch?v=73Bi4tl1DZM" target="_blank" class="youtube-link">
+
+                        <img src="media/youtube.png" alt="img">
+                        <div>Youtube</div>
+    
+                    </a>
+                </div>
+
+                <div class="layout-audio-seperator">
+                    <div class="audio-seperator"></div>
+                </div>
+                
+                <!-- ----------------------------------------------- -->
+                <!-- Book Audio Content | -->
+                <!-- ----------------------------------------------- -->
+                <div class="audio-book-content">
+                    
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                           
+                            <div class="item-chapter">
+                                <div class="txt-b">00 / ?? </div>
+                                <img src="media/books/steve-jobs/emojie-apple.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>in Planung 2024 | XX:XX </div>
+                            
+                        </div>
+                        
+                        <audio controls preload="none" style="display: none;">
+                        
+                            <source src="media/books/mossad/00-vorbemerkung.ogg" type="audio/ogg">
+
+                        </audio>
+
+                    </div>
+              
+                </div>
+
+
+            </div>
+
+            <!-- ------------------------------------------------ -->
+            <!-- Book 1 | Bill Gates Bio -->
+            <!-- ------------------------------------------------ -->
+            <div class="book-layout">
+
+
+                <!-- ----------------------------------------------- -->
+                <!-- Book Title Content  -->
+                <!-- ----------------------------------------------- -->
+                <div class="title-content-book">
+
+                    <img src="media/books/bill-gates/bill-gates.jpg" class="img-book" alt="img">
+
+                    <div class="title-book">
+                        <div>Bill Gate's - The Road Ahead </div>
+                        <div>Nathan Myhrvold , Peter Rinearson</div>
+                        
+                    </div>
+
+                  
+                </div>
+
+                <div class="youtube-container">
+                    <a href="https://www.youtube.com/watch?v=R7-_5U2XrZI" target="_blank" class="youtube-link">
+
+                        <img src="media/youtube.png" alt="img">
+                        <div>Youtube</div>
+    
+                    </a>
+                </div>
+
+                <div class="layout-audio-seperator">
+                    <div class="audio-seperator"></div>
+                </div>
+                
+                <!-- ----------------------------------------------- -->
+                <!-- Book Audio Content | -->
+                <!-- ----------------------------------------------- -->
+                <div class="audio-book-content">
+
+                 
+
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                           
+                            <div class="item-chapter">
+                                <div class="txt-b">00 / ?? </div>
+                                <img src="media/books/bill-gates/emojie-glasses.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div>in Planung 2024 | XX:XX </div>
+                            
+                        </div>
+                        
+                        <audio controls preload="none" style="display: none;">
+                        
+                            <source src="media/books/mossad/00-vorbemerkung.ogg" type="audio/ogg">
+
+                        </audio>
+
+                    </div>
+
+                    
+        
+                </div>
+
+
+            </div>
+
+            
+            <!-- ------------------------------------------------ -->
+            <!-- Book 1 | Goedel - Escher - Bach -->
+            <!-- ------------------------------------------------ -->
+            <div class="book-layout">
+
+
+                <!-- ----------------------------------------------- -->
+                <!-- Book Title Content  -->
+                <!-- ----------------------------------------------- -->
+                <div class="title-content-book">
+
+                    <img src="media/books/goedel-escher-bach/goedel-escher-bach.png" class="img-book" alt="img">
+
+                    <div class="title-book">
+                        <div>Gödel,Escher,Bach - an Eternal Golden Braid </div>
+                        <div>Douglas R. Hofstadter</div>
+                        
+                    </div>
+
+                   
+                </div>
+
+                <div class="youtube-container">
+                    <a href="https://www.youtube.com/watch?v=lWZ2Bz0tS-s&list=PLBOgSgXfJ6B2nbZ_YREW_Nb-AX8FW9U9K" target="_blank" class="youtube-link">
+
+                        <img src="media/youtube.png" alt="img">
+                        <div>Youtube</div>
+    
+                    </a>
+                </div>
+
+                <div class="layout-audio-seperator">
+                    <div class="audio-seperator"></div>
+                </div>
+                
+                <!-- ----------------------------------------------- -->
+                <!-- Book Audio Content | -->
+                <!-- ----------------------------------------------- -->
+
+                <div class="audio-book-content">
+
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">00 / 20 </div>
+                                <img src="media/books/goedel-escher-bach/united-kingdom.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div> Preface | 04:07 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/goedel-escher-bach/00-preface.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                    <div class="item-audio-layout">
+
+                        <div class="item-text-audio">
+
+                            <div class="item-chapter">
+                                <div class="txt-b">00 / 20 </div>
+                                <img src="media/books/goedel-escher-bach/united-kingdom.png" alt="img" class="img-audio-medium">
+                            </div>
+                    
+                            <div> Keys | 08:10 </div>
+                            
+                        </div>
+
+                        <audio controls preload="none" >
+                            <source src="media/books/goedel-escher-bach/00-keys.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- ------------------------------------------------ -->
+            <!-- Book 1 | Elon Musk Bio -->
+            <!-- ------------------------------------------------ -->
+
+        </main>
+
+    </div>
+
+    <!-- -------------------------------------------------------------- -->
+    <!-- Relax & Music Audio -->
+    <!-- -------------------------------------------------------------- -->
+
+    <div class="audio-container">
+        
+        <div class="audio-content-container">
+
+            <div>🍃 Entspannung Junge !</div>
+            
+            <div class="audio-files-container">
+
+                <div>
+
+                    <div>Shaman - Voices | 1:01 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/Shaman Voices.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>Shaman - A Turning Earth | 1:23 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/A Turning Earth.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>Shaman - Slow Breaths | 1:16 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/Slow Breaths.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>Shaman - Spiritual Healing | 1:20 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/Spiritual Healing.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>Gladiator - Now we are free | 4:18 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/now.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+               
+               
+            </div>
+
+        </div>
+
+        <div class="audio-content-container">
+
+            <div>😎​ Inspiration Junge !</div>
+            
+            <div class="audio-files-container">
+
+                <div>
+
+                    <div>Case Vannön - In the Morning | 3:23 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/case.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>WM 2021 - Dreamers | 4:15 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/dreamers.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>Such a Shame | 4:10 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/shame.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>SHAMAN - ТЫ МОЯ | 4:02 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/sha1.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+                
+                <div>
+
+                    <div>SHAMAN - ЛЮБИМАЯ ЖЕНЩИНА | 3:33 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/sha2.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+                <div>
+
+                    <div>SHAMAN - Я РУССКИЙ | 4:49 </div>
+
+                    <audio controls preload="none" >                                   
+                        <source src="media/books/relax/sha3.mp3" type="audio/ogg">
+                    </audio>
+
+                </div>
+
+              
+
+               
+               
+            </div>
+
+        </div>
+
+
+    </div>
+
+   
+
+
+
+   /*
+    html-body.css 
+*/
+
+html, body {
+
+    /* background-color: rgb(155, 155, 137); */
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5rem;
+
+    font-size: 1rem;
+
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+#body-container {
+
+    padding: .8em;
+}
+
+/* body {
+
+    display: grid;
+    grid: auto auto / 1fr;
+
+    align-content: flex-start;
+    
+
+} */
+
+/* ------------------------------------------------ */
+/* Defaults
+/* ------------------------------------------------ */
+
+.txt-b { font-weight: bold;}
+
+/* ------------------------------------------------ */
+/* Header 
+/* ------------------------------------------------ */
+
+header {
+
+    height: 4.3em;
+    padding: 0 1em;
+   
+    background-color: rgb(39, 39, 39);
+    border-radius: .4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+#content-block-header {
+
+    display: flex;
+    align-items: center;
+    column-gap: .8em;
+}
+
+#content-title-block-header {
+
+    line-height: 1.2em;
+}
+
+#content-title-block-header > div:nth-of-type(1) {
+
+    color:rgb(215, 215, 215);
+    font-weight: bold;
+}
+
+#content-title-block-header > div:nth-of-type(2) {
+   
+    font-size: .8em;
+    font-style: italic;
+    color:#d9bf98;
+    
+    
+}
+
+#img-title-header {
+
+    height: 1.8em;
+    border-radius: .4em;
+
+}
+
+#img-logo-header {
+
+    height: 2.8em;
+    border-radius: .4em;
+
+}
+
+/* ------------------------------------------------ */
+/* Main
+/* ------------------------------------------------ */
+
+main {
+
+
+    padding: 2em 0em;
+
+    display: grid;
+    align-items: flex-start;
+    row-gap: 2em;
+
+}
+
+
+/* ------------------------------------------------ */
+/* Book Layout
+/* ------------------------------------------------ */
+
+.book-layout { 
+
+    padding: .6em;
+
+    display: grid;
+    row-gap: .6em;
+
+    background-color: white;
+    border-radius: .4em;
+
+}
+
+.img-book { 
+
+    height: 6em;
+    min-width: 4em;
+    border-radius: .3em;
+}
+
+.title-content-book {
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+}
+
+.youtube-container {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.youtube-link {
+
+    height: 1.8em;
+    padding: 0em .4em;
+    
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+    text-decoration: none;
+    color:rgb(221, 221, 221);
+
+   
+    background-color: rgb(213, 120, 120);
+    border-radius: .3em;
+
+    transition: all .4s ease-in;
+}
+
+.youtube-link:hover {
+    background-color: grey;
+}
+
+.youtube-link > img {
+
+    height: 1.2em;
+}
+
+
+.title-book {
+
+   line-height: 1.2em;
+   /* padding-bottom: .6em; */
+
+}
+
+.title-book > div:nth-of-type(1) {
+
+    font-weight: bold;
+
+}
+
+.title-book > div:nth-of-type(2) {
+    
+}
+
+/* ----------------------------------------------- */
+/* Audio Layout 
+/* ----------------------------------------------- */
+
+.audio-book-content { 
+
+    display: grid;
+    row-gap: 1.8em;
+}
+
+.item-audio-layout {
+
+    display: grid;
+    row-gap: .3em;
+    line-height: 1.3em;
+}
+
+.item-text-audio { 
+
+    padding: 0em .6em;
+}
+
+.item-chapter { 
+
+    display: flex;
+    column-gap: .4em;
+    align-items: center;
+
+    float:left;
+
+    padding-right: .8em;
+   
+}
+
+.img-audio-small { height: .8em; }
+.img-audio-medium { height: 1em; }
+.img-audio-normal { height: 1.3em; }
+
+
+
+/* .item-text-audio > img {
+
+    height: 1.3em;
+} */
+
+
+.layout-audio-seperator {
+
+    display: flex;
+    justify-content: center;
+}
+
+.audio-seperator {
+
+    width: 100%;
+    height: 1px;
+
+    margin-top: .3em;
+    margin-bottom: .6em;
+
+    border-radius: .4em;
+    background-color: rgb(212, 212, 212);
+   
+}
+
+.audio-content-layout {
+
+    display: grid;
+    row-gap: .3em;
+}
+
+audio {
+
+    /* background-color: red; */
+    width: 100%;
+}
+
+/* ----------------------------------------------- */
+/* Relax & Music 
+/* ----------------------------------------------- */
+
+.audio-container {
+
+    margin: .8em;
+    display: grid;
+    row-gap: 2em;
+
+    padding: 1.8em 1.3em;
+    border-radius: .4em;
+    background-color: rgb(36, 36, 36);
+}
+
+.audio-content-container {
+
+    display: grid;
+    row-gap: .6em;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+
+    border-radius: .4em;
+    padding: 1.3em 1em;
+}
+
+.audio-content-container > div:nth-of-type(1) {
+
+    font-weight: bold;
+}
+
+.audio-files-container {
+
+    display: grid;
+    row-gap: .6em;
+}
+
+.audio-files-container > div {
+
+    display: grid;
+    row-gap: .3em;
+}
+
+.audio-files-container > div > div:nth-of-type(1) {
+    padding-left: .6em;
+    font-style: italic;
+}
+
+/* ------------------------------------------------ */
+/* Responsive Desgin
+/* ------------------------------------------------ */
+
+@media (min-width: 520px) {
+
+    main {
+
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .book-layout {
+
+        width: 14em;
+    
+    }
+
+}
+
+@media (min-width: 760px) {
+
+    .book-layout {
+
+        width: 18em;
+    
+    }
+
+}
+
+@media (min-width: 1023px) {
+
+    .book-layout {
+
+        width: 22em;
+    
+    }
+
+}
+
+
+
+            <!-- ---------------------------------------- -->
+            <!-- NAV MAIN Content -->
+            <!-- ---------------------------------------- -->
+            <nav id="nav-main-content">
+
+                <label for="id" name="name-lbl-" class="lbl-nav-main-selector">
+                    <img src="media/img/emoji-books.png" alt="img" class="img-lbl-small">
+                    <div>Bücher</div>
+                </label>
+
+                <label for="id" name="name-lbl-" class="lbl-nav-main-selector">
+                    <img src="media/img/emoji-books.png" alt="img" class="img-lbl-small">
+                    <div>Sprachen</div>
+                </label>
+
+                <label for="id" name="name-lbl-" class="lbl-nav-main-selector">
+                    <img src="media/img/emoji-books.png" alt="img" class="img-lbl-small">
+                    <div>be smart</div>
+                </label>
+
+                <label for="id" name="name-lbl-" class="lbl-nav-main-selector">
+                    <img src="media/img/emoji-books.png" alt="img" class="img-lbl-small">
+                    <div>Musik</div>
+                </label>
+
+            </nav>

@@ -1,0 +1,116 @@
+/*
+   layout-elements.css 
+*/
+
+
+/* ------------------------------------------------ */
+/* Book Layout
+/* ------------------------------------------------ */
+
+.book-layout { 
+
+    padding: .6em;
+
+    display: grid;
+    row-gap: .6em;
+
+    background-color: white;
+    border-radius: .4em;
+
+}
+
+.img-book { 
+
+    height: 6em;
+    min-width: 4em;
+    border-radius: .3em;
+}
+
+.title-content-book {
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+}
+
+.youtube-container {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.title-book {
+
+   line-height: 1.2em;
+   /* padding-bottom: .6em; */
+
+}
+
+.title-book > div:nth-of-type(1) {
+
+    font-weight: bold;
+
+}
+
+.title-book > div:nth-of-type(2) {
+    
+}
+
+/* ----------------------------------------------- */
+/* Audio Layout 
+/* ----------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------- */
+/* Relax & Music 
+/* ----------------------------------------------- */
+
+/* .audio-container {
+
+    margin: .8em;
+    display: grid;
+    row-gap: 2em;
+
+    padding: 1.8em 1.3em;
+    border-radius: .4em;
+    background-color: rgb(36, 36, 36);
+}
+
+.audio-content-container {
+
+    display: grid;
+    row-gap: .6em;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+
+    border-radius: .4em;
+    padding: 1.3em 1em;
+}
+
+.audio-content-container > div:nth-of-type(1) {
+
+    font-weight: bold;
+}
+
+.audio-files-container {
+
+    display: grid;
+    row-gap: .6em;
+}
+
+.audio-files-container > div {
+
+    display: grid;
+    row-gap: .3em;
+}
+
+.audio-files-container > div > div:nth-of-type(1) {
+    padding-left: .6em;
+    font-style: italic;
+}
+ */

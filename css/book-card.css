@@ -1,0 +1,296 @@
+/*
+   book-card.css 
+*/
+
+
+/* --------------------------------------------- */
+/* Book Card ( default )
+/* --------------------------------------------- */
+
+.book-card {
+
+   padding: .4em .4em;
+   border-radius: .4em;
+   background-color: rgb(255, 255, 255);
+}
+
+
+/* --------------------------------------------- */
+/* Header - Book Card ( default )
+/* --------------------------------------------- */
+
+.header-book-card {
+
+   display: grid;
+   grid: 1fr / 1fr 4fr;
+   column-gap: .8em;
+}
+
+.img-header-book {
+  
+   height: 4.8em;
+   width: 3.5em;
+   
+   border-radius: .2em;
+}
+
+.content-header-book-card {
+
+   display: grid;
+   
+
+}
+
+/* --------------------------------------------- */
+/* Youtube - Button Link
+/* --------------------------------------------- */
+
+.youtube-link {
+
+  justify-self: flex-end;
+  margin-bottom: .6em;
+
+   display: inline-flex;
+   align-items: center;
+   column-gap: .4em;
+
+   text-decoration: none;
+
+   height: 1.7em;
+   padding: 0em .3em;
+   font-size: .7em;
+
+   background-color: rgb(213, 120, 120);
+   color:rgb(221, 221, 221);
+
+   border-radius: .3em;
+
+   transition: all .4s ease-in;
+}
+
+.youtube-link:hover {
+   background-color: grey;
+}
+
+.youtube-link > img {
+
+   height: 1em;
+}
+
+/* --------------------------------------------- */
+/* Book Title Container 
+/* --------------------------------------------- */
+
+.book-title-container {
+
+}
+
+.book-title {
+
+   line-height: 1.1em;
+}
+
+.text-book-title { 
+
+   font-weight: bold;
+}
+
+.text-book-author {
+
+   font-size: .9em;
+}
+
+.text-book-year {
+
+   font-size: .7em;
+   color: #787878;
+}
+
+/* --------------------------------------------- */
+/* Book Specs
+/* --------------------------------------------- */
+
+.book-title-specs {
+
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   column-gap: .3em;
+
+   color: rgb(163, 163, 163);
+}
+
+.book-specs {
+
+   display: flex;
+   align-items: center;
+   column-gap: .3em;
+
+   font-size: .75em;
+}
+
+.book-specs > img {
+   height: .8em;
+}
+
+
+/* --------------------------------------------- */
+/* Seperator - Book 
+/* --------------------------------------------- */
+
+.seperator-header-book {
+
+   width: 100%;
+   height: 1px;
+   background-color: rgb(232, 232, 232);
+   border-radius: .3em;
+}
+
+/* --------------------------------------------- */
+/* Main - Book Card ( default )
+/* --------------------------------------------- */
+
+
+
+/* --------------------------------------------- */
+/* Audio Player
+/* --------------------------------------------- */
+
+.audio-player {
+
+   padding: .6em 0em;
+
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: flex-end;
+   column-gap: .3em;
+   row-gap: .4em;
+}
+
+.audio-player-button {
+
+   font-size: .8em;
+   font-weight: bold;
+
+   display: flex;
+   align-items: center;
+   column-gap: .3em;
+
+   padding: .1em .6em;
+   border-radius: .4em;
+   color: rgb(166, 166, 166);
+   background-color: rgb(241, 241, 241);
+
+}
+
+
+.img-audio-player-small {
+   height: .6em;
+}
+
+.img-audio-player-normal {
+   height: 1em;
+}
+
+
+/* --------------------------------------------- */
+/* Audio Files Container 
+/* --------------------------------------------- */
+
+.audio-files-container {
+
+   position: relative;
+   top:0;
+
+   padding: .8em 0em;
+
+   display: grid;
+   row-gap: 1em;
+
+}
+
+.audio-file-item {
+
+   font-size: .9em;
+
+   display: grid;
+   row-gap: .3em;
+
+   padding: .3em .3em;
+   border-radius: .4em;
+
+   background-color: rgb(241, 241, 241);
+
+}
+
+
+
+.item-chapter { 
+
+   display: flex;
+   column-gap: .4em;
+   align-items: center;
+   justify-content: center;
+
+   float:left;
+
+   margin-right: .8em;
+
+   padding: 0em .6em;
+
+   border-radius: .3em;
+   background-color: #ffffff;
+  
+}
+
+.img-audio-small { height: .8em; }
+.img-audio-medium { height: 1em; }
+.img-audio-normal { height: 1.3em; }
+
+audio {
+   width: 100%;
+   height: 3em;
+   /* border: 1px solid red; */
+   border-radius: .4em;
+   
+}
+
+
+/* --------------------------------------------- */
+/* Open More Audio Files
+/* --------------------------------------------- */
+
+.open-more-audio-files {
+
+   padding-left: .3em;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+  
+   
+}
+
+.mehr-lesen {
+
+   font-size: .8em;
+
+   height: 2.3em;
+   padding: 0em .8em 0em .3em;
+
+   display: flex;
+   align-items: center;
+   column-gap: .3em;
+
+   border-radius: .3em;
+
+   color: rgb(209, 209, 209);
+   background-color: rgb(118, 118, 118);
+
+}
+
+.mehr-lesen > img {
+
+   height: 1.8em;
+}

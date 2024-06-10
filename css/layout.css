@@ -1,0 +1,180 @@
+/*
+   layout.css 
+*/
+
+
+/* ------------------------------------------------ */
+/* HEADER - body
+/* ------------------------------------------------ */
+
+#body-header {
+
+    height: 3.8em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 .8em;
+
+    border-radius: .4em;
+    
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    
+}
+
+#header-content-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: .8em;
+}
+
+/* --------------------------------------------- */
+/* Content IMG 
+/* --------------------------------------------- */
+
+#header-content-logo {
+
+    height: 1.5em;
+}
+
+/* --------------------------------------------- */
+/* Content Title 
+/* --------------------------------------------- */
+
+#header-content-title {
+
+    line-height: 1.1em;
+}
+
+#header-content-title > div:nth-of-type(1) {
+
+    font-size: .9em;
+    font-weight: bold;
+    color:aliceblue
+}
+
+#header-content-title > div:nth-of-type(2) {
+
+    font-size: .75em;
+    font-style: italic;
+    color:#d9bf98;
+}
+
+#content-category-text {
+
+    color:#d9bf98;
+
+}
+
+#header-logo-container { 
+
+    height: 2.4em;
+}
+
+
+/* ------------------------------------------------ */
+/* MAIN - body 
+/* ------------------------------------------------ */
+
+#body-main {
+
+}
+
+
+/* --------------------------------------------- */
+/* NAV Select Main Content 
+/* --------------------------------------------- */
+
+.nav-select-main-content {
+
+    font-size: .9em;
+    
+    margin-top: .4em;
+
+    position: relative;
+    top:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 3em;
+    padding: 0 .8em 0em 1em;
+
+    border-radius: .4em;
+
+    color:#bebebe;
+    
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
+}
+
+.nav-content {
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+}
+
+.img-nav-select-main-small {
+    height: 1.2em;
+}
+
+.img-arrow-nav-select-main-small {
+    height: 2em;
+}
+
+/* --------------------------------------------- */
+/* Main - Content Container ( default )
+/* --------------------------------------------- */
+
+#main-content-container {
+
+    padding: 1em 0em;
+ 
+}
+
+
+/* --------------------------------------------- */
+/* Main - Book Content  
+/* --------------------------------------------- */
+
+.main-book-content {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
