@@ -179,6 +179,7 @@
 
    display: grid;
    row-gap: 1em;
+   padding-bottom: .6em;
 }
 
 .audio-book-file-item {
@@ -262,7 +263,7 @@
 
    font-weight: bold;
   
-   border-radius: .3em;
+   border-radius: .4em;
 
    color: var(--c-dark-white-2);
 
@@ -286,7 +287,7 @@
 
    font-weight: bold;
   
-   border-radius: .3em;
+   border-radius: .4em;
 
    color: var(--c-dark-white-2);
 
@@ -307,10 +308,10 @@
 
    background-color: var(--c-dark-white-3);
 
-   padding: .4em .6em;
+   padding: .2em .6em;
    margin-right: .3em;
 
-   border-radius: .3em;
+   border-radius: .4em;
 
 }
 
