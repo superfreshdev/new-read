@@ -7,7 +7,7 @@
 /* Responsive Desgin
 /* ------------------------------------------------ */
 
-@media (min-width: 520px) {
+@media (min-width: 620px) {
 
     main {
 
@@ -18,7 +18,7 @@
 
     .book-card {
 
-        width: 14em;
+        width: 16em;
     
     }
 
@@ -40,6 +40,11 @@
 
         width: 22em;
     
+    }
+
+    .nav-select-main-content {
+
+        width: 18em;
     }
 
 }
