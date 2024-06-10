@@ -249,7 +249,7 @@
    font-size: .8em;
 
    height: 2.8em;
-   width: 6em;
+   min-width: 7.8em;
    padding: 0em .8em;
 
    display: flex;
