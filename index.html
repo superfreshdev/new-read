@@ -56,7 +56,7 @@
                 <div id="header-content-title">
 
                     <div>Superfresh<span id="header-content-category-title"> / Bücher</span></div>
-                    <div>» <span id="header-content-category-description">Bücher die ich gelesen haben</span> </div>
+                    <div>» <span id="header-content-category-description">Bücher die ich gelesen habe</span> </div>
 
                     <!-- Musik ( aktuell viel gehörte ) / Sprachen ( fremdsprachen lernen ) / Smart ( Smart Training ) / JS-Games ( von mir selbst programmierte ) -->
 
@@ -77,20 +77,62 @@
         <main id="body-main">
 
             <!-- -------------------------------------- -->
-            <!-- NAV Select Main Content -->
+            <!-- Select Main Content                    -->
             <!-- -------------------------------------- -->
-            <nav class="nav-select-main-content">
-            
-                <div class="nav-content">
+            <nav class="select-box" >
 
-                    <img src="media/img/emoji-books.png" class="img-nav-select-main-small" alt="img">
-                    <div>Bücher hören</div>
+                <!-- ------------------------------------ -->
+                <!-- Options Container                    -->
+                <!-- ------------------------------------ -->
+                <div class="options-container">
+
+                    <div class="option">
+                        <input type="radio" id="books" class="radio" name="category">
+                        <img src="media/img/emoji-books.png" class="img-option-small" alt="img">
+                        <label for="books">Bücher hören</label>
+                    </div>
+
+                    <div class="option">
+                        <input checked type="radio" id="language" class="radio" name="category">
+                        <img src="media/img/emojie-language.png" class="img-option-small" alt="img">
+                        <label for="language">Sprache lernen</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" id="intelligence" class="radio" name="category">
+                        <img src="media/img/emoji-thunder.png" class="img-option-small" alt="img">
+                        <label for="intelligence">Intelligenz trainieren</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" id="music" class="radio" name="category">
+                        <img src="media/img/emojie-music.png" class="img-option-small" alt="img">
+                        <label for="music">Musik hören</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" id="games" class="radio" name="category">
+                        <img src="media/img/emoji-gaming.png" class="img-option-small" alt="img">
+                        <label for="games">Meine JS-Spiele spielen</label>
+                    </div>
 
                 </div>
-                
-                <img src="media/img/pfeil-nach-unten-grey.png" class="img-arrow-nav-select-main-small" alt="img">
+
+                <!-- ------------------------------------ -->
+                <!-- Selected                             -->
+                <!-- ------------------------------------ -->
+                <div id="selected-main-content">
+
+                    <div class="selected-content">
+                        <img src="" class="img-option-small" alt="img">
+                        <div>select content</div>
+                    </div>
+                    <img src="media/img/pfeil-nach-unten-grey.png" class="img-selected-arrow" alt="img">
+
+                </div>
 
             </nav>
+
 
             <!-- ---------------------------------------- -->
             <!-- MAIN Content Container  -->
@@ -100,7 +142,7 @@
                 <!-- ------------------------------------------------------------- -->
                 <!-- Books - Content Page -->
                 <!-- ------------------------------------------------------------- -->
-                <div class="main-book-content">
+                <div class="main-content book-content">
                     
                     <!-- --------------------------------------------------------------- -->
                     <!-- Book Card - Cafe am Rande der Welt  -->
@@ -1639,18 +1681,30 @@
                 <!-- ------------------------------------------------------------- -->
                 <!-- Language - Content Page -->
                 <!-- ------------------------------------------------------------- -->
+                <div class="main-content language-content">
+                    Learning Language
+                </div>
 
                 <!-- ------------------------------------------------------------- -->
                 <!-- Intelligence training - Content Page -->
                 <!-- ------------------------------------------------------------- -->
+                <div class="main-content intelligence-training-content">
+                    Intelligence Training
+                </div>
 
                 <!-- ------------------------------------------------------------- -->
                 <!-- Music - Content Page -->
                 <!-- ------------------------------------------------------------- -->
+                <div class="main-content music-content">
+                    Music Content
+                </div>
 
                 <!-- ------------------------------------------------------------- -->
                 <!-- My JS-Mini Games - Content Page -->
                 <!-- ------------------------------------------------------------- -->
+                <div class="main-content js-mini-games-content">
+                    JS-Mini Games Content
+                </div>
 
             </div>
            
@@ -1662,6 +1716,10 @@
     <!-- ----------------------------------------------- -->
     <!-- JS Bindings -->
     <!-- ----------------------------------------------- -->
+    
+    <!--  Page -->
+    <script src="js/js-page/main-content-navigation.js"></script>
+
     <script src="js/js-lib.js"></script>
     
 </body>

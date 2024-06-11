@@ -74,54 +74,156 @@
 
 }
 
-
 /* --------------------------------------------- */
-/* NAV Select Main Content 
+/* Select Main Content
 /* --------------------------------------------- */
 
-.nav-select-main-content {
+.select-box {
 
-    font-size: .9em;
-    
     margin-top: .4em;
 
-    position: relative;
-    top:0;
-    
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
    
+}
+
+.select-box .options-container {
+
+    order: 1;
+
+    width: 100%;
+    max-height: 0;
+   
+    opacity: 0;
+    transition: all .4s;
+    border-radius: 8px;
+    overflow: hidden;
+
+    font-weight: bold;
+
+    /* color:rgb(190, 190, 190); */
+    /* color: var(--c-light-white-2); */
+    color:rgb(30, 30, 30);
+    
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+   
+
+}
+
+/* wenn options-container & active class hat, dann ... */
+.select-box .options-container.active {
+
+    /* max-height: 240px; */
+    max-height: 350px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+
+/* style our scrollbar  */
+.select-box .options-container::-webkit-scrollbar {
+
+    width: 8px;
+    background-color: #0d141f;
+    border-radius: 0 8px 8px 0;
+}
+
+/* thumb of scrollbar */
+.select-box .options-container::-webkit-scrollbar-thumb {
+
+    background-color: #525861;
+    border-radius: 0 8px 8px 0;
+
+}
+
+.select-box .option {
+
+    padding: 1.3em 1.2em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+}
+
+.img-option-small {
+    height: 1.3em;
+}
+
+
+.select-box .option:hover {
+    background-color: #414b57;
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+
+/* ------------------------------------ */
+/* Selected Main Content 
+/* ------------------------------------ */
+
+#selected-main-content {
+
+    order: 0;
+
+    font-size: .9em;
+
+    height: 3.8em;
+    margin-bottom: 8px;
+    padding: 0 .8em 0em 1em;
+
+    position: relative;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+    font-weight: bold;
 
-    height: 3.8em;
-    padding: 0 .8em 0em 1em;
 
     border-radius: .4em;
 
-    color:#bebebe;
-    font-weight: bold;
+    
+    color:var(--c-light-grey-1);
     
     background-color: rgb(39, 39, 39);
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
     background-blend-mode: multiply;
+   
+
+    cursor: pointer; 
 
 }
 
-.nav-content {
+.selected-content {
 
     display: flex;
     align-items: center;
     column-gap: 1em;
 }
 
-.img-nav-select-main-small {
-    height: 1.2em;
+
+.img-selected-arrow {
+    height: 2em;
+    transition: all .4s ease-in-out;
 }
 
-.img-arrow-nav-select-main-small {
-    height: 2em;
+.img-selected-arrow-open {
+    transform: rotateX(180deg);
 }
+
+
+#selected-main-content .radio,
+.select-box .option .radio {
+    display: none;
+}
+
 
 /* --------------------------------------------- */
 /* Main - Content Container ( default )
@@ -133,17 +235,47 @@
  
 }
 
-
 /* --------------------------------------------- */
-/* Main - Book Content  
+/* Main - Book / Language Content  
 /* --------------------------------------------- */
 
-.main-book-content {
 
+/* handling for showing content */
+.main-content {
+
+    position: absolute;
+    top:0;
+    left:200%;
+    right:0;
+
+}
+
+/* active showing content , dynamicall by setting js  */
+#show-content {
+
+    position: relative;
+    left:0;
+
+}
+
+
+.book-content,
+.language-content,
+.intelligence-training-content,
+.music-content,
+.js-mini-games-content {
+
+    
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
+
 }
+
+
+
+
+
 
 
 
