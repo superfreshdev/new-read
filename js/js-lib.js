@@ -44,7 +44,7 @@ console.log("### js-lib ### ")
 // })
 
 
-var imgCafeFullsize = false;
+
 
 const imgCafe = document.getElementById("imgCafe");
 
@@ -55,11 +55,10 @@ imgCafe.addEventListener( "click" , ()=> {
     console.log("click");
     imgCafe.classList.toggle("img-header-book-fullsize");
 
-    // if( imgCafeFullsize == false ) {
-
-       
-    // } else {
-
-    // }
 
 })
+
+
+
+const btnMehr = document.getElementById("mehr-hoer");
+const moreContainer = document.getElementById("all-books-container");

@@ -10,6 +10,8 @@
 
 .trans180deg { transform: rotateX(180deg);}
 
+.cursor-pointer { cursor: pointer; }
+
 /* ------------------------------------------------ */
 /* Default - Icon Sizes
 /* ------------------------------------------------ */

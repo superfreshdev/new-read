@@ -45,6 +45,7 @@
    border-radius: .2em;
 
    transition: all .2s;
+   cursor: pointer;
 }
 
 .img-header-book-fullsize { 
@@ -178,6 +179,8 @@
 
 .main-book-card {
 
+   display: grid;
+   row-gap: 1.3em;
    
 }
 
@@ -198,26 +201,68 @@
 
 }
 
-.all-audio-book-file-container {
+/* ----------------------------------------------------- */ 
+/* List Audio Book Container 
+/* ----------------------------------------------------- */ 
 
+.list-audio-book-container {
+
+   /* height: 0px; */
+  
    display: grid;
+   align-content: flex-start;
    row-gap: 1em;
-   padding-bottom: .6em;
+  
+   /* background-color: red; */
+
+   transition: all .3s ease-in-out;
+
+   /* max-height: 0em; */
+
 }
 
-.audio-book-file-item {
+.list-audio-book-container > .audio-book-file-item {
 
+   /* max-height: 0em;
+   width: 100%;
+   opacity: 0; */
+}
+
+/* ----------------------------------------------------- */ 
+/* Audio Book File Item 
+/* ----------------------------------------------------- */ 
+
+.audio-book-file-item {
+ 
    font-size: .9em;
+
+   padding: .3em .3em;
 
    display: grid;
    row-gap: .3em;
 
-   padding: .3em .3em;
    border-radius: .4em;
 
-  background-color: var(--c-light-white-1);
+   background-color: var(--c-light-white-1);
 
 }
+
+/* ----------------------------------------------------- */ 
+/* Quiz Item Audio Book container
+/* ----------------------------------------------------- */ 
+
+.quiz-item-audio-book-container {
+
+   height: 2.2em;
+
+   /* background-color: red; */
+
+
+}
+
+
+
+
 
 .audio-book-title { 
 

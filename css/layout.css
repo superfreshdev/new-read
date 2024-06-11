@@ -70,6 +70,9 @@
 
 #body-main {
 
+    position: relative;
+    top:0;
+
     display: grid;
 
 }
@@ -245,25 +248,26 @@
 
     position: absolute;
     top:0;
-    left:200%;
-    right:0;
+    left:-200%;
 
 }
 
 /* active showing content , dynamicall by setting js  */
 #show-content {
 
+    margin: 1em 0em;
+
     position: relative;
     left:0;
 
 }
-
 
 .book-content,
 .language-content,
 .intelligence-training-content,
 .music-content,
 .js-mini-games-content {
+
 
     
     display: flex;
@@ -286,7 +290,22 @@
 
 
 
+/* ------------------------------------------------- */
+/* Open-Close Content Container 
+/* ------------------------------------------------- */
 
+.open-close-content-container {
+
+    padding: 0em 0em;
+    /* background-color: red; */
+}
+
+.flex-right { 
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 
 
