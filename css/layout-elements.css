@@ -2,6 +2,121 @@
    layout-elements.css 
 */
 
+/* ------------------------------------------------ */
+/* Default - Others
+/* ------------------------------------------------ */
+
+.txt-b { font-weight: bold;}
+
+.trans180deg { transform: rotateX(180deg);}
+
+/* ------------------------------------------------ */
+/* Default - Icon Sizes
+/* ------------------------------------------------ */
+
+.img-icon-very-small { height: .6em; }
+.img-icon-small { height: .8em; }
+.img-icon-medium { height: 1em; }
+.img-icon-big { height: 1.3em; }
+.img-icon-very-big { height: 1.5em; }
+
+/* ------------------------------------------------ */
+/* Buttons - Default
+/* ------------------------------------------------ */
+
+
+.btn-default,
+.btn-default-bold {
+
+    height: 2.3em;
+    padding: 0em .8em;
+
+    font-size: .9em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+
+    border-radius: .4em;
+
+    transition: all .3s;
+
+}
+
+.btn-default-bold { font-weight: bold; }
+
+
+/* --------------------------------------------------------------- */
+/* Button - Light Greys
+/* --------------------------------------------------------------- */
+
+.btn-art-light-grey {
+
+    color: var(--c-light-grey-1);
+    background-color: var(--c-light-white-2);
+
+}
+
+.btn-art-light-grey-black-font {
+
+    color: var(--c-black);
+    background-color: var(--c-light-white-2);
+}
+
+
+/* --------------------------------------------------------------- */
+/* Button - Antrahzite
+/* --------------------------------------------------------------- */
+
+.btn-art-antrahzite {
+
+    color: var(--c-light-white-2);
+
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Button - Dark Red
+/* --------------------------------------------------------------- */
+
+.btn-art-dark-red {
+
+   color: var(--c-light-white-2);
+   background-color: var(--c-dark-red-1);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Hover - BG: Dark Red | C: Light White 
+/* -------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------------------------------ */
 /* Book Layout

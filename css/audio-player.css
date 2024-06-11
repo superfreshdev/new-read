@@ -3,7 +3,7 @@
 */
 
 /* --------------------------------------------- */
-/* Default Checkbox - Audio Player
+/* Default Handling Checkbox - Audio Player
 /* --------------------------------------------- */
 
 .audio-player input[type="checkbox"] {
@@ -24,9 +24,6 @@
 
 .audio-player {
 
-    border-top: 1px solid rgb(227, 227, 227);
-    border-bottom: 1px solid rgb(227, 227, 227);
-
     padding: .6em 0em;
     margin: .3em 0em .8em 0em;
  
@@ -34,44 +31,16 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    /* justify-content: center; */
+   
     column-gap: .3em;
     row-gap: .4em;
+
+    border-top: 1px solid var(--c-light-white-2);
+    border-bottom: 1px solid  var(--c-light-white-2);
+
  }
- 
- .audio-player-button {
- 
-    font-size: .9em;
-    font-weight: bold;
- 
-    display: flex;
-    align-items: center;
-    column-gap: .3em;
- 
-    padding: .3em .8em;
-    border-radius: .4em;
-    color: var(--c-light-grey-1);
-    background-color: var(--c-light-white-2);
- 
- }
- 
- 
- .img-audio-player-small {
-    height: .8em;
- }
- 
- .img-audio-player-normal {
-    height: 1.3em;
- }
- 
- 
- 
- .img-audio-very-small { height: .6em; }
- .img-audio-small { height: .8em; }
- .img-audio-medium { height: 1em; }
- .img-audio-big { height: 1.3em; }
- 
- audio {
+
+audio {
     width: 100%;
     height: 3em;
     /* border: 1px solid red; */
