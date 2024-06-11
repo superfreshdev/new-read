@@ -33,7 +33,7 @@
     <div id="body-container">
 
         <!-- ------------------------------------------------------------- -->
-        <!-- HEADER -->
+        <!-- HEADER (body) -->
         <!-- ------------------------------------------------------------- -->
         <header id="body-header">
             
@@ -45,15 +45,17 @@
                 <!-- ------------------------------------ -->
                 <!-- Content Logo -->
                 <!-- ------------------------------------ -->
-                <img src="media/img/emoji-books.png" id="header-content-logo" alt=""></img>
+                <img src="media/img/emoji-books.png" id="header-content-logo" alt="img"></img>
 
                 <!-- ------------------------------------ -->
                 <!-- Content Title -->
                 <!-- ------------------------------------ -->
                 <div id="header-content-title">
 
-                    <div>Superfresh<span id="content-category-text"> / Bücher</span></div>
-                    <div id="content-category-description">»  Bücher die ich gelesen habe</div>
+                    <div>Superfresh<span id="header-content-category-title"> / Bücher</span></div>
+                    <div>» <span id="header-content-category-description">Bücher die ich gelesen haben</span> </div>
+
+                    <!-- Musik ( aktuell viel gehörte ) / Sprachen ( fremdsprachen lernen ) / Smart ( Smart Training ) / JS-Games ( von mir selbst programmierte ) -->
 
                 </div>
 
@@ -64,12 +66,10 @@
             <!-- ------------------------------- -->
             <img src="media/img/show-left.png" id="header-logo-container" alt="img"></img>
                
-            
-
         </header>
 
         <!-- ------------------------------------------------------------- -->
-        <!-- MAIN -->
+        <!-- MAIN (body) -->
         <!-- ------------------------------------------------------------- -->
         <main id="body-main">
 
@@ -93,9 +93,9 @@
             <!-- MAIN Content Container  -->
             <!-- ---------------------------------------- -->
             <div id="main-content-container">
-            
+
                 <!-- ------------------------------------------------------------- -->
-                <!-- Content 1 -->
+                <!-- Books - Content Page -->
                 <!-- ------------------------------------------------------------- -->
                 <div class="main-book-content">
                     
@@ -114,8 +114,8 @@
                             <div class="content-header-book-card">
 
                                 <!-- Youtube -->
-                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="youtube-link" target="_blank">
-                                    <img src="media/img/youtube.png" alt="img">
+                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="link-youtube" target="_blank">
+                                    <img src="media/img/youtube-grey.png" alt="img">
                                     <div>YouTube</div>
                                 </a>
 
@@ -159,21 +159,21 @@
                             <!-- Repeat -->
                             <input type="checkbox" id="chk-audio-repeat-cafe-am-rande-der-welt" name="audio-control-book-cafe-am-rande-der-welt">
                             <label for="chk-audio-repeat-cafe-am-rande-der-welt" class="audio-player-button">
-                                <img src="media/img/wiederholen.png" class="img-audio-player-normal" alt="img">
+                                <img src="media/img/repeat-grey.png" class="img-audio-medium" alt="img">
                                 <div>Repeat</div>
                             </label>
 
                             <!-- Autoplay --> 
                             <input type="checkbox" id="chk-audio-autoplay-cafe-am-rande-der-welt" name="audio-control-book-cafe-am-rande-der-welt">
                             <label for="chk-audio-autoplay-cafe-am-rande-der-welt" class="audio-player-button">
-                                <img src="media/img/play.png" class="img-audio-player-small" alt="img">
+                                <img src="media/img/autoplay-grey.png" class="img-audio-small" alt="img">
                                 <div>Autoplay</div>
                             </label>
 
                             <!-- Autoplay Infinity -->
                             <input type="checkbox" id="chk-audio-infinity-cafe-am-rande-der-welt" name="audio-control-book-cafe-am-rande-der-welt">
                             <label for="chk-audio-infinity-cafe-am-rande-der-welt" class="audio-player-button">
-                                <img src="media/img/unendlichkeit.png" class="img-audio-player-normal" alt="img">
+                                <img src="media/img/infinity-grey.png" class="img-audio-very-small" alt="img">
                                 <div>Infinity</div>
                             </label>
 
@@ -218,8 +218,8 @@
                                 <div class="audio-handle-container">
 
                                    
-                                    <div class="listen-more">Mehr hören ( + 15 )</div>
-                                        <!-- zu klappen -->
+                                    <div class="btn-open-close btn-close-content">Mehr hören ( + 15 )</div>
+                                        <!-- zu klappen btn-open-content ( Mehr hören ( + 15 ) ), btn-close-content ( zu klappen ) -->
                                 </div>
 
                                 <!-- --------------------------------------- -->
@@ -311,8 +311,9 @@
                                             <!-- ------------------------------------ -->
                                             <div class="quiz-result-container">
 
-                                                <div class="result-info-quiz quiz-correct">
-                                                    Richtig🥳
+                                                <div class="result-info-quiz quiz-result-default">
+                                                    Auswertung
+                                                    <!-- Richtig🥳 -->
                                                     <!-- Falsch👺 -->
                                                 </div>
 
@@ -827,7 +828,7 @@
                     <!-- --------------------------------------------------------------- -->
                     <!-- Book Card - Mossad  -->
                     <!-- --------------------------------------------------------------- -->
-                    <div class="book-card">
+                    <div class="book-card" style="display: none;">
 
                         <!-- ---------------------------------------------------- -->
                         <!-- Header Book Card -->
@@ -839,8 +840,8 @@
                             <div class="content-header-book-card">
 
                                 <!-- Youtube -->
-                                <a href="https://www.youtube.com/watch?v=9a_hcayRv4Q" class="youtube-link" target="_blank">
-                                    <img src="media/img/youtube.png" alt="img">
+                                <a href="https://www.youtube.com/watch?v=9a_hcayRv4Q" class="link-youtube" target="_blank">
+                                    <img src="media/img/youtube-grey.png" alt="img">
                                     <div>YouTube</div>
                                 </a>
 
@@ -1138,7 +1139,7 @@
                             <div class="content-header-book-card">
 
                                 <!-- Youtube -->
-                                <a href="https://www.youtube.com/watch?v=R7-_5U2XrZI" class="youtube-link" target="_blank">
+                                <a href="https://www.youtube.com/watch?v=R7-_5U2XrZI" class="link-youtube" target="_blank">
                                     <img src="media/img/youtube.png" alt="img">
                                     <div>YouTube</div>
                                 </a>
@@ -1273,7 +1274,7 @@
                             <div class="content-header-book-card">
 
                                 <!-- Youtube -->
-                                <a href="https://www.youtube.com/watch?v=73Bi4tl1DZM" class="youtube-link" target="_blank">
+                                <a href="https://www.youtube.com/watch?v=73Bi4tl1DZM" class="link-youtube" target="_blank">
                                     <img src="media/img/youtube.png" alt="img">
                                     <div>YouTube</div>
                                 </a>
@@ -1408,7 +1409,7 @@
                             <div class="content-header-book-card">
 
                                 <!-- Youtube -->
-                                <a href="https://www.youtube.com/watch?v=lWZ2Bz0tS-s&list=PLBOgSgXfJ6B2nbZ_YREW_Nb-AX8FW9U9K" class="youtube-link" target="_blank">
+                                <a href="https://www.youtube.com/watch?v=lWZ2Bz0tS-s&list=PLBOgSgXfJ6B2nbZ_YREW_Nb-AX8FW9U9K" class="link-youtube" target="_blank">
                                     <img src="media/img/youtube.png" alt="img">
                                     <div>YouTube</div>
                                 </a>
@@ -1622,6 +1623,22 @@
                     </div>
 
                 </div>
+
+                <!-- ------------------------------------------------------------- -->
+                <!-- Language - Content Page -->
+                <!-- ------------------------------------------------------------- -->
+
+                <!-- ------------------------------------------------------------- -->
+                <!-- Intelligence training - Content Page -->
+                <!-- ------------------------------------------------------------- -->
+
+                <!-- ------------------------------------------------------------- -->
+                <!-- Music - Content Page -->
+                <!-- ------------------------------------------------------------- -->
+
+                <!-- ------------------------------------------------------------- -->
+                <!-- My JS-Mini Games - Content Page -->
+                <!-- ------------------------------------------------------------- -->
 
             </div>
            

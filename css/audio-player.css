@@ -13,8 +13,9 @@
 
 .audio-player input[type="checkbox"]:checked + label {
 
+    color:var(--c-light-white-3);
     background-color: var(--c-dark-red-1);
-    color:var(--c-dark-white-1);
+
 }
 
 /* --------------------------------------------- */
@@ -33,6 +34,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
+    /* justify-content: center; */
     column-gap: .3em;
     row-gap: .4em;
  }
@@ -49,7 +51,7 @@
     padding: .3em .8em;
     border-radius: .4em;
     color: var(--c-light-grey-1);
-    background-color: var(--c-dark-white-2);
+    background-color: var(--c-light-white-2);
  
  }
  
@@ -64,10 +66,10 @@
  
  
  
- 
+ .img-audio-very-small { height: .6em; }
  .img-audio-small { height: .8em; }
  .img-audio-medium { height: 1em; }
- .img-audio-normal { height: 1.3em; }
+ .img-audio-big { height: 1.3em; }
  
  audio {
     width: 100%;
