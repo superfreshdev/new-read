@@ -1,0 +1,15 @@
+/*
+   default-img-sizes.css 
+*/
+
+
+
+/* ------------------------------------------------ */
+/* Default - Icon Sizes
+/* ------------------------------------------------ */
+
+.img-icon-very-small { height: .6em; }
+.img-icon-small { height: .8em; }
+.img-icon-medium { height: 1em; }
+.img-icon-big { height: 1.3em; }
+.img-icon-very-big { height: 1.5em; }

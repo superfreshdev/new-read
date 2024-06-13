@@ -1,0 +1,171 @@
+/* 
+    custom-select.css
+*/
+
+
+/* --------------------------------------------- */
+/* Custom Select Box
+/* --------------------------------------------- */
+
+.custom-select-box {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-select-box label { cursor: pointer; }
+
+/* unshwon default radio circle  */
+.custom-select-box .option .radio,
+.selected-option .radio {
+
+    display: none;
+}
+
+
+.custom-select-box .options-container {
+
+    order: 1;
+
+    width: 100%;
+    max-height: 0;
+
+    opacity: 0;
+    overflow: hidden;
+    
+    transition: all .4s;
+
+    font-weight: bold;
+
+    color:rgb(30, 30, 30);
+    
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+
+    border-radius: .4em;
+}
+
+/* ------------------------- */ 
+/* Active Status */
+/* ------------------------- */ 
+
+.custom-select-box .options-container.active {
+
+    opacity: 1;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+/* ---------------------------------------------------------------- */ 
+/* Style own Scrollbar ( not firefox , they dont allow )            */
+/* ---------------------------------------------------------------- */ 
+
+.custom-select-box .options-container::-webkit-scrollbar {
+
+    width: .4em;
+    
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
+    border-radius: 0 .4em .4em 0;
+}
+
+.custom-select-box .options-container::-webkit-scrollbar-thumb {
+
+    background-color: #8d8d8d;
+    border-radius: 0 .4em .4em 0;
+}
+
+
+/* ------------------------- */ 
+/* Option                    */
+/* ------------------------- */ 
+
+.custom-select-box .option {
+
+    cursor: pointer;
+
+    padding: 1.3em 1.2em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+    border-bottom: 1px solid rgb(222, 222, 222);
+
+    transition: all .4s;
+
+}
+
+.custom-select-box .option:last-child { border-bottom: 0px; }
+
+    
+
+
+.custom-select-box .option:hover {
+
+    background-color: #8e9398;
+}
+
+/* img option choose */
+.img-option-very-small { height: .8em; }
+.img-option-small { height: 1em; }
+.img-option-medium { height: 1.3em; }
+
+
+
+/* ------------------------- */ 
+/* Selected Option           */
+/* ------------------------- */ 
+
+.selected-option {
+
+    order: 0;
+
+    font-size: .9em;
+
+    height: 3.8em;
+    margin-bottom: 8px;
+    padding: 0 .8em 0em 1em;
+
+    position: relative;
+    top:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    font-weight: bold;
+ 
+    color:var(--c-light-grey-1);
+    
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
+    border-radius: .4em;
+
+    cursor: pointer;
+   
+}
+
+.selected-content {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+}
+
+
+.img-selected-arrow {
+
+    height: 2em;
+    transition: all .4s ease-in-out;
+}
+
+.img-selected-arrow-open {
+
+    transform: rotateX(180deg);
+}

@@ -1,0 +1,13 @@
+/*
+   default-single-sets.css 
+*/
+
+/* ------------------------------------------------ */
+/* Default - Others
+/* ------------------------------------------------ */
+
+.txt-b { font-weight: bold;}
+
+.trans180deg { transform: rotateX(180deg);}
+
+.cursor-pointer { cursor: pointer; }

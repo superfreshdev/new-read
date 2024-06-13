@@ -1,0 +1,182 @@
+/*
+   page-layout.css 
+*/
+
+
+/* ------------------------------------------------ */
+/* HEADER - body
+/* ------------------------------------------------ */
+
+#body-header {
+
+   display: grid;
+   row-gap: .8em;
+}
+
+/* --------------------------------------------- */
+/* Header Container
+/* --------------------------------------------- */
+
+#header-container {
+
+    height: 4.2em;
+    padding: 0 .8em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: .4em;
+    
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
+}
+
+/* --------------------------------------------- */
+/* Header Content Container
+/* --------------------------------------------- */
+
+#header-content-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: .8em;
+}
+
+#header-content-logo { height: 1.5em; }
+
+#header-content-title { line-height: 1.3em; }
+
+#header-content-title > div:nth-of-type(1) {
+
+    font-weight: bold;
+    color:var(--c-light-white-1);
+}
+
+#header-backslash { 
+
+    color: var(--c-light-brown-1);
+    padding-right: .2em;
+}
+
+#header-content-category-title {
+
+    color: var(--c-light-brown-1);
+}
+
+#header-content-title > div:nth-of-type(2) {
+
+    font-size: .85em;
+    font-style: italic;
+    color: var(--c-light-brown-1);
+}
+
+#header-logo-container { height: 2.8em; }
+
+
+
+
+
+/* ------------------------------------------------ */
+/* MAIN - body 
+/* ------------------------------------------------ */
+
+#body-main {
+
+    position: relative;
+    top:0;
+
+    display: grid;
+  
+ 
+
+}
+
+
+
+/* --------------------------------------------- */
+/* Main - Content Container ( default )
+/* --------------------------------------------- */
+
+#main-content-container {
+
+    padding: 1em 0em;
+    
+  
+ 
+}
+
+/* --------------------------------------------- */
+/* Main - Book / Language Content  
+/* --------------------------------------------- */
+
+
+/* handling for showing content */
+.main-content {
+
+    position: absolute;
+    top:0;
+    left:-200%;
+
+}
+
+/* active showing content , dynamicall by setting js  */
+#show-main-content {
+
+    margin: 1em 0em;
+
+    position: relative;
+    left:0;
+
+}
+
+.book-content,
+.language-content,
+.intelligence-training-content,
+.music-content,
+.js-mini-games-content,
+.violine-content {
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+/* ------------------------------------------------- */
+/* Open-Close Content Container 
+/* ------------------------------------------------- */
+
+.open-close-content-container {
+
+    padding: 0em 0em;
+    /* background-color: red; */
+}
+
+.flex-right { 
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+/*
+   resp-layout.css 
+*/
+
+
+/* ------------------------------------------------ */
+/* Responsive Desgin
+/* ------------------------------------------------ */
+
+@media (min-width: 620px) {
+
+    main {
+
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .book-card {
+
+        width: 16em;
+    
+    }
+
+}
+
+@media (min-width: 760px) {
+
+    .book-card {
+
+        width: 18em;
+    
+    }
+
+}
+
+@media (min-width: 1023px) {
+
+    .book-card {
+
+        width: 22em;
+    
+    }
+
+    .select-box {
+
+        width: 18em;
+    }
+
+}
