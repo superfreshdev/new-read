@@ -27,7 +27,8 @@
 
 .audio-player-custom {
 
-    padding: 1.3em .3em;
+    margin: .3em .6em 0em .6em;
+    padding: 1em 0em;
    
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +37,8 @@
    
     column-gap: .3em;
     row-gap: .4em;
+
+    border-top: 1px solid rgb(203, 203, 203);
 
     /* background-color: var(--c-light-grey-1); */
 
@@ -58,6 +61,9 @@
 
     color: var(--c-light-grey-1);
     background-color: rgb(48, 48, 48);
+
+    color: var(--c-black);
+    background-color: var(--c-light-white-2);
 
 }
 
