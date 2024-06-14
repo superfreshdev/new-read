@@ -1,0 +1,209 @@
+/*
+    audio-player-custom.css
+*/
+
+/* --------------------------------------------- */
+/* Unshown Checkbox & Handling Label on Checked 
+/* --------------------------------------------- */
+
+.audio-player-custom input[type="checkbox"] {
+
+    display: none;
+}
+
+.audio-player-custom input[type="checkbox"]:checked + label {
+
+    color:var(--c-light-white-3);
+    background-color: var(--c-dark-red-1);
+
+}
+
+.option-audio-player label { cursor: pointer; }
+
+
+/* --------------------------------------------- */
+/* Audio Player Custom 
+/* --------------------------------------------- */
+
+.audio-player-custom {
+
+    padding: 1.3em .3em;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+   
+    column-gap: .3em;
+    row-gap: .4em;
+
+    /* background-color: var(--c-light-grey-1); */
+
+ }
+
+.option-audio-player {
+
+    height: 2.5em;
+    padding: 0em .8em;
+
+    font-size: .9em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+
+    border-radius: .4em;
+
+    font-weight: bold;
+
+    color: var(--c-light-grey-1);
+    background-color: rgb(48, 48, 48);
+
+}
+
+.img-audio-player-very-small { height: .6em; }
+.img-audio-player-small { height: .8em; }
+.img-audio-player-medium { height: 1em ;}
+.img-audio-player-big { height: 1.2em ;}
+.img-audio-player-very-big { height: 1.5em ;}
+
+
+audio {
+    width: 100%;
+    /* height: 3em; */
+    /* border: 1px solid red; */
+    /* border-radius: .4em;   */
+
+    /* background-color: red; */
+}
+
+audio::-webkit-media-controls-panel {
+     /* background-color: #d41616; */
+     /* color: #d4ff00; */
+
+}
+
+/* audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #000;
+     color: #000; https://webdesign.tutsplus.com/create-a-customized-html5-audio-player--webdesign-7081t
+     } */
+
+/* ---------------------------------------------------------------- */
+/* Audio Item - Book 
+/* ---------------------------------------------------------------- */
+
+.audio-book-item {
+
+    padding: .3em;
+
+    display: grid;
+    row-gap: .3em;
+   
+
+    border-radius: .3em;
+    background-color: var(--c-light-white-1);
+   
+}
+
+.audio-book-title-container {
+
+   /* zur Zeit noch nicht notwendig  */
+    
+}
+
+.audio-file-nr-container {
+
+    float: left;
+
+    padding: .2em .6em;
+    margin-right: .8em;
+
+    display: inline-flex;
+    align-items: center;
+    column-gap: .6em;
+
+    font-weight: bold;
+
+    border-radius: .3em;
+
+    background-color: var(--c-light-white-3);
+
+}
+
+.audio-book-title {
+
+    /* fix of float , to position more middle of context */
+    padding-top: .14em;
+}
+
+.audio-file-time-text {
+
+    font-size: .8em;
+    color:var(--c-light-antrahazit-1);
+}
+
+/* ---------------------------------------------------------------- */
+/* Quiz Container 
+/* ---------------------------------------------------------------- */
+
+.audio-quiz-item-container {
+
+    padding-top: 0em;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    /* display: none; */
+}
+
+.btn-quiz-item {
+
+    height: 2.5em;
+    padding: 0em .8em;
+
+    font-size: .9em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .3em;
+
+    border-radius: .4em;
+
+    background-color: var(--c-light-white-3);
+}
+
+.btn-quiz-item > img:nth-of-type(1) { height: 1em;}
+
+
+
+
+/* --------------------------------------------------- */
+/* Open/ Close Content Container 
+/* --------------------------------------------------- */
+
+.open-close-content-container {
+
+    height: 4em;
+    padding: 0em .6em;
+
+    border-radius:  0em 0em .4em .4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    /* background-color: white; */
+}
+
+
+.audio-file-book-container {
+
+    padding: 1.3em .6em;
+
+    border-radius:  0em 0em .4em .4em;
+
+    display: grid;
+    row-gap: 1.3em;
+}
