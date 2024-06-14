@@ -1,31 +1,3 @@
-/*
-   book-page-container.css 
-*/
-
-
-
-
-.book-page-container {
-
-   display: grid;
-   row-gap: 1em;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* --------------------------------------------- */
