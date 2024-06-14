@@ -21,6 +21,11 @@ html, body {
 
     /* set own padding to page  */
     padding: .8em;
+
+    display: grid;
+
+    /* Desktop Version */
+    /* justify-content: center; */
 }
 
 

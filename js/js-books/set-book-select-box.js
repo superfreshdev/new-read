@@ -14,11 +14,10 @@ const bookContentList  = document.querySelectorAll(".book-category-content");
 // Step 2 - Only Set Default by Book Radio Checked
 // mainContentSelector
 
-// if(  )
-setSelectedDefaultContent( bookContentSelector , bookContentList , "show-book-content")
 
+setSelectedDefaultContent( bookContentSelector , bookContentList , "book-category-content" , "show-selected-content")
 
 // Step 2 - change Content by Click ( add click listener , get checked radio index ... ) 
-changeContentByClick( bookContentSelector , bookContentList , "show-book-content" )
+changeContentByClick( bookContentSelector , bookContentList , "book-category-content" , "show-selected-content" )
 
 

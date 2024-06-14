@@ -20,7 +20,7 @@ const strArrayCategoryText = [
     "Sprache",
     "Intelligenz",
     "Musik",
-    "Meine JS-Spiele",
+    "JS-Spiele",
     "Geige",
 ]
 

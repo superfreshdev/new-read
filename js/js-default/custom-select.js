@@ -4,12 +4,13 @@ console.log("[Library] - custom-select.js")
 /* Functions
 /* ---------------------------------------------------------- */
 
-function setSelectedDefaultContent( customSelectorId , contentListClass , cssShowContentId, optionalCssChangeIdElement ) {
-
-    console.log("### setSelectedDefaultContent ")
+function setSelectedDefaultContent( customSelectorId , contentListClass , cssUnshowContent , cssShowContent, optionalCssChangeIdElement ) {
 
     // Radio Options
     var radiosContent = customSelectorId.querySelectorAll(".options-container > .option > input");
+
+    // all select options 
+    var selectOptions = customSelectorId.querySelectorAll(".options-container > .option");
 
     // Select Options ( imgs , labels ) 
     var selectOptionImgs = customSelectorId.querySelectorAll(".options-container > .option > img");
@@ -35,77 +36,40 @@ function setSelectedDefaultContent( customSelectorId , contentListClass , cssSho
 
             // set radio checked on index 0 
             radiosContent[ radioCheckedIndex ].checked = true;
-
-            /* --------------------------------------------------------- */
-            /* Update | Header View ( optional )
-            /* --------------------------------------------------------- */
-
-            if( optionalCssChangeIdElement != undefined && optionalCssChangeIdElement != null ) {
-
-                switch( optionalCssChangeIdElement ) {
-
-                    case "header-content-container": 
-
-                        updateHeader( 0 , selectImgs[ 0 ].getAttribute("src") ) 
-
-                        break;
-
-
-                    default:
-                        console.log("[Warning] - Optional css id change Element cant found.")
-                }
-            }
-
+        }
            
-        } 
-
         /* ------------------------------------------------------------- */
-        /* set content by radio index
+        /* set content by radio index ( 0 or founded checked index )
         /* ------------------------------------------------------------- */
         if( radioCheckedIndex != null ) {
 
-            // found checked radio , so let it be 
-
-            console.log( "radioCheckedIndex = " + radioCheckedIndex )
-            console.log( "Selector = " + radiosContent[ radioCheckedIndex ].getAttribute("id") )
-
+           
             // Set SelectedOption ( >> in function auslaggern , updateSelectedOption )
             imgSelectedOption.setAttribute("src", selectOptionImgs[ radioCheckedIndex ].getAttribute("src") )
             divSelectedOption.innerText = selectOptionLabels[ radioCheckedIndex ].innerText;
 
             // Show Content ( >> in function auslaggern, updateSelectContent )
-            contentListClass[ radioCheckedIndex ].setAttribute("id", cssShowContentId )
+            contentListClass[ radioCheckedIndex ].classList.remove(cssUnshowContent);
+            contentListClass[ radioCheckedIndex ].classList.add(cssShowContent);
 
-            console.log("contentListClass= " + contentListClass[ radioCheckedIndex ].getAttribute("class") )
-            console.log("contentListClass= " + contentListClass[ radioCheckedIndex ].getAttribute("id") )
+            /* --------------------------------------------------------- */
+            /* Update | View Option Container ( dont show selected option )
+            /* --------------------------------------------------------- */
+
+            selectOptions[ radioCheckedIndex ].style.display = "none"; 
 
             /* --------------------------------------------------------- */
             /* Update | Header View ( optional )
             /* --------------------------------------------------------- */
 
-            if( optionalCssChangeIdElement != undefined && optionalCssChangeIdElement != null ) {
-
-                switch( optionalCssChangeIdElement ) {
-
-                    case "header-content-container": 
-
-                        updateHeader( radioCheckedIndex , selectOptionImgs[ radioCheckedIndex ].getAttribute("src") ) 
-
-                        break;
-
-
-                    default:
-                        console.log("[Warning] - Optional css id change Element cant found.")
-                }
-            }
-
+            checkUpdateChangeIdElement( optionalCssChangeIdElement , radioCheckedIndex ,  customSelectorId )
 
         } 
 
 
 }
 
-function changeContentByClick( customSelectorId, contentListClass, cssShowContentId , optionalCssChangeIdElement ) {
+function changeContentByClick( customSelectorId, contentListClass,  cssUnshowContent , cssShowContent, optionalCssChangeIdElement ) {
 
     // open selected option
     var selectedOption = customSelectorId.querySelector(".selected-option");
@@ -174,28 +138,9 @@ function changeContentByClick( customSelectorId, contentListClass, cssShowConten
             /* Update | Header View ( optional )
             /* --------------------------------------------------------- */
 
-            if( optionalCssChangeIdElement != undefined && optionalCssChangeIdElement != null ) {
+            checkUpdateChangeIdElement(  optionalCssChangeIdElement , i ,  customSelectorId )
 
-                switch( optionalCssChangeIdElement ) {
-
-                    case "header-content-container": 
-
-                        updateHeader( i , selectImgs[ i ].getAttribute("src") ) 
-
-                        break;
-
-
-                    default:
-                        console.log("[Warning] - Optional css id change Element cant found.")
-                }
-            }
-
-           
-
-          
-            
-
-
+        
             /* --------------------------------------------------------- */
             /* Update | View Option Container ( dont show selected option )
             /* --------------------------------------------------------- */
@@ -206,14 +151,20 @@ function changeContentByClick( customSelectorId, contentListClass, cssShowConten
                 // Show old Option in options container 
                 selectOptions[ savedContentIndex ].style.display = "flex";
 
-                // Remove old Content 
-                contentListClass[ savedContentIndex ].removeAttribute("id");
+                // Remove old Content    
+                // e.g delete .show-selected-content     
+                contentListClass[ savedContentIndex ].classList.remove( cssShowContent );
+                // e.g add .main-content ( unshown mode )  
+                contentListClass[ savedContentIndex ].classList.add( cssUnshowContent );
 
                 // set new savedContentIndex 
                 savedContentIndex = i;
 
                 // Set new content
-                contentListClass[ savedContentIndex ].setAttribute("id", cssShowContentId );
+                // e.g delete .main-content   
+                contentListClass[ savedContentIndex ].classList.remove( cssUnshowContent );
+                // e.g replace to .show-selected-content ( show mode )   
+                contentListClass[ savedContentIndex ].classList.add( cssShowContent );
 
                 // unshown new Option in option container 
                 selectOptions[ savedContentIndex ].style.display = "none";  
@@ -226,6 +177,30 @@ function changeContentByClick( customSelectorId, contentListClass, cssShowConten
 
 }
 
+
+// Function to decicde that u want to update an another css element 
+// Only works if optionalCSSChangeIdElement is given
+function checkUpdateChangeIdElement(  optionalCssChangeIdElement , changeIndex,  customSelectorId ) {
+
+    if( optionalCssChangeIdElement != undefined || optionalCssChangeIdElement != null ) {
+
+        switch( optionalCssChangeIdElement ) {
+
+            case "header-content-container": 
+
+                var selectOptionImgs = customSelectorId.querySelectorAll(".options-container > .option > img");
+                updateHeader( changeIndex , selectOptionImgs[ changeIndex ].getAttribute("src") ) 
+
+                break;
+
+
+            default:
+                console.log("[Warning] - Optional css id change Element cant found.")
+        }
+
+    }
+
+}
 
 
 

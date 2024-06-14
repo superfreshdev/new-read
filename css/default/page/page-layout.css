@@ -88,33 +88,21 @@
     position: relative;
     top:0;
 
+    padding: .8em 0em;
+
     display: grid;
-  
- 
 
 }
 
 
-
 /* --------------------------------------------- */
-/* Main - Content Container ( default )
-/* --------------------------------------------- */
-
-#main-content-container {
-
-    padding: 1em 0em;
-    
-  
- 
-}
-
-/* --------------------------------------------- */
-/* Main - Book / Language Content  
+/* Main - Content
 /* --------------------------------------------- */
 
 
-/* handling for showing content */
-.main-content {
+/* handling for showing content ( default unshown ) */
+.main-content,
+.book-category-content {
 
     position: absolute;
     top:0;
@@ -122,29 +110,14 @@
 
 }
 
-/* active showing content , dynamicall by setting js  */
-#show-main-content {
-
-    margin: 1em 0em;
+/* class to show content */
+.show-selected-content {
 
     position: relative;
     left:0;
-
 }
 
-.book-content,
-.language-content,
-.intelligence-training-content,
-.music-content,
-.js-mini-games-content,
-.violine-content {
 
-    
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-
-}
 
 
 

@@ -92,7 +92,7 @@ function getRadioCheckedIndex ( radios ) {
 
             if( radios[i].checked ) {
 
-                console.log( "output=" + radios[i] )
+                // console.log( "output=" + radios[i] )
                 return i;
             }
         }

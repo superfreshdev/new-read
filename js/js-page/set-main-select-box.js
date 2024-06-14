@@ -10,10 +10,10 @@ console.log("### set-main-select-box.js ###")
 const mainContentSelector  = document.getElementById("custom-select-box-main-content");
 const mainContentList  = document.querySelectorAll(".main-content");
 
-setSelectedDefaultContent( mainContentSelector , mainContentList , "show-main-content" , "header-content-container")
+setSelectedDefaultContent( mainContentSelector , mainContentList , "main-content" , "show-selected-content" ,  "header-content-container")
 
 
 // Step 2 - change Content by Click ( add click listener , get checked radio index ... ) 
-changeContentByClick( mainContentSelector , mainContentList , "show-main-content" , "header-content-container" )
+changeContentByClick( mainContentSelector , mainContentList , "main-content" , "show-selected-content" , "header-content-container" )
 
 
