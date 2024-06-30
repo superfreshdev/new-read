@@ -1,0 +1,188 @@
+
+/* --------------------------------------------------------------------------------- */
+/* Body Header
+/* --------------------------------------------------------------------------------- */
+
+#body-header {
+
+    display: grid;
+    row-gap: .8em;
+ }
+ 
+/* --------------------------------------------------------------------------------- */
+/* Header Container
+/* --------------------------------------------------------------------------------- */
+ 
+ #header-container {
+ 
+     height: 4.2em;
+     padding: 0 .8em 0em 1em;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+     
+ }
+ 
+ /* --------------------------------------------- */
+ /* Header Content Container
+ /* --------------------------------------------- */
+ 
+ #header-content-container {
+ 
+     display: flex;
+     align-items: center;
+     column-gap: .8em;
+ }
+ 
+ #header-content-logo { height: 1.5em; }
+
+ /* --------------------------------------------- */
+ /* Header Content Title
+ /* --------------------------------------------- */
+ 
+ #header-content-title { line-height: 1.3em; }
+ 
+ #header-content-title > div:nth-of-type(1) {
+ 
+     font-weight: bold;
+     color:var(--c-light-white-1);
+ }
+ 
+ #header-backslash { 
+ 
+     color: var(--c-light-brown-1);
+     padding-right: .2em;
+ }
+ 
+ #header-content-category-title {
+ 
+     color: var(--c-light-brown-1);
+ }
+ 
+ #header-content-title > div:nth-of-type(2) {
+ 
+     font-size: .85em;
+     font-style: italic;
+     color: var(--c-light-brown-1);
+ }
+ 
+/* ------------------------------------------------------------------- */
+/* Header Content Navigation Container
+/* ------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------- */
+/* Animated Label
+/* ------------------------------------------------------------------- */
+
+#header-navigation-content-container {
+
+    /* height: 2.3em;
+    width: 2.3em; */
+    padding: .5em .4em;
+
+    display: grid;
+    row-gap: .4em;
+    align-items: center;
+    justify-content: center;
+
+    
+    border-radius: .3em;
+
+    /* background-color: red; */
+    /* border: 3px solid rgb(73, 73, 73); */
+
+    transition: all .4s;
+
+    cursor: pointer;
+}
+
+#header-navigation-content-container:hover {
+
+    background-color: rgb(6, 6, 6);
+    
+}
+
+.hamburger-stripe {
+
+    width: 30px;
+    height: 4px;
+
+
+    border-radius: .3em;
+
+    background-color: rgba(241, 241, 241, .6);
+
+    /* --c-light-white-1: rgb(241, 241, 241); */
+    /* background-color: rgb(101, 101, 101);
+    background-color: var(--c-light-white-1); */
+
+    transition: 0.4s;
+}
+
+
+/* ------------------------------------------------ */
+/* Checked Label 
+/* ------------------------------------------------ */
+
+#chk-header { display: none; }
+
+#chk-header:checked + label {
+
+    background-color: rgb(6, 6, 6);
+}
+
+#chk-header:checked + label > div:nth-of-type(1) {
+
+    transform: translate(0, 11px) rotate(-45deg);
+    background-color: var(--c-light-brown-1);
+    
+}
+
+#chk-header:checked + label > div:nth-of-type(2) {
+
+    background-color: transparent;
+    
+}
+
+#chk-header:checked + label > div:nth-of-type(3) {
+
+    transform: translate(0, -10px) rotate(45deg);
+    background-color: var(--c-light-brown-1);
+    
+}
+
+
+
+
+
+
+
+/* .checkbox3:checked + label > .hamburger3 > .bar1{
+    transform: rotate(45deg);
+    height: 3px;
+    width: 42px;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar3{
+    transform: rotate(45deg);
+    height: 3px;
+    background-color: transparent;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar2{
+    transform: rotate(-45deg);
+    height: 3px;
+    background-color: transparent;
+} */
+
+
+
+
+
+
+#img-header-nav { height: 2em; }
+ 

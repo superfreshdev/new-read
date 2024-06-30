@@ -35,6 +35,13 @@
             <link rel="stylesheet" href="css/default/elements/default-buttons.css">
             <link rel="stylesheet" href="css/default/elements/select-custom.css">
             <link rel="stylesheet" href="css/default/elements/audio-player-custom.css">
+
+
+        <!-- -------------------------- -->
+        <!-- Page                       -->
+        <!-- -------------------------- -->
+
+        <link rel="stylesheet" href="css/page/default/header.css">
             
 
         <!-- -------------------------- -->
@@ -42,6 +49,7 @@
         <!-- -------------------------- -->
 
             <!-- book content -->
+            <link rel="stylesheet" href="css/page-content/book-content/book-present-list.css">
             <link rel="stylesheet" href="css/content/book-content.css">
 
             <!-- language content -->
@@ -66,17 +74,20 @@
 
 <body>
 
+    <!-- ------------------------------------------------------------------------------------------------------------- -->
+    <!-- Body Container ( my own body )                                                                                -->
+    <!-- ------------------------------------------------------------------------------------------------------------- -->
     <div id="body-container">
 
         <!-- ------------------------------------------------------------- -->
-        <!-- HEADER (body) -->
+        <!-- HEADER ( body header )                                        -->
         <!-- ------------------------------------------------------------- -->
         <header id="body-header">
             
-            <!-- ------------------------------- -->
-            <!-- Header Container               -->
-            <!-- ------------------------------- -->    
-            <div id="header-container">
+            <!-- ------------------------------------------------------------------------- -->
+            <!-- Header Container                                                          -->
+            <!-- ------------------------------------------------------------------------- -->    
+            <div id="header-container" class="bgc-main-element">
 
                 <!-- ------------------------------- -->
                 <!-- Content Container               -->
@@ -102,10 +113,21 @@
 
                 </div>
 
-                <!-- ------------------------------- -->
-                <!-- Logo Container               -->
-                <!-- ------------------------------- -->
-                <img src="media/img/cartoon/show-left.png" id="header-logo-container" alt="img"></img>
+                <!-- --------------------------------------------- -->
+                <!-- Content Navigation Container                  -->
+                <!-- --------------------------------------------- -->
+                <input id="chk-header" type="checkbox" name="chk-header">
+                <label for="chk-header" id="header-navigation-content-container"  name="chk-header">
+
+                    <div class="hamburger-stripe"></div>
+                    <div class="hamburger-stripe"></div>
+                    <div class="hamburger-stripe"></div>
+
+                    <!-- <img src="media/img/icons/pfeil-nach-unten-grey.png" id="img-header-nav" alt="img"> -->
+
+                </label>
+
+                <!-- <img src="media/img/cartoon/show-left.png" id="header-logo-container" alt="img"></img> -->
 
             </div>
 
@@ -144,6 +166,12 @@
                     </div>
 
                     <div class="option">
+                        <input type="radio" id="violine" class="radio" name="category">
+                        <img src="media/img/emojies/icon-violine.png" class="img-option-medium" alt="img">
+                        <label for="violine">Geige lernen</label>
+                    </div>
+
+                    <div class="option">
                         <input type="radio" id="games" class="radio" name="category">
                         <img src="media/img/emojies/emoji-gaming.png" class="img-option-medium" alt="img">
                         <label for="games">Meine JS-Spiele spielen</label>
@@ -151,8 +179,14 @@
 
                     <div class="option">
                         <input type="radio" id="violine" class="radio" name="category">
-                        <img src="media/img/emojies/icon-violine.png" class="img-option-medium" alt="img">
-                        <label for="violine">Geige lernen</label>
+                        <img src="media/img/emojies/emojie-tutorials.png" class="img-option-medium" alt="img">
+                        <label for="violine">Tech-Tutorials</label>
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" id="violine" class="radio" name="category">
+                        <img src="media/img/emojies/it-emoji.png" class="img-option-medium" alt="img">
+                        <label for="violine">Software-Projekte</label>
                     </div>
 
                 </div>
@@ -175,8 +209,19 @@
                
         </header>
 
+
+
+
+
+
+
+
+
+
+
+
         <!-- ------------------------------------------------------------- -->
-        <!-- MAIN (body) -->
+        <!-- MAIN                                                          -->
         <!-- ------------------------------------------------------------- -->
         <main id="body-main">
 
@@ -250,10 +295,384 @@
     
                 </nav>
 
+          
+
+
+            <!-- --------------------------------------------------------------- -->
+            <!-- Page Content Container --> 
+            <!-- --------------------------------------------------------------- -->
+            <div class="page-content-container">
+
+
+                <!-- --------------------------------------------------------------- -->
+                <!-- Page Slide Content Container --> 
+                <!-- --------------------------------------------------------------- -->
+                <div class="page-slide-content-container">
+
+
+                    <!-- ------------------------------------------------------------- -->
+                    <!-- Book List Container                              -->
+                    <!-- ------------------------------------------------------------- -->
+                    <div class="book-list-container" id="js-book-list-container" >
+
+                    
+                        <div class="list-item-book">
+
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Nr Box | of List Item ( absolute ) --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="nr-box-list-item-book"> 01  </div>
+                        
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Header | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="header-list-item-book">
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Img Header | List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                            
+                                <img src="media/content/books/cafe-am-rande-der-welt/cafe-am-rande-der-welt-hoch.png" class="img-header-list-item-book" alt="img">
+
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Content Header < List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                                
+                                <div class="content-header-list-item-book">
+                                        
+                                    <div class="block-content-header-list-item-book ">
+
+                                        <div class="year-book-list-item-book">(2003)</div>
+                                        <div class="title-book-list-item-book">Cafe am Rande der Welt denn es könnte länger sein naja</div>
+                                        <div class="autor-book-list-item-book">John Strelecky</div>
+                                        
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- ---------------------------------------------------------------------- -->
+                            <!-- Book Specs | List Item --> 
+                            <!-- ---------------------------------------------------------------------- -->
+                            <div class="book-specs-list-item-book">
+
+                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
+
+                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
+                                    <div>Youtube</div>
+
+                                </a>
+
+                                <div class="list-item-book-spec-list-item-book ">
+                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
+                                    <div>1260</div>
+                                </div>
+
+                                <div class="list-item-book-spec-list-item-book img-icon-smal">
+                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
+                                    <div> 99,59 Std</div>
+                                </div>
+
+                            </div>
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Switch to | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div id="anCafe" class="switch-to-list-item-book">
+                                
+                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
+                                <div>anhören</div>
+                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
+
+                            </div>
+
+                        </div>
+
+                        <div class="list-item-book">
+
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Nr Box | of List Item ( absolute ) --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="nr-box-list-item-book"> 02  </div>
+                        
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Header | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="header-list-item-book">
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Img Header | List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                            
+                                <img src="media/content/books/mossad/mossad.jpg" class="img-header-list-item-book" alt="img">
+
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Content Header | List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                                
+                                <div class="content-header-list-item-book">
+                                        
+                                    <div class="block-content-header-list-item-book ">
+
+                                        <div class="year-book-list-item-book">(2001)</div>
+                                        <div class="title-book-list-item-book">Die Geheimakte - Mossad</div>
+                                        <div class="autor-book-list-item-book">Victor Ostrovsky</div>
+                                        
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- ---------------------------------------------------------------------- -->
+                            <!-- Book Specs | List Item --> 
+                            <!-- ---------------------------------------------------------------------- -->
+                            <div class="book-specs-list-item-book">
+
+                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
+
+                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
+                                    <div>Youtube</div>
+
+                                </a>
+
+                                <div class="list-item-book-spec-list-item-book ">
+                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
+                                    <div>1260</div>
+                                </div>
+
+                                <div class="list-item-book-spec-list-item-book img-icon-smal">
+                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
+                                    <div> 99,59 Std</div>
+                                </div>
+
+                            </div>
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Switch to | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="switch-to-list-item-book">
+                                
+                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
+                                <div>anhören</div>
+                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
+
+                            </div>
+
+                        </div>
+
+                        <div class="list-item-book">
+
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Nr Box | of List Item ( absolute ) --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="nr-box-list-item-book"> 03  </div>
+                        
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Header | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="header-list-item-book">
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Img Header | List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                            
+                                <img src="media/content/books/steve-jobs/steve-jobs.jpg" class="img-header-list-item-book" alt="img">
+
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Content Header | List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                                
+                                <div class="content-header-list-item-book">
+                                        
+                                    <div class="block-content-header-list-item-book ">
+
+                                        <div class="year-book-list-item-book">(20011)</div>
+                                        <div class="title-book-list-item-book">Steve Jobs ( Biographie )</div>
+                                        <div class="autor-book-list-item-book">Isaac Jackson</div>
+                                        
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- ---------------------------------------------------------------------- -->
+                            <!-- Book Specs | List Item --> 
+                            <!-- ---------------------------------------------------------------------- -->
+                            <div class="book-specs-list-item-book">
+
+                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
+
+                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
+                                    <div>Youtube</div>
+
+                                </a>
+
+                                <div class="list-item-book-spec-list-item-book ">
+                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
+                                    <div>1260</div>
+                                </div>
+
+                                <div class="list-item-book-spec-list-item-book img-icon-smal">
+                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
+                                    <div> 99,59 Std</div>
+                                </div>
+
+                            </div>
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Switch to | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="switch-to-list-item-book">
+                                
+                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
+                                <div>anhören</div>
+                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
+
+                            </div>
+
+                        </div>
+
+                        <div class="list-item-book">
+
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Nr Box | of List Item ( absolute ) --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="nr-box-list-item-book"> 04  </div>
+                        
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Header | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="header-list-item-book">
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Img Header | List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                            
+                                <img src="media/content/books/bill-gates/bill-gates.jpg" class="img-header-list-item-book" alt="img">
+
+                                
+                                <!-- -------------------------------------------------------------- -->
+                                <!-- Content Header < List Item -->
+                                <!-- -------------------------------------------------------------- -->
+                                
+                                <div class="content-header-list-item-book">
+                                        
+                                    <div class="block-content-header-list-item-book ">
+
+                                        <div class="year-book-list-item-book">(2002)</div>
+                                        <div class="title-book-list-item-book">Bill Gates ( Biographie ) </div>
+                                        <div class="autor-book-list-item-book">Nathan Ecekry & Janette Bilokodingo </div>
+                                        
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- ---------------------------------------------------------------------- -->
+                            <!-- Book Specs | List Item --> 
+                            <!-- ---------------------------------------------------------------------- -->
+                            <div class="book-specs-list-item-book">
+
+                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
+
+                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
+                                    <div>Youtube</div>
+
+                                </a>
+
+                                <div class="list-item-book-spec-list-item-book ">
+                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
+                                    <div>1260</div>
+                                </div>
+
+                                <div class="list-item-book-spec-list-item-book img-icon-smal">
+                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
+                                    <div> 99,59 Std</div>
+                                </div>
+
+                            </div>
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Switch to | List Item --> 
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="switch-to-list-item-book">
+                                
+                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
+                                <div>anhören</div>
+                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Book Playlist Container  -->
+                    <!-- ------------------------------------------------------ -->         
+                    <div class="book-playlist-container" id="js-book-playlist-container" >
+
+                        <p>PlayList Container</p>
+
+                        <button id="zurueck" type="button">Zurück Baby</button>
+                    
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <!-- ------------------------------------------------------------- -->
                 <!-- Book Category Content                                         -->
                 <!-- ------------------------------------------------------------- -->
-                <div class="book-category-content">
+                <div class="book-category-content" style="display: none;">
                     
                     <div class="book-card-layout">
 
@@ -399,7 +818,7 @@
                                <!-- ----------------------------------------- -->
                                <!-- Audio File -->
                                <!-- ----------------------------------------- -->
-                                <audio controls preload="none">
+                                <audio controls preload="none" controlsList="noplaybackrate">
                                     <source src="media/content/books/cafe-am-rande-der-welt/00-c-a-r-d-w.ogg" type="audio/mpeg">                                  
                                 </audio>
 
@@ -849,6 +1268,9 @@
         <!-- ---------------------- -->
         <!--  Default -->
         <!-- ---------------------- -->
+
+            <!-- book present list  -->
+            <script src="css/page-content/book-content/book-present-list.js"></script>
 
             <!-- custom select  -->
             <script src="js/js-default/custom-select.js"></script>

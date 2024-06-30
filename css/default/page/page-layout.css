@@ -3,78 +3,6 @@
 */
 
 
-/* ------------------------------------------------ */
-/* HEADER - body
-/* ------------------------------------------------ */
-
-#body-header {
-
-   display: grid;
-   row-gap: .8em;
-}
-
-/* --------------------------------------------- */
-/* Header Container
-/* --------------------------------------------- */
-
-#header-container {
-
-    height: 4.2em;
-    padding: 0 .8em;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    border-radius: .4em;
-    
-    background-color: rgb(39, 39, 39);
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-    background-blend-mode: multiply;
-
-}
-
-/* --------------------------------------------- */
-/* Header Content Container
-/* --------------------------------------------- */
-
-#header-content-container {
-
-    display: flex;
-    align-items: center;
-    column-gap: .8em;
-}
-
-#header-content-logo { height: 1.5em; }
-
-#header-content-title { line-height: 1.3em; }
-
-#header-content-title > div:nth-of-type(1) {
-
-    font-weight: bold;
-    color:var(--c-light-white-1);
-}
-
-#header-backslash { 
-
-    color: var(--c-light-brown-1);
-    padding-right: .2em;
-}
-
-#header-content-category-title {
-
-    color: var(--c-light-brown-1);
-}
-
-#header-content-title > div:nth-of-type(2) {
-
-    font-size: .85em;
-    font-style: italic;
-    color: var(--c-light-brown-1);
-}
-
-#header-logo-container { height: 2.8em; }
-
 
 
 
@@ -88,7 +16,7 @@
     position: relative;
     top:0;
 
-    padding: .8em 0em;
+    padding: .8em;
 
     display: grid;
 

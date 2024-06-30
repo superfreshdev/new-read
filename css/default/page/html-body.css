@@ -15,12 +15,13 @@ html, body {
 
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 
+
 }
 
 #body-container {
 
     /* set own padding to page  */
-    padding: .8em;
+    /* padding: .8em; */
 
     display: grid;
 

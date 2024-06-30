@@ -1,0 +1,360 @@
+
+/* ------------------------------------------------------------------------ */
+/* Page Content Container 
+/* ------------------------------------------------------------------------ */
+
+.page-content-container {
+
+    position: relative;
+    top:0;
+
+   
+    width: 100%;
+
+    overflow-x: hidden;
+    
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* Page Slide Content Container 
+/* ------------------------------------------------------------------------ */
+
+.page-slide-content-container {
+
+    display: flex;
+    width: 200%;
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* [1/2] - Book List Container 
+/* ------------------------------------------------------------------------ */
+
+.book-list-container {
+
+    width: 100%;
+ 
+
+    transform: translateX(0%);
+    /* transform: translateX(-150%); */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1em;   
+
+    /* overflow-y: hidden; */
+
+    /* background-color: red; */
+
+    transition: .5s;
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* List Item Book 
+/* ------------------------------------------------------------------------ */
+
+.list-item-book {
+
+    position: relative;
+    top:0;
+
+    width: 100%;
+
+    border-radius: .3em;
+
+    background-color: var(--c-white);
+
+}
+
+/* ----------------------------------------- */
+/*  Nr Box | List Item                       */
+/* ----------------------------------------- */ 
+
+.nr-box-list-item-book {
+
+    position: absolute;
+    top:0;
+    right:0;
+
+    height: 1.5em;
+    width: 2.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* font-weight: bold; */
+
+    border-radius: 0em .2em 0em .3em;
+
+    color:rgb(164, 164, 164);
+    background-color: rgb(228, 228, 228);
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* [1/3] - Header | List Item 
+/* ------------------------------------------------------------------------ */
+
+.header-list-item-book {
+
+    position: relative;
+    top:0;
+
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+}
+
+.img-header-list-item-book {
+   
+    height: 120px;
+    width: 115px;
+    
+    border-radius: .3em 0em .3em 0em;
+
+    cursor: pointer;
+
+}
+
+.img-fullsize-header-list-item-book {
+   
+    position: absolute;
+    top:0;
+
+    z-index: 99;
+  
+    width: 100%;
+    
+    
+    border-radius: .3em;
+
+    cursor: pointer;
+
+}
+
+
+
+/* -------------------------------------------------------------- */
+/* Content Header | List Item 
+/* -------------------------------------------------------------- */
+
+.content-header-list-item-book {
+
+   /* u can grow because of parent  */
+   height: 100%;
+   width: 100%;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+
+.block-content-header-list-item-book  {
+
+    width: 100%;
+
+    padding-right: .3em;
+   
+
+    display: flex;
+    flex-direction: column;
+
+    line-height: 1.2em;    
+
+}
+
+.title-book-list-item-book {
+
+    font-weight: bold; 
+}
+
+.autor-book-list-item-book {
+  
+    font-size: .85em;
+}
+
+.year-book-list-item-book  {
+
+    font-size: .8em;
+    color:rgb(189, 189, 189);
+}
+
+/* ------------------------------------------------------------------------ */
+/* [2/3] - Book Specs | List Item 
+/* ------------------------------------------------------------------------ */
+
+.book-specs-list-item-book {
+
+    font-size: .8em;
+
+    padding-right: .6em;
+   
+    height: 1.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    column-gap: .6em;
+    
+    /* background-color: green; */
+
+}
+
+.list-item-book-spec-list-item-book {
+  
+    display: flex;
+    align-items: center;
+    column-gap: .3em;
+
+    color: var(--c-light-grey-2);
+
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* [3/3] - Switch to | List Item 
+/* ------------------------------------------------------------------------ */
+
+.switch-to-list-item-book  {
+
+    margin-top: .6em;
+    padding: .6em;
+
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+    justify-content: flex-end;
+
+    border-radius: 0em 0em .3em .3em;
+
+    font-weight: bold;
+
+    background-color: rgb(228, 228, 228);
+
+    cursor: pointer;
+    transition: .4s all ease;
+
+}
+
+.switch-to-list-item-book:hover {
+
+    background-color: rgb(152, 152, 152);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* [2/2] - page | book playlist
+/* ------------------------------------------------------------------------ */
+
+.book-playlist-container {
+
+    width: 100%;
+
+    transform: translateX(10%);
+    /* transform: translateX(-100%); */
+
+    background-color: aquamarine;
+
+    transition: .5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
+/* Responsive Sets 
+/* ------------------------------------------------------------------------------------ */
+
+@media (min-width: 800px ) {
+
+
+    .book-list-container {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.3em;
+        
+    }
+
+    .list-item-book {
+
+        width: 350px;
+    }
+   
+}

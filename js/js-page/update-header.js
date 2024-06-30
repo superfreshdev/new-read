@@ -17,21 +17,25 @@ const idArrayOfHeaderElements = [
 const strArrayCategoryText = [
 
     "Bücher",
-    "Sprache",
+    "Sprachen",
     "Intelligenz",
     "Musik",
-    "JS-Spiele",
     "Geige",
+    "JS-Spiele",
+    "Tech-Tutorials",
+    "Software-Projekte"
 ]
 
 const strArrayDescriptionCategoryText = [
 
-    "Bücher die ich gelesen habe",
-    "Tutorials zum Sprache lernen",
-    "Deine Intelligenz trainieren",
-    "Aktuell von mir viel gehörte",
-    "Meine programmierten JS-Spiele",
-    "Geige lernen nach meinem Style"
+    "die ich gelesen habe",
+    "zum lernen",
+    "trainieren & schärfen",
+    "von mir viel gehörte",
+    "lernen nach meinem Style",
+    "von mir programmierte",
+    "zur Informatik",
+    "Web & Java & KI - Mathe"
 ]
 
 
