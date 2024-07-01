@@ -39,6 +39,7 @@
             <!-- default -->
             <link rel="stylesheet" href="css/page/default/html-body.css">
             <link rel="stylesheet" href="css/page/default/header-body.css">
+            <link rel="stylesheet" href="css/page/default/nav-select-header.css">
             <link rel="stylesheet" href="css/page/default/main-body.css">
 
             <link rel="stylesheet" href="css/page/default/page-content.css">    
@@ -130,24 +131,58 @@
                 </label>
 
             </div>
-        
-               
+              
         </header>
 
+
         <!-- ------------------------------------------------------------- -->
-        <!-- MAIN ( body main )                                            -->
+        <!-- Vertical Roll Container                                       -->
         <!-- ------------------------------------------------------------- -->
-        <main id="main-body">
+        <div class="vertical-roll-container">
 
-            Main - Body
+            <!-- ------------------------------------------------------------- -->
+            <!-- Vertical Content Container                                    -->
+            <!-- ------------------------------------------------------------- -->
+            <div id="vcc" class="vertical-content-container">
 
-            <!-- --------------------------------------------------------------- -->
-            <!-- Page Content Container --> 
-            <!-- --------------------------------------------------------------- -->
+                <!-- ------------------------------------------------------------- -->
+                <!-- HEADER ( body header )                                        -->
+                <!-- ------------------------------------------------------------- -->
+                <div id="nav-select-header">
 
-        </main>
+                    <div>Eintrag 01</div>
+                    <div>Eintrag 01</div>
+                    <div>Eintrag 01</div>
+                    <div>Eintrag 01</div>
+
+                </div>
+
+                <!-- ------------------------------------------------------------- -->
+                <!-- MAIN ( body main )                                            -->
+                <!-- ------------------------------------------------------------- -->
+                <main id="main-body">
+
+                    Main - Body Main Body Main Body <br>
+                    Main - Body Main Body Main Body <br>
+                    Main - Body Main Body Main Body <br>
+                    Main - Body Main Body Main Body <br>
+                    Main - Body Main Body Main Body <br>
+                    Main - Body Main Body Main Body <br>
+                    Main - Body Main Body Main Body <br>
+
+                    <!-- --------------------------------------------------------------- -->
+                    <!-- Page Content Container --> 
+                    <!-- --------------------------------------------------------------- -->
+
+                </main>
+
+            </div>
+
+        </div>
     
     </div>
+
+  
 
 
     <!-- ----------------------------------------------- -->
@@ -181,6 +216,36 @@
         <!-- ---------------------- -->
 
             <script src="js/js-books/set-book-select-box.js"></script>
+
+
+
+            
+    <script>
+
+        const lbl = document.getElementById('nav-header-container');
+        const vcc = document.getElementById('vcc')
+
+        var clicked = 0;
+
+        lbl.addEventListener( 'click' , ()=> {
+
+            console.log('clicked = ' + clicked)
+
+            if( clicked == 0 ) {
+
+                vcc.style.transform = "translateY(0%)"
+
+                clicked = 1;
+
+            } else {
+
+            vcc.style.transform = "translateY(-35%)"
+                clicked = 0;
+
+            }
+        })
+
+    </script>
         
 
        
@@ -188,5 +253,5 @@
 </body>
 
 
-</html>
 
+</html>

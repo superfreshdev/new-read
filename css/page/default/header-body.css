@@ -6,7 +6,7 @@
 
 #header-body {
 
-
+    z-index: 99;
 }
 
 
@@ -54,7 +54,7 @@
 
 
 
-#block-title-header { line-height: 1.2em; }
+#block-title-header { line-height: 1.3em; }
 
 
 #block-title-header > div:nth-of-type(1) {

@@ -1,0 +1,61 @@
+
+/* --------------------------------------------------------------------------------- */
+/* Vertical Roll Container 
+/* --------------------------------------------------------------------------------- */
+
+.vertical-roll-container {
+
+    height: 100%;
+
+    background-color: aquamarine;
+   
+}
+
+/* --------------------------------------------------------------------------------- */
+/* Vertical Content Container 
+/* --------------------------------------------------------------------------------- */
+
+.vertical-content-container {
+
+    transform: translateY(-30%);
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-content: flex-start;
+    justify-items: flex-start;
+
+
+    row-gap: .8em;
+
+    background-color: blue;
+
+    transition: all .4s ease;
+
+}
+
+.vertical-content-container > #nav-select-header {
+
+    /* height: 100%; */
+
+}
+
+.vertical-content-container > #main-body {
+
+    /* height: 100%; */
+}
+
+
+/* --------------------------------------------------------------------------------- */
+/* Nav Select Header
+/* --------------------------------------------------------------------------------- */
+
+#nav-select-header {
+   
+    border-radius: .3em;
+
+    background-color: green;
+    
+}
