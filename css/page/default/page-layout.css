@@ -42,7 +42,9 @@
 .show-selected-content {
 
     position: relative;
+    top:0;
     left:0;
+
 }
 
 

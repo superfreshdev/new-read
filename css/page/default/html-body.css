@@ -16,17 +16,20 @@ html, body {
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 
 
+    /*
+        [Reminder]
+        If u like an scalable height of content u should delete the default 
+        margin of default pages & create an own page layout container 
+        where u can define all thigns e.g grid layout
+    */
+
+
 }
 
 #body-container {
-
-    /* set own padding to page  */
-    /* padding: .8em; */
-
+ 
     display: grid;
-
-    /* Desktop Version */
-    /* justify-content: center; */
+   
 }
 
 

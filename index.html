@@ -5,67 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <!-- ----------------------------------------------- -->
-    <!-- Favicon -->
-    <!-- ----------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------- -->
+    <!-- Favicon Binding                                                             -->
+    <!-- --------------------------------------------------------------------------- -->
+
     <link rel="icon" type="image/x-icon" href="media/img/ico/me.ico">
     
-    <!-- ----------------------------------------------- -->
-    <!-- CSS Bindings -->
-    <!-- ----------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------- -->
+    <!-- CSS Bindings                                                                -->
+    <!-- --------------------------------------------------------------------------- -->
 
-        <!-- -------------------------- -->
-        <!-- Default -->
-        <!-- -------------------------- -->
-
-            <!-- page -->
-            <link rel="stylesheet" href="css/default/page/html-body.css">
-            <link rel="stylesheet" href="css/default/page/page-layout.css">
-
-            <!-- page-content -->
-            <link rel="stylesheet" href="css/page-content/book-page.css">
+        <!-- -------------------------------------------------------- -->
+        <!-- Default                                                  -->
+        <!-- -------------------------------------------------------- -->
 
             <!-- colors -->
-            <link rel="stylesheet" href="css/default/colors/default-color.css">
+            <link rel="stylesheet" href="css/default/colors/colors-custom.css">
+
+            <!-- layout-elements -->
+            <link rel="stylesheet" href="css/default/layout-elements/custom-buttons/buttons-custom.css">
+            <link rel="stylesheet" href="css/default/layout-elements/custom-select/select-custom.css">
+            <link rel="stylesheet" href="css/default/layout-elements/custom-audio-player/audio-player-custom.css">
 
             <!-- sets -->
-            <link rel="stylesheet" href="css/default/sets/default-img-sizes.css">
+            <link rel="stylesheet" href="css/default/sets/img-icon-sizes-sets.css">
+            <link rel="stylesheet" href="css/default/sets/individual-sets.css">
 
-            <!-- elements -->
-            <link rel="stylesheet" href="css/default/elements/default-buttons.css">
-            <link rel="stylesheet" href="css/default/elements/select-custom.css">
-            <link rel="stylesheet" href="css/default/elements/audio-player-custom.css">
+        <!-- -------------------------------------------------------- -->
+        <!-- Page                                                     -->
+        <!-- -------------------------------------------------------- -->
 
-
-        <!-- -------------------------- -->
-        <!-- Page                       -->
-        <!-- -------------------------- -->
-
-        <link rel="stylesheet" href="css/page/default/header.css">
             
+            <!-- default -->
+            <link rel="stylesheet" href="css/page/default/html-body.css">
+            <link rel="stylesheet" href="css/page/default/header-body.css">
+            <link rel="stylesheet" href="css/page/default/main-body.css">
 
-        <!-- -------------------------- -->
-        <!-- Content -->
-        <!-- -------------------------- -->
+            <link rel="stylesheet" href="css/page/default/page-content.css">    
 
-            <!-- book content -->
-            <link rel="stylesheet" href="css/page-content/book-content/book-present-list.css">
-            <link rel="stylesheet" href="css/content/book-content.css">
+       
 
-            <!-- language content -->
+            <!-- -------------------------- -->
+            <!-- Content Pages              -->
+            <!-- -------------------------- -->
 
-            <!-- intelligence content -->
 
-            <!-- music content -->
+                <!-- book -->
 
-            <!-- js-games content -->
+                <!-- book -->
 
-        <!-- -------------------------- -->
-        <!-- Responsive -->
-        <!-- -------------------------- -->
+                <!-- book -->
 
-            <link rel="stylesheet" href="css/responsive/resp-layout.css">
+                <!-- book -->
 
+         
+       
         
     <title>Superfresh 🔱 Become Smarter. </title>
 
@@ -77,1179 +71,78 @@
     <!-- ------------------------------------------------------------------------------------------------------------- -->
     <!-- Body Container ( my own body )                                                                                -->
     <!-- ------------------------------------------------------------------------------------------------------------- -->
+    
     <div id="body-container">
 
         <!-- ------------------------------------------------------------- -->
         <!-- HEADER ( body header )                                        -->
         <!-- ------------------------------------------------------------- -->
-        <header id="body-header">
+       
+        <header id="header-body">
             
             <!-- ------------------------------------------------------------------------- -->
             <!-- Header Container                                                          -->
             <!-- ------------------------------------------------------------------------- -->    
-            <div id="header-container" class="bgc-main-element">
+            <div id="header-container" class="bgc-light-anthracite-mix">
 
-                <!-- ------------------------------- -->
-                <!-- Content Container               -->
-                <!-- ------------------------------- -->
-                <div id="header-content-container">
+                <!-- ------------------------------------------------------- -->
+                <!-- Title | Header Container                                -->
+                <!-- ------------------------------------------------------- -->
+                <div id="title-header-container">
                     
                     <!-- ------------------------------------ -->
-                    <!-- Content Logo -->
+                    <!-- Img Left Header                      -->
                     <!-- ------------------------------------ -->
-                    <img src="" id="header-content-logo" alt="img"></img>
+                    <img src="media/img/emojies/emoji-books.png" id="img-left-header" alt="img"></img>
 
                     <!-- ------------------------------------ -->
-                    <!-- Content Title -->
+                    <!-- Block Title Header                   -->
                     <!-- ------------------------------------ -->
-                    <div id="header-content-title">
+                    <div id="block-title-header">
 
-                        <div>Superfresh <span id="header-backslash">/</span><span id="header-content-category-title"></span></div>
-                        <div>» <span id="header-content-category-description"></span> </div>
+                        <div>Superfresh
+                             <span id="header-backslash">/</span>
+                             <span id="header-content-category-title">Bücher</span>
+                        </div>
 
-                        <!-- Musik ( aktuell viel gehörte ) / Sprachen ( fremdsprachen lernen ) / Smart ( Smart Training ) / JS-Games ( von mir selbst programmierte ) -->
+                        <div>» 
+                            <span id="header-content-category-description">die ich gelesen habe</span>
+                        </div>
 
                     </div>
 
                 </div>
 
-                <!-- --------------------------------------------- -->
-                <!-- Content Navigation Container                  -->
-                <!-- --------------------------------------------- -->
-                <input id="chk-header" type="checkbox" name="chk-header">
-                <label for="chk-header" id="header-navigation-content-container"  name="chk-header">
+                <!-- ------------------------------------------------------- -->
+                <!-- Nav | Header Container                                  -->
+                <!-- ------------------------------------------------------- -->
+                <input id="chk-header-nav" type="checkbox" name="chk-header-nav">
+
+                <label for="chk-header-nav" id="nav-header-container"  name="chk-header-nav">
 
                     <div class="hamburger-stripe"></div>
                     <div class="hamburger-stripe"></div>
                     <div class="hamburger-stripe"></div>
 
-                    <!-- <img src="media/img/icons/pfeil-nach-unten-grey.png" id="img-header-nav" alt="img"> -->
-
+                
                 </label>
 
-                <!-- <img src="media/img/cartoon/show-left.png" id="header-logo-container" alt="img"></img> -->
-
             </div>
-
-            <!-- -------------------------------------- -->
-            <!-- Custom Select - Main Content           -->
-            <!-- -------------------------------------- -->
-            <nav id="custom-select-box-main-content" class="custom-select-box">
-              
-                <!-- ------------------------------------ -->
-                <!-- Options Container                    -->
-                <!-- ------------------------------------ -->
-                <div class="options-container">
-
-                    <div class="option">
-                        <input checked type="radio" id="books" class="radio" name="category">
-                        <img src="media/img/emojies/emoji-books.png" class="img-option-medium" alt="img">
-                        <label for="books">Bücher hören</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" id="language" class="radio" name="category">
-                        <img src="media/img/emojies/emojie-language.png" class="img-option-medium" alt="img">
-                        <label for="language">Sprache lernen</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" id="intelligence" class="radio" name="category">
-                        <img src="media/img/emojies/emoji-thunder.png" class="img-option-medium" alt="img">
-                        <label for="intelligence">Intelligenz trainieren</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" id="music" class="radio" name="category">
-                        <img src="media/img/emojies/emojie-music.png" class="img-option-medium" alt="img">
-                        <label for="music">Musik hören</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" id="violine" class="radio" name="category">
-                        <img src="media/img/emojies/icon-violine.png" class="img-option-medium" alt="img">
-                        <label for="violine">Geige lernen</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" id="games" class="radio" name="category">
-                        <img src="media/img/emojies/emoji-gaming.png" class="img-option-medium" alt="img">
-                        <label for="games">Meine JS-Spiele spielen</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" id="violine" class="radio" name="category">
-                        <img src="media/img/emojies/emojie-tutorials.png" class="img-option-medium" alt="img">
-                        <label for="violine">Tech-Tutorials</label>
-                    </div>
-
-                    <div class="option">
-                        <input type="radio" id="violine" class="radio" name="category">
-                        <img src="media/img/emojies/it-emoji.png" class="img-option-medium" alt="img">
-                        <label for="violine">Software-Projekte</label>
-                    </div>
-
-                </div>
-
-                <!-- ------------------------------------ -->
-                <!-- Selected Option                      -->
-                <!-- ------------------------------------ -->
-                <div class="selected-option">
-
-                    <div class="selected-content">
-                        <img src="" class="img-option-medium" alt="img">
-                        <div>select content</div>
-                    </div>
-
-                    <img src="media/img/icons/pfeil-nach-unten-grey.png" class="img-selected-arrow" alt="img">
-
-                </div>
-
-            </nav>
+        
                
         </header>
 
-
-
-
-
-
-
-
-
-
-
-
         <!-- ------------------------------------------------------------- -->
-        <!-- MAIN                                                          -->
+        <!-- MAIN ( body main )                                            -->
         <!-- ------------------------------------------------------------- -->
-        <main id="body-main">
+        <main id="main-body">
 
-           
-            <!-- ------------------------------------------------------------- -->
-            <!-- Book - Content Page -->
-            <!-- ------------------------------------------------------------- -->
-            <div class="main-content book-page-container" >
-                
-                <!-- ------------------------------------------------------------- -->
-                <!-- Custom Select Book Content             -->
-                <!-- ------------------------------------------------------------- -->
-                <nav id="custom-select-box-book-content" class="custom-select-box">
-              
-                    <!-- ------------------------------------ -->
-                    <!-- Options Container                    -->
-                    <!-- ------------------------------------ -->
-                    <div class="options-container">
-    
-                        <div class="option">
-                            <input checked type="radio" id="book-now" class="radio" name="book">
-                            <img src="media/img/emojies/emojie-eyes.png" class="img-option-medium" alt="img">
-                            <label for="book-now">Aktuell am lesen ( + 2 )</label>
-                        </div>
-    
-                        <div class="option">
-                            <input type="radio" id="book-personality" class="radio" name="book">
-                            <img src="media/img/emojies/emojie-plant.png" class="img-option-medium" alt="img">
-                            <label for="book-personality">Persönlichkeitsentwicklung ( + 1 )</label>
-                        </div>
-    
-                        <div class="option">
-                            <input type="radio" id="book-bio" class="radio" name="book">
-                            <img src="media/img/emojies/emoji-star.png" class="img-option-medium" alt="img">
-                            <label for="book-bio">Biografien ( + 2 )</label>
-                        </div>
-    
-                        <div class="option">
-                            <input type="radio" id="book-thriller" class="radio" name="book">
-                            <img src="media/img/emojies/emojie-agent.png" class="img-option-medium" alt="img">
-                            <label for="book-thriller">Thriller ( 0 )</label>
-                        </div>
-    
-                        <div class="option">
-                            <input type="radio" id="book-fantasy" class="radio" name="book">
-                            <img src="media/img/emojies/emoji-stars.png" class="img-option-medium" alt="img">
-                            <label for="book-fantasy">Fantasy ( 0 )</label>
-                        </div>
-    
-                        <div class="option">
-                            <input type="radio" id="book-english" class="radio" name="book">
-                            <img src="media/img/flag/gb-flag.png" class="img-option-small" alt="img">
-                            <label for="book-english">Englisch ( + 1 )</label>
-                        </div>
-    
-                    </div>
-    
-                    <!-- ------------------------------------ -->
-                    <!-- Selected Option                      -->
-                    <!-- ------------------------------------ -->
-                    <div class="selected-option">
-    
-                        <div class="selected-content">
-                            <img src="" class="img-option-medium" alt="img">
-                            <div>select content</div>
-                        </div>
-    
-                        <img src="media/img/icons/pfeil-nach-unten-grey.png" class="img-selected-arrow" alt="img">
-    
-                    </div>
-    
-                </nav>
-
-          
-
+            Main - Body
 
             <!-- --------------------------------------------------------------- -->
             <!-- Page Content Container --> 
             <!-- --------------------------------------------------------------- -->
-            <div class="page-content-container">
 
-
-                <!-- --------------------------------------------------------------- -->
-                <!-- Page Slide Content Container --> 
-                <!-- --------------------------------------------------------------- -->
-                <div class="page-slide-content-container">
-
-
-                    <!-- ------------------------------------------------------------- -->
-                    <!-- Book List Container                              -->
-                    <!-- ------------------------------------------------------------- -->
-                    <div class="book-list-container" id="js-book-list-container" >
-
-                    
-                        <div class="list-item-book">
-
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Nr Box | of List Item ( absolute ) --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="nr-box-list-item-book"> 01  </div>
-                        
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Header | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="header-list-item-book">
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Img Header | List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                            
-                                <img src="media/content/books/cafe-am-rande-der-welt/cafe-am-rande-der-welt-hoch.png" class="img-header-list-item-book" alt="img">
-
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Content Header < List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                                
-                                <div class="content-header-list-item-book">
-                                        
-                                    <div class="block-content-header-list-item-book ">
-
-                                        <div class="year-book-list-item-book">(2003)</div>
-                                        <div class="title-book-list-item-book">Cafe am Rande der Welt denn es könnte länger sein naja</div>
-                                        <div class="autor-book-list-item-book">John Strelecky</div>
-                                        
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <!-- ---------------------------------------------------------------------- -->
-                            <!-- Book Specs | List Item --> 
-                            <!-- ---------------------------------------------------------------------- -->
-                            <div class="book-specs-list-item-book">
-
-                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
-
-                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
-                                    <div>Youtube</div>
-
-                                </a>
-
-                                <div class="list-item-book-spec-list-item-book ">
-                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
-                                    <div>1260</div>
-                                </div>
-
-                                <div class="list-item-book-spec-list-item-book img-icon-smal">
-                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
-                                    <div> 99,59 Std</div>
-                                </div>
-
-                            </div>
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Switch to | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div id="anCafe" class="switch-to-list-item-book">
-                                
-                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
-                                <div>anhören</div>
-                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
-
-                            </div>
-
-                        </div>
-
-                        <div class="list-item-book">
-
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Nr Box | of List Item ( absolute ) --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="nr-box-list-item-book"> 02  </div>
-                        
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Header | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="header-list-item-book">
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Img Header | List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                            
-                                <img src="media/content/books/mossad/mossad.jpg" class="img-header-list-item-book" alt="img">
-
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Content Header | List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                                
-                                <div class="content-header-list-item-book">
-                                        
-                                    <div class="block-content-header-list-item-book ">
-
-                                        <div class="year-book-list-item-book">(2001)</div>
-                                        <div class="title-book-list-item-book">Die Geheimakte - Mossad</div>
-                                        <div class="autor-book-list-item-book">Victor Ostrovsky</div>
-                                        
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <!-- ---------------------------------------------------------------------- -->
-                            <!-- Book Specs | List Item --> 
-                            <!-- ---------------------------------------------------------------------- -->
-                            <div class="book-specs-list-item-book">
-
-                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
-
-                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
-                                    <div>Youtube</div>
-
-                                </a>
-
-                                <div class="list-item-book-spec-list-item-book ">
-                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
-                                    <div>1260</div>
-                                </div>
-
-                                <div class="list-item-book-spec-list-item-book img-icon-smal">
-                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
-                                    <div> 99,59 Std</div>
-                                </div>
-
-                            </div>
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Switch to | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="switch-to-list-item-book">
-                                
-                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
-                                <div>anhören</div>
-                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
-
-                            </div>
-
-                        </div>
-
-                        <div class="list-item-book">
-
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Nr Box | of List Item ( absolute ) --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="nr-box-list-item-book"> 03  </div>
-                        
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Header | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="header-list-item-book">
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Img Header | List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                            
-                                <img src="media/content/books/steve-jobs/steve-jobs.jpg" class="img-header-list-item-book" alt="img">
-
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Content Header | List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                                
-                                <div class="content-header-list-item-book">
-                                        
-                                    <div class="block-content-header-list-item-book ">
-
-                                        <div class="year-book-list-item-book">(20011)</div>
-                                        <div class="title-book-list-item-book">Steve Jobs ( Biographie )</div>
-                                        <div class="autor-book-list-item-book">Isaac Jackson</div>
-                                        
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <!-- ---------------------------------------------------------------------- -->
-                            <!-- Book Specs | List Item --> 
-                            <!-- ---------------------------------------------------------------------- -->
-                            <div class="book-specs-list-item-book">
-
-                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
-
-                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
-                                    <div>Youtube</div>
-
-                                </a>
-
-                                <div class="list-item-book-spec-list-item-book ">
-                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
-                                    <div>1260</div>
-                                </div>
-
-                                <div class="list-item-book-spec-list-item-book img-icon-smal">
-                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
-                                    <div> 99,59 Std</div>
-                                </div>
-
-                            </div>
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Switch to | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="switch-to-list-item-book">
-                                
-                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
-                                <div>anhören</div>
-                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
-
-                            </div>
-
-                        </div>
-
-                        <div class="list-item-book">
-
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Nr Box | of List Item ( absolute ) --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="nr-box-list-item-book"> 04  </div>
-                        
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Header | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="header-list-item-book">
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Img Header | List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                            
-                                <img src="media/content/books/bill-gates/bill-gates.jpg" class="img-header-list-item-book" alt="img">
-
-                                
-                                <!-- -------------------------------------------------------------- -->
-                                <!-- Content Header < List Item -->
-                                <!-- -------------------------------------------------------------- -->
-                                
-                                <div class="content-header-list-item-book">
-                                        
-                                    <div class="block-content-header-list-item-book ">
-
-                                        <div class="year-book-list-item-book">(2002)</div>
-                                        <div class="title-book-list-item-book">Bill Gates ( Biographie ) </div>
-                                        <div class="autor-book-list-item-book">Nathan Ecekry & Janette Bilokodingo </div>
-                                        
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <!-- ---------------------------------------------------------------------- -->
-                            <!-- Book Specs | List Item --> 
-                            <!-- ---------------------------------------------------------------------- -->
-                            <div class="book-specs-list-item-book">
-
-                                <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" class="list-item-book-spec-list-item-book" target="_blank">
-
-                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-very-small" alt="img">
-                                    <div>Youtube</div>
-
-                                </a>
-
-                                <div class="list-item-book-spec-list-item-book ">
-                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-small" alt="img">
-                                    <div>1260</div>
-                                </div>
-
-                                <div class="list-item-book-spec-list-item-book img-icon-smal">
-                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-small" alt="img">
-                                    <div> 99,59 Std</div>
-                                </div>
-
-                            </div>
-
-                            <!-- --------------------------------------------------------------- -->
-                            <!-- Switch to | List Item --> 
-                            <!-- --------------------------------------------------------------- -->
-                            <div class="switch-to-list-item-book">
-                                
-                                <img src="media/img/icons/horen.png" class="img-icon-medium" alt="img">
-                                <div>anhören</div>
-                                <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-medium" alt="img">
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- ------------------------------------------------------ -->
-                    <!-- Book Playlist Container  -->
-                    <!-- ------------------------------------------------------ -->         
-                    <div class="book-playlist-container" id="js-book-playlist-container" >
-
-                        <p>PlayList Container</p>
-
-                        <button id="zurueck" type="button">Zurück Baby</button>
-                    
-                    </div>
-
-
-
-                </div>
-
-
-
-            </div>
-
-           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!-- ------------------------------------------------------------- -->
-                <!-- Book Category Content                                         -->
-                <!-- ------------------------------------------------------------- -->
-                <div class="book-category-content" style="display: none;">
-                    
-                    <div class="book-card-layout">
-
-                        <!-- ---------------------------------------------------- -->
-                        <!-- Header | Book Card -->
-                        <!-- ---------------------------------------------------- -->
-                        <div class="header-book-card">
-                            
-                            <!-- ------------------------------------------ -->
-                            <!-- Img Book Header | Container  -->
-                            <!-- ------------------------------------------ -->
-                            <div class="img-book-header-container">
-                                <img src="media/content/books/cafe-am-rande-der-welt/cafe-am-rande-der-welt.jpg" alt="img">
-                            </div>
-
-                            <!-- ------------------------------------------ -->
-                            <!-- Content Book Header | Container  -->
-                            <!-- ------------------------------------------ -->
-                            <div class="content-book-header-container">
-                                
-                             
-                                <!-- ------------------------------------------- -->
-                                <!-- Book Header Title Container -->
-                                <!-- ------------------------------------------- -->
-                                <div class="book-header-title-container">
-                                                                        
-                                    <div class="book-header-title-block">
-                                        <div class="book-title"> Cafe am Rande der Welt</div>
-                                        <div class="book-autor">John Strelecky</div>
-                                    </div>
-                                   
-                                    <div class="book-year">( 2003 )</div>
-
-                                </div>
-
-                                <!-- ------------------------------------------- -->
-                                <!-- Spec Info Book - Container -->
-                                <!-- ------------------------------------------- -->
-                                <div class="book-spec-info-container">
-                                    
-
-                                    <!-- ------------------------------------------- -->
-                                    <!-- Youtube Book Link -->
-                                    <!-- ------------------------------------------- -->  
-                                    <a href="https://www.youtube.com/watch?v=-2fIabLGNFM" target="_blank" class="youtube-link-book">
-                                        <img src="media/img/icons/youtube-grey.png" alt="img">
-                                        <div>Youtube</div>
-                                    </a>
-
-                                    <!-- ------------------------------------------- -->
-                                    <!-- Max Pieces Info -->
-                                    <!-- ------------------------------------------- --> 
-                                    <div class="book-info-spec">
-                                        <img src="media/img/icons/offenes-buch-grey.png" alt="img">
-                                        <div>126</div>
-                                    </div> 
-
-                                    <!-- ------------------------------------------- -->
-                                    <!-- Max Listen Info  -->
-                                    <!-- ------------------------------------------- -->  
-                                    <div class="book-info-spec">
-                                        <img src="media/img/icons/lautsprecher-grey.png" alt="img">
-                                        <div>3,12 Std.</div>
-                                    </div>                                   
-
-                                </div>
-
-
-                            </div>
-
-                        </div>
-
-                        <!-- ---------------------------------------------------- -->
-                        <!-- Audio Player | Book Card -->
-                        <!-- ---------------------------------------------------- -->
-                        <div class="audio-player-custom">
-
-                            <!-- repeat  -->
-                            <input id="audio-set-repeat" type="checkbox">
-                            <label for="audio-set-repeat" class="option-audio-player">
-
-                                <img src="media/img/icons/repeat-grey.png" class="img-audio-player-small" alt="img">
-                                <div>Repeat</div>
-                                
-                            </label>
-
-                            <!-- autoplay -->
-                            <input id="audio-set-autoplay" type="checkbox">
-                            <label for="audio-set-autoplay" class="option-audio-player">
-                         
-                                <img src="media/img/icons/autoplay-grey.png" class="img-audio-player-very-small" alt="img">
-                                <div>Autoplay</div>
-
-                            </label>
-
-                            <!-- infinity -->
-                            <input id="audio-set-infinity" type="checkbox">
-                            <label for="audio-set-infinity" class="option-audio-player">
-
-                                <img src="media/img/icons/infinity-grey.png" class="img-audio-player-very-small" alt="img">
-                                <div>Infinity</div>
-
-                            </label>
-                          
-
-                        </div>
-
-                        <!-- ---------------------------------------------------- -->
-                        <!-- Intro | Book Card -->
-                        <!-- ---------------------------------------------------- -->
-                        <div class="intro-book-card">
-                           
-
-                            <div class="audio-book-item">
-
-                               <!-- ----------------------------------------- -->
-                               <!-- Audio Title -->
-                               <!-- ----------------------------------------- -->
-                                <div class="audio-book-title-container">
-
-                                    <!-- ------------------------------------------ -->
-                                    <!-- Audio File Nr - Container  -->
-                                    <!-- ------------------------------------------ -->
-                                    <div class="audio-file-nr-container">
-                                        
-                                        <div>00 / 15</div>
-                                        <img src="media/img/emojies/emoji-car.png" class="img-icon-small" alt="img">
-
-                                    </div>
-
-                                    <!-- ------------------------------------------ -->
-                                    <!-- Audio Title   -->
-                                    <!-- ------------------------------------------ -->
-                                    <div class="audio-book-title">
-                                        Vorwort
-                                        <span class="audio-file-time-text"> • 04:06</span>
-                                    </div>
-
-
-                                </div>
-
-
-                               <!-- ----------------------------------------- -->
-                               <!-- Audio File -->
-                               <!-- ----------------------------------------- -->
-                                <audio controls preload="none" controlsList="noplaybackrate">
-                                    <source src="media/content/books/cafe-am-rande-der-welt/00-c-a-r-d-w.ogg" type="audio/mpeg">                                  
-                                </audio>
-
-                               <!-- ----------------------------------------- -->
-                               <!-- Quiz Item Container  -->
-                               <!-- ----------------------------------------- -->
-                                <div class="audio-quiz-item-container" style="display: none;">
-                                    
-                                    <!-- -------------------------- -->
-                                    <!-- Button Quiz -->
-                                    <!-- -------------------------- -->
-                                    <div class="btn-quiz-item">
-                                        
-                                        <img src="media/img/emojies/emoji-thunder.png" alt="img">
-                                        <div>Quiz</div>
-
-                                    </div>
-
-                                    <!-- -------------------------- -->
-                                    <!-- Quiz Container  -->
-                                    <!-- -------------------------- -->
-
-                                </div>
-                               
-
-                            </div>
-
-
-                           
-                        </div>
-
-                        <!-- ---------------------------------------------------- -->
-                        <!-- Main | Book Card -->
-                        <!-- ---------------------------------------------------- -->
-                        <div class="main-book-card">
-                           
-                            <!-- ---------------------------------------------------- -->
-                            <!-- Open More / Close -->
-                            <!-- ---------------------------------------------------- -->
-                            <div class="open-close-content-container">
-                                
-                                <div class="btn-default-bold btn-art-antrahzite" style="height: 2.5em;">
-
-                                    <img src="media/img/icons/horen-light-grey.png" class="img-icon-medium"  alt="img">
-                                    <div>Mehr hören</div>
-
-                                </div>
-
-                            </div>
-
-                            <!-- ---------------------------------------------------- -->
-                            <!-- Audio Files Container -->
-                            <!-- ---------------------------------------------------- -->
-                            <div class="audio-file-book-container">
-
-                                <div class="audio-book-item">
-
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio Title -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-book-title-container">
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio File Nr - Container  -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-file-nr-container">
-                                             
-                                             <div>01 / 15</div>
-                                             <img src="media/img/emojies/emoji-car.png" class="img-icon-small" alt="img">
-     
-                                         </div>
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio Title   -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-book-title">
-                                             Start & Burnout 
-                                             <span class="audio-file-time-text"> • 09:36</span>
-                                         </div>
-     
-     
-                                     </div>
-     
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio File -->
-                                    <!-- ----------------------------------------- -->
-                                     <audio controls preload="none">
-                                         <source src="media/content/books/cafe-am-rande-der-welt/01-c-a-r-d-w.ogg" type="audio/mpeg">                                  
-                                     </audio>
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Quiz Item Container  -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-quiz-item-container">
-                                         
-                                         <!-- -------------------------- -->
-                                         <!-- Button Quiz -->
-                                         <!-- -------------------------- -->
-                                         <div class="btn-quiz-item">
-                                             
-                                             <img src="media/img/emojies/emoji-thunder.png" alt="img">
-                                             <div>Quiz</div>
-     
-                                         </div>
-     
-                                         <!-- -------------------------- -->
-                                         <!-- Quiz Container  -->
-                                         <!-- -------------------------- -->
-     
-                                     </div>
-                                    
-     
-                                 </div>
-
-                                 <div class="audio-book-item">
-
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio Title -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-book-title-container">
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio File Nr - Container  -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-file-nr-container">
-                                             
-                                             <div>02 / 15</div>
-                                             <img src="media/img/emojies/emoji-car.png" class="img-icon-small" alt="img">
-     
-                                         </div>
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio Title   -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-book-title">
-                                            Das gefundene Cafe  
-                                             <span class="audio-file-time-text"> • 12:24</span>
-                                         </div>
-     
-     
-                                     </div>
-     
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio File -->
-                                    <!-- ----------------------------------------- -->
-                                     <audio controls preload="none">
-                                         <source src="media/content/books/cafe-am-rande-der-welt/02-c-a-r-d-w.ogg" type="audio/mpeg">                                  
-                                     </audio>
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Quiz Item Container  -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-quiz-item-container">
-                                         
-                                         <!-- -------------------------- -->
-                                         <!-- Button Quiz -->
-                                         <!-- -------------------------- -->
-                                         <div class="btn-quiz-item">
-                                             
-                                             <img src="media/img/emojies/emoji-thunder.png" alt="img">
-                                             <div>Quiz</div>
-     
-                                         </div>
-     
-                                         <!-- -------------------------- -->
-                                         <!-- Quiz Container  -->
-                                         <!-- -------------------------- -->
-     
-                                     </div>
-                                    
-     
-                                 </div>
-
-                                 <div class="audio-book-item">
-
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio Title -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-book-title-container">
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio File Nr - Container  -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-file-nr-container">
-                                             
-                                             <div>03 / 15</div>
-                                             <img src="media/img/emojies/emoji-car.png" class="img-icon-small" alt="img">
-     
-                                         </div>
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio Title   -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-book-title">
-                                            Das Cafe kennen lernen   
-                                             <span class="audio-file-time-text"> • 12:39</span>
-                                         </div>
-     
-     
-                                     </div>
-     
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio File -->
-                                    <!-- ----------------------------------------- -->
-                                     <audio controls preload="none">
-                                         <source src="media/content/books/cafe-am-rande-der-welt/03-c-a-r-d-w.ogg" type="audio/mpeg">                                  
-                                     </audio>
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Quiz Item Container  -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-quiz-item-container">
-                                         
-                                         <!-- -------------------------- -->
-                                         <!-- Button Quiz -->
-                                         <!-- -------------------------- -->
-                                         <div class="btn-quiz-item">
-                                             
-                                             <img src="media/img/emojies/emoji-thunder.png" alt="img">
-                                             <div>Quiz</div>
-     
-                                         </div>
-     
-                                         <!-- -------------------------- -->
-                                         <!-- Quiz Container  -->
-                                         <!-- -------------------------- -->
-     
-                                     </div>
-                                    
-     
-                                 </div>
-
-                                 <div class="audio-book-item">
-
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio Title -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-book-title-container">
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio File Nr - Container  -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-file-nr-container">
-                                             
-                                             <div>04 / 15</div>
-                                             <img src="media/img/emojies/emoji-car.png" class="img-icon-small" alt="img">
-     
-                                         </div>
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio Title   -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-book-title">                                           
-                                            Die erste Begnung mit den Fragen   
-                                             <span class="audio-file-time-text"> • 6:21</span>
-                                         </div>
-     
-     
-                                     </div>
-     
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio File -->
-                                    <!-- ----------------------------------------- -->
-                                     <audio controls preload="none">
-                                         <source src="media/content/books/cafe-am-rande-der-welt/04-c-a-r-d-w.ogg" type="audio/mpeg">                                  
-                                     </audio>
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Quiz Item Container  -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-quiz-item-container">
-                                         
-                                         <!-- -------------------------- -->
-                                         <!-- Button Quiz -->
-                                         <!-- -------------------------- -->
-                                         <div class="btn-quiz-item">
-                                             
-                                             <img src="media/img/emojies/emoji-thunder.png" alt="img">
-                                             <div>Quiz</div>
-     
-                                         </div>
-     
-                                         <!-- -------------------------- -->
-                                         <!-- Quiz Container  -->
-                                         <!-- -------------------------- -->
-     
-                                     </div>
-                                    
-     
-                                 </div>
-
-                                 <div class="audio-book-item">
-
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio Title -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-book-title-container">
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio File Nr - Container  -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-file-nr-container">
-                                             
-                                             <div>05 / 15</div>
-                                             <img src="media/img/emojies/emoji-car.png" class="img-icon-small" alt="img">
-     
-                                         </div>
-     
-                                         <!-- ------------------------------------------ -->
-                                         <!-- Audio Title   -->
-                                         <!-- ------------------------------------------ -->
-                                         <div class="audio-book-title">                                           
-                                            Das erst bekommende große Frühstück  
-                                             <span class="audio-file-time-text"> • 10:06</span>
-                                         </div>
-     
-     
-                                     </div>
-     
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Audio File -->
-                                    <!-- ----------------------------------------- -->
-                                     <audio controls preload="none">
-                                         <source src="media/content/books/cafe-am-rande-der-welt/05-c-a-r-d-w.ogg" type="audio/mpeg">                                  
-                                     </audio>
-     
-                                    <!-- ----------------------------------------- -->
-                                    <!-- Quiz Item Container  -->
-                                    <!-- ----------------------------------------- -->
-                                     <div class="audio-quiz-item-container">
-                                         
-                                         <!-- -------------------------- -->
-                                         <!-- Button Quiz -->
-                                         <!-- -------------------------- -->
-                                         <div class="btn-quiz-item">
-                                             
-                                             <img src="media/img/emojies/emoji-thunder.png" alt="img">
-                                             <div>Quiz</div>
-     
-                                         </div>
-     
-                                         <!-- -------------------------- -->
-                                         <!-- Quiz Container  -->
-                                         <!-- -------------------------- -->
-     
-                                     </div>
-                                    
-     
-                                 </div>
-
-                            </div>
-
-                            
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="book-category-content">
-                    Persönlichkeitsentwicklung
-                </div>
-
-                <div class="book-category-content book-bio">
-                    
-                    <div>Biografien 1</div>
-
-                    <div>Biografien 2</div>
-
-                    <div>Biografien 3</div>
-
-                </div>
-
-                <div class="book-category-content">
-                    Thriller
-                </div>
-
-                <div class="book-category-content">
-                    Fantasy
-                </div>
-
-                <div class="book-category-content">
-                    Englisch
-                </div>
-
-
-
-            </div>
-
-            <!-- ------------------------------------------------------------- -->
-            <!-- Language - Content Page -->
-            <!-- ------------------------------------------------------------- -->
-            <div class="main-content language-page-container" >
-                Learning Language
-            </div>
-
-            <!-- ------------------------------------------------------------- -->
-            <!-- Intelligence training - Content Page -->
-            <!-- ------------------------------------------------------------- -->
-            <div class="main-content intelligence-page-container" >
-                Intelligence Training
-            </div>
-
-            <!-- ------------------------------------------------------------- -->
-            <!-- Music - Content Page -->
-            <!-- ------------------------------------------------------------- -->
-            <div class="main-content music-page-container" >
-                Music Content
-            </div>
-
-            <!-- ------------------------------------------------------------- -->
-            <!-- My JS-Mini Games - Content Page -->
-            <!-- ------------------------------------------------------------- -->
-            <div class="main-content js-games-page-container">
-                JS-Mini Games Content
-            </div>
-
-            <!-- ------------------------------------------------------------- -->
-            <!-- Violine - Content Page -->
-            <!-- ------------------------------------------------------------- -->
-            <div class="main-content violine-page-container">
-                Violent Content
-            </div>
-        
-           
         </main>
     
     </div>
