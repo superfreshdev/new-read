@@ -1,44 +1,27 @@
 
 /* --------------------------------------------------------------------------------- */
-/* Vertical Roll Container 
-/* --------------------------------------------------------------------------------- */
-
-.vertical-roll-container {
-
-    height: 100%;
-
-    background-color: aquamarine;
-   
-}
-
-/* --------------------------------------------------------------------------------- */
 /* Vertical Content Container 
 /* --------------------------------------------------------------------------------- */
 
 .vertical-content-container {
 
-    transform: translateY(-30%);
-
-    height: 100%;
+    /* transform: translateY(-40%); */
 
     display: flex;
     flex-direction: column;
-    
-    align-content: flex-start;
-    justify-items: flex-start;
-
-
     row-gap: .8em;
-
+   
     background-color: blue;
 
     transition: all .4s ease;
 
 }
 
-.vertical-content-container > #nav-select-header {
+/* height container + .8em body-container row gap  */
+.vertical-content-container > #nav-header-select {
 
     /* height: 100%; */
+    /* padding-top: 1px; */
 
 }
 
@@ -52,7 +35,7 @@
 /* Nav Select Header
 /* --------------------------------------------------------------------------------- */
 
-#nav-select-header {
+#nav-header-select {
    
     border-radius: .3em;
 

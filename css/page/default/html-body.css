@@ -29,13 +29,13 @@ html, body {
 #body-container {
  
     display: grid;
-    row-gap: .8em;
+    row-gap: 14px;
    
 }
 
-#body-container > div:nth-of-type(1).vertical-roll-container {
+#body-container > div:nth-of-type(1).vertical-content-container {
 
-    padding: .8em;
+    padding: 0em .8em;
    
 }
 

@@ -38,11 +38,14 @@
             
             <!-- default -->
             <link rel="stylesheet" href="css/page/default/html-body.css">
+            
             <link rel="stylesheet" href="css/page/default/header-body.css">
+            <link rel="stylesheet" href="css/page/default/resp-page-default/resp-header-body.css">
             <link rel="stylesheet" href="css/page/default/nav-select-header.css">
+    
             <link rel="stylesheet" href="css/page/default/main-body.css">
 
-            <link rel="stylesheet" href="css/page/default/page-content.css">    
+            <!-- <link rel="stylesheet" href="css/page/default/page-content.css">     -->
 
        
 
@@ -135,87 +138,94 @@
         </header>
 
 
+       
         <!-- ------------------------------------------------------------- -->
-        <!-- Vertical Roll Container                                       -->
+        <!-- Vertical Content Container                                    -->
         <!-- ------------------------------------------------------------- -->
-        <div class="vertical-roll-container">
+        <div id="vcc" class="vertical-content-container">
 
             <!-- ------------------------------------------------------------- -->
-            <!-- Vertical Content Container                                    -->
+            <!-- HEADER ( body header )                                        -->
             <!-- ------------------------------------------------------------- -->
-            <div id="vcc" class="vertical-content-container">
+            <div id="nav-header-select">
 
-                <!-- ------------------------------------------------------------- -->
-                <!-- HEADER ( body header )                                        -->
-                <!-- ------------------------------------------------------------- -->
-                <div id="nav-select-header">
-
-                    <div>Eintrag 01</div>
-                    <div>Eintrag 01</div>
-                    <div>Eintrag 01</div>
-                    <div>Eintrag 01</div>
-
-                </div>
-
-                <!-- ------------------------------------------------------------- -->
-                <!-- MAIN ( body main )                                            -->
-                <!-- ------------------------------------------------------------- -->
-                <main id="main-body">
-
-                    Main - Body Main Body Main Body <br>
-                    Main - Body Main Body Main Body <br>
-                    Main - Body Main Body Main Body <br>
-                    Main - Body Main Body Main Body <br>
-                    Main - Body Main Body Main Body <br>
-                    Main - Body Main Body Main Body <br>
-                    Main - Body Main Body Main Body <br>
-
-                    <!-- --------------------------------------------------------------- -->
-                    <!-- Page Content Container --> 
-                    <!-- --------------------------------------------------------------- -->
-
-                </main>
+                <div>Eintrag 01</div>
+                <div>Eintrag 02</div>
+                <div>Eintrag 03</div>
+                <div>Eintrag 04</div>
+                <div>Eintrag 05</div>
+                <div>Eintrag 06</div>
+                <div>Eintrag 07</div>
+                
 
             </div>
 
+            <!-- ------------------------------------------------------------- -->
+            <!-- MAIN ( body main )                                            -->
+            <!-- ------------------------------------------------------------- -->
+            <main id="main-body">
+
+                Main - Body Main Body Main Body <br>
+                Main - Body Main Body Main Body <br>
+                Main - Body Main Body Main Body <br>
+                Main - Body Main Body Main Body <br>
+                Main - Body Main Body Main Body <br>
+                Main - Body Main Body Main Body <br>
+                Main - Body Main Body Main Body <br>
+
+                <!-- --------------------------------------------------------------- -->
+                <!-- Page Content Container --> 
+                <!-- --------------------------------------------------------------- -->
+
+            </main>
+
         </div>
+
+        
     
     </div>
 
   
 
 
-    <!-- ----------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
     <!-- JS Bindings -->
-    <!-- ----------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------------------------- -->
 
-        <!-- ---------------------- -->
-        <!--  (My) JS Library       -->
-        <!-- ---------------------- -->
-        <script src="js/js-library/js-lib.js"></script>
-        <script src="js/js-page/update-header.js"></script>
+        <!-- -------------------------------------------------------------- -->
+        <!--  (My) JS Library                                               -->
+        <!-- -------------------------------------------------------------- -->
+        <script src="js/lib/my-lib.js"></script>
+
+
+        <!-- -------------------------------------------------------------- -->
+        <!--  Window Load                                                   -->
+        <!-- -------------------------------------------------------------- -->
+        <script src="js/windowsLoad/windowsLoad.js"></script>
+
+        <!-- <script src="js/js-page/update-header.js"></script> -->
 
         <!-- ---------------------- -->
         <!--  Default -->
         <!-- ---------------------- -->
 
             <!-- book present list  -->
-            <script src="css/page-content/book-content/book-present-list.js"></script>
+            <!-- <script src="css/page-content/book-content/book-present-list.js"></script> -->
 
             <!-- custom select  -->
-            <script src="js/js-default/custom-select.js"></script>
+            <!-- <script src="js/js-default/custom-select.js"></script> -->
     
         <!-- ---------------------- -->
         <!--  Page -->
         <!-- ---------------------- -->
 
-            <script src="js/js-page/set-main-select-box.js"></script>
+            <!-- <script src="js/js-page/set-main-select-box.js"></script> -->
 
         <!-- ---------------------- -->
         <!--  Content -->
         <!-- ---------------------- -->
 
-            <script src="js/js-books/set-book-select-box.js"></script>
+            <!-- <script src="js/js-books/set-book-select-box.js"></script> -->
 
 
 
@@ -223,11 +233,17 @@
     <script>
 
         const lbl = document.getElementById('nav-header-container');
-        const vcc = document.getElementById('vcc')
+        
+
+       
+
+        // var clientHeight = document.getElementById('myDiv').clientHeight
 
         var clicked = 0;
 
         lbl.addEventListener( 'click' , ()=> {
+
+            console.log( " clientHeight = " + valueHeightNavHeaderSelect + "px")
 
             console.log('clicked = ' + clicked)
 
@@ -239,11 +255,14 @@
 
             } else {
 
-            vcc.style.transform = "translateY(-35%)"
+                vcc.style.transform = `translateY(${ valueHeightNavHeaderSelect }px)`;
                 clicked = 0;
 
             }
         })
+
+
+      
 
     </script>
         
