@@ -5,29 +5,54 @@
 
 #main-body {
 
-    padding: 0em .8em;
-    
+    /* height: 100%; */
+
+    padding: 0em .8em .8em .8em;
+   
+   
     display: grid;
+
     grid: auto 1fr / 1fr;
+   
     row-gap: 14px;
+
+    /* transition: .4s all ease; */
 
     transition: .4s all ease;
 
     background-color: red;
+    /* height: calc(100% + 140px); */
 
     
 
 }
+
+
 
 /* --------------------------------------------------------------------------------- */
 /* [2/3] - Nav Header Select
 /* --------------------------------------------------------------------------------- */
 
 #nav-header-select {
+
+    transition: .4s all ease;
    
+    
+    /* visibility: hidden;
+    z-index: -1;
+    position: absolute;
+    left:0;
+    right:0; */
+
+    /* transform: translateY(-150%); */
+    /* position: absolute; */
+    
     border-radius: .3em;
 
     background-color: green;
+    
+  
+    
     
 }
 
@@ -38,7 +63,12 @@
 .main-content {
   
     /* height: 100%; */
+    /* transform: translateY(-16%); */
+    /* height: calc(100% + 140px); */
+   
    
     background-color: yellow;
+
+   
 
 }
