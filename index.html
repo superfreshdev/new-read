@@ -40,7 +40,7 @@
             <link rel="stylesheet" href="css/page/default/html-body.css">
             
             <link rel="stylesheet" href="css/page/default/header-body.css">
-            <link rel="stylesheet" href="css/page/default/resp-page-default/resp-header-body.css">
+            <link rel="stylesheet" href="css/page/default/resp-page-default/resp-header-main-body.css">
             <link rel="stylesheet" href="css/page/default/nav-select-header.css">
     
             <link rel="stylesheet" href="css/page/default/main-body.css">
@@ -78,11 +78,11 @@
     
     <div id="body-container">
 
-        <!-- ------------------------------------------------------------- -->
-        <!-- HEADER ( body header )                                        -->
-        <!-- ------------------------------------------------------------- -->
+        <!-- ------------------------------------------------------------------------------- -->
+        <!-- HEADER ( body header )                                                          -->
+        <!-- ------------------------------------------------------------------------------- -->
        
-        <header id="header-body">
+        <header id="header-body" class="bgc-light-anthracite-mix">
             
             <!-- ------------------------------------------------------------------------- -->
             <!-- Header Container                                                          -->
@@ -137,15 +137,13 @@
               
         </header>
 
-
-       
-        <!-- ------------------------------------------------------------- -->
-        <!-- Vertical Content Container                                    -->
-        <!-- ------------------------------------------------------------- -->
-        <div id="vcc" class="vertical-content-container">
+        <!-- ------------------------------------------------------------------------------- -->
+        <!-- MAIN ( body main )                                                              -->
+        <!-- ------------------------------------------------------------------------------- -->
+        <main id="main-body">
 
             <!-- ------------------------------------------------------------- -->
-            <!-- HEADER ( body header )                                        -->
+            <!-- Nav Header Select                                             -->
             <!-- ------------------------------------------------------------- -->
             <div id="nav-header-select">
 
@@ -161,44 +159,41 @@
             </div>
 
             <!-- ------------------------------------------------------------- -->
-            <!-- MAIN ( body main )                                            -->
+            <!-- Main Content                                                  -->
             <!-- ------------------------------------------------------------- -->
-            <main id="main-body">
+            <div class="main-content">
 
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
 
                 <br><br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
+
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
 
                 <br><br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
-                Main - Body Main Body Main Body <br>
 
-                <!-- --------------------------------------------------------------- -->
-                <!-- Page Content Container --> 
-                <!-- --------------------------------------------------------------- -->
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
 
-            </main>
+                <br><br>
 
-        </div>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
+                Main Content Main Content Main Content <br>
 
+             </div>
+
+
+
+        </main>
         
     
     </div>
@@ -220,6 +215,31 @@
         <!--  Window Load                                                   -->
         <!-- -------------------------------------------------------------- -->
         <script src="js/windowsLoad/windowsLoad.js"></script>
+
+
+        <!-- -------------------------------------------------------------- -->
+        <!--  Page                                                          -->
+        <!-- -------------------------------------------------------------- -->
+
+        <!-- header  -->
+        <script src="js/page/header/header.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- <script src="js/js-page/update-header.js"></script> -->
 
@@ -244,47 +264,6 @@
         <!-- ---------------------- -->
 
             <!-- <script src="js/js-books/set-book-select-box.js"></script> -->
-
-
-
-            
-    <script>
-
-        const lbl = document.getElementById('nav-header-container');
-        
-
-       
-
-        // var clientHeight = document.getElementById('myDiv').clientHeight
-
-        var clicked = 0;
-
-        lbl.addEventListener( 'click' , ()=> {
-
-            console.log( " clientHeight = " + valueHeightNavHeaderSelect + "px")
-
-            console.log('clicked = ' + clicked)
-
-            if( clicked == 0 ) {
-
-                vcc.style.transform = "translateY(0%)"
-
-                clicked = 1;
-
-            } else {
-
-                vcc.style.transform = `translateY(${ valueHeightNavHeaderSelect }px)`;
-                clicked = 0;
-
-            }
-        })
-
-
-      
-
-    </script>
-        
-
        
         
 </body>

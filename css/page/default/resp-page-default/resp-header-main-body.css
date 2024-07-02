@@ -1,0 +1,65 @@
+
+/* -------------------------------------------------------------------- */
+/* 500px 
+/* -------------------------------------------------------------------- */
+@media (min-width: 500px) {
+
+
+    #nav-header-container:hover {
+        background-color: rgb(6, 6, 6);
+    }
+
+}
+
+/* -------------------------------------------------------------------- */
+/* 1280px ( Header Center & Main more inside ) 
+/* -------------------------------------------------------------------- */
+@media (min-width: 1280px) {
+
+    /* ------------------------------------------------ */
+    /* Header 
+    /* ------------------------------------------------ */
+
+    #header-body {
+
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #header-container {
+
+        width: 800px;
+        background-color: red;
+
+        border-radius: .3em;
+    }
+
+    /* ------------------------------------------------ */
+    /* Main
+    /* ------------------------------------------------ */
+    #main-body {
+        
+        padding: 0em;
+
+        grid: auto 1fr / 1fr;
+        justify-items: center;
+       
+    }
+
+    #nav-header-select { 
+
+        width: calc( 800px + 1.6em);
+       
+        
+    }
+
+    .main-content {
+
+        width: 90%;
+    }
+
+}

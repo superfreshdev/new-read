@@ -1,18 +1,24 @@
 console.log('### windowsLoad');
 
-/* -------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
 /* DOM Elements 
-/* -------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
 
-// header 
+/* ---------------------------------------------- */
+/* header 
+/* ---------------------------------------------- */
+
 const navHeaderSelect = document.getElementById('nav-header-select');
-const vcc = document.getElementById('vcc')
+const mainBody = document.getElementById('main-body')
 
 var valueHeightNavHeaderSelect = 0;
 // 14 = 14px of body-container , row-gap
-var fixRowGap = 14;
-valueHeightNavHeaderSelect = (valueHeightNavHeaderSelect - fixRowGap);
+var fixRowGapBodyContainer = 14;
+valueHeightNavHeaderSelect = ( valueHeightNavHeaderSelect - fixRowGapBodyContainer );
 
+/* ---------------------------------------------- */
+/* ...
+/* ---------------------------------------------- */
 
 window.addEventListener( 'load' , ()=> {
 
@@ -21,8 +27,7 @@ window.addEventListener( 'load' , ()=> {
     /* Set Height | Nav Header Select
     /* ------------------------------------------------------ */
     valueHeightNavHeaderSelect-=getHeightOfIdElement( navHeaderSelect )
-
-    vcc.style.transform = `translateY(${ valueHeightNavHeaderSelect }px)`;
+    mainBody.style.transform = `translateY(${ valueHeightNavHeaderSelect }px)`;
 
     
 })
