@@ -8,8 +8,14 @@
 /* Default - Icon Sizes
 /* ------------------------------------------------ */
 
-.img-icon-very-small { height: .65em; }
+.img-icon-v-small { height: .65em; }
 .img-icon-small { height: .8em; }
+
+.img-icon-v-medium { height: .9em; }
 .img-icon-medium { height: 1em; }
+.img-icon-b-medium { height: 1.1em; }
+
 .img-icon-big { height: 1.3em; }
-.img-icon-very-big { height: 1.5em; }
+.img-icon-v-big { height: 1.5em; }
+.img-icon-u-big { height: 1.8em; }
+.img-icon-vu-big { height: 2em; }

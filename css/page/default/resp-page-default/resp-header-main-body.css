@@ -38,28 +38,31 @@
         border-radius: .3em;
     }
 
-    /* ------------------------------------------------ */
-    /* Main
-    /* ------------------------------------------------ */
+    /* ---------------------------------------------------------------------------- */
+    /* Category / Chapter Content Custom Select & Page Content 
+    /* ---------------------------------------------------------------------------- */
+ 
+    .custom-select {
+
+        /* padding left,right 12px */
+        width: 824px;
+
+    }
+
     #main-body {
-        
-        padding: 0em;
 
-        grid: auto 1fr / 1fr;
         justify-items: center;
+    }
+
+
+    
+    #main-content {
+
+       width: 95%;
        
+
     }
 
-    #nav-header-select { 
-
-        width: calc( 800px + 1.6em);
-       
-        
-    }
-
-    .main-content {
-
-        width: 90%;
-    }
+   
 
 }
