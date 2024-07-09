@@ -1,18 +1,26 @@
 console.log('### header.js')
 
-
 /* ------------------------------------------------------------------- */
 /* DOM Elements | Header 
 /* ------------------------------------------------------------------- */   
 
 const chkNavHeader = document.getElementById('chk-header-nav');
-
-const mainBody = document.getElementById('main-body');
-const navHeaderSelectContainer = document.getElementById('nav-header-select-container');
-
-const navHeaderSelect = document.getElementById('nav-header-select');
-
 const selectCategory = document.getElementById('custom-select-content-category');
+
+
+const categorySubTitles = [
+
+    'die ich gelesen habe',
+    'gesunde & coole Gerichte',
+    'lernen',
+    'trainieren & verbessern',
+    'viel von mir gehörte',
+    'lernen nach meinem Style',
+    'von mir spielen',
+    'von mir entwickelte',
+    'von mir erstellte',
+    'mehr erfahren'
+]
 
 
 
@@ -22,68 +30,84 @@ const selectCategory = document.getElementById('custom-select-content-category')
 
 chkNavHeader.addEventListener( 'change' , ()=> {
 
-    if( chkNavHeader.checked == true ) {
+    console.log("clicked (chkNav)")
 
-        // console.log("Panel = " + panel.clientHeight)
-
-        // panel.style.height = 'auto';
-
-        selectCategory.style.maxHeight = selectCategory.scrollHeight + "px";
-        selectCategory.style.marginBottom = '12px';
-
-        // navHeaderSelectContainer.style.display = 'flex';
-
-        // navHeaderSelect.style.height = 'auto';
-
-        // navHeaderSelect.style.marginBottom = '12px';
+    selectListItemsContentCategory.classList.toggle('hide');
 
 
-        /* ----------------------------------------------------- */
-        /* Update - Main Body View 
-        /* ----------------------------------------------------- */
-
-        // mainBody.style.grid = 'auto 1fr / 1fr';
-
-        /* ----------------------------------------------------- */
-        /* Update - Nav Header Select View 
-        /* ----------------------------------------------------- */
-
-        // navHeaderSelect.style.position = 'relative';
-        
-        // navHeaderSelect.style.left = 'auto';
-        // navHeaderSelect.style.right = 'auto';
-
-        // navHeaderSelect.style.transform = 'translateY(0px)';
-
-       
-
-    } else {
-
-        selectCategory.style.maxHeight = '0px';
-        selectCategory.style.marginBottom = '0px';
-
-        // navHeaderSelectContainer.style.display = 'none';
-        // navHeaderSelectContainer.style.height = '0em';
-        
-        /* ----------------------------------------------------- */
-        /* Update - Main Body View 
-        /* ----------------------------------------------------- */
-
-        // mainBody.style.grid = '1fr / 1fr';
-
-        /* ----------------------------------------------------- */
-        /* Update - Nav Header Select View 
-        /* ----------------------------------------------------- */
-
-        // navHeaderSelect.style.position = 'absolute';
-        // navHeaderSelect.style.left = '12px';
-        // navHeaderSelect.style.right = '12px';
-
-        // navHeaderSelect.style.transform = 'translateY(-500px)';
-       
-       
-       
-    }
-
- 
 })
+
+/* ------------------------------------------------------------------- */
+/* Click | Label Select Items | Category Content
+/* ------------------------------------------------------------------- */  
+
+for( let i=0; i < lblCategoryItems.length; i++ ) {
+
+    lblCategoryItems[i].addEventListener( 'click' , ()=> {
+
+        console.log(' clicked - lblCategoryItems')
+
+        // Step 0 - Open Select List & Change Img Arrow View
+       
+        newCatgegoryIndex = i;
+
+        // Step 2 - Set clicked new chapter
+        updateViewHeaderTitle( headerTitleContainer ,
+            lblCategoryItems[i].querySelector('img').getAttribute('src') ,
+            lblCategoryItems[i].querySelector('div:nth-of-type(1)').innerText , 
+            categorySubTitles[i] )
+
+        // Step 3 - Set new chapter index 
+        setRadioChecked( radioCategoryContents , i ) 
+       
+
+        // Step 4 - Close Select List & Img Arrow
+        selectListItemsContentCategory.classList.toggle('hide');
+
+        // show hamburger icon again
+        chkNavHeader.checked = false;
+
+       
+    } )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // if( chkNavHeader.checked == true ) {
+
+    //     // console.log("Panel = " + panel.clientHeight)
+
+    //     selectCategory.style.maxHeight = selectCategory.scrollHeight + "px";
+    //     selectCategory.style.marginBottom = '12px';
+
+    // } else {
+
+    //     selectCategory.style.maxHeight = '0px';
+    //     selectCategory.style.marginBottom = '0px';       
+       
+    // }

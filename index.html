@@ -40,8 +40,7 @@
             <link rel="stylesheet" href="css/page/default/html-body.css">
             
             <link rel="stylesheet" href="css/page/default/header-body.css">
-            <link rel="stylesheet" href="css/page/default/resp-page-default/resp-header-main-body.css">
-            <link rel="stylesheet" href="css/page/default/nav-select-header.css">
+            <link rel="stylesheet" href="css/page/default/resp-page/resp-header-main-body.css">
     
             <link rel="stylesheet" href="css/page/default/main-body.css">
 
@@ -98,7 +97,7 @@
                     <!-- Img Left Header                      -->
                     <!-- ------------------------------------ -->
                     <div id="left-img-header-container">
-                        <img src="media/img/emojies/emoji-books.png" id="img-left-header" alt="img"></img>
+                        <img src="" id="img-left-header" alt="img"></img>
                     </div>
                     
                     <!-- ------------------------------------ -->
@@ -108,11 +107,11 @@
 
                         <div>Superfresh
                              <span id="header-backslash">/</span>
-                             <span id="header-content-category-title">Bücher</span>
+                             <span id="header-content-category-title">-</span>
                         </div>
 
                         <div>» 
-                            <span id="header-content-category-description">die ich gelesen habe</span>
+                            <span id="header-content-category-description">-</span>
                         </div>
 
                     </div>
@@ -144,12 +143,14 @@
 
 
             <!-- --------------------------------------------------------- -->
-            <!-- Custom Select - Category Content -->
+            <!-- Custom Select - Content Category                          -->
             <!-- --------------------------------------------------------- -->
+            <div class="select-list-custom hide" id="js-custom-select-content-category" >
 
-            <div id="custom-select-content-category" class="custom-select" >
-
-                <div class="header-custom-select bgc-light-anthracite-mix">
+                <!-- ----------------------------------------- -->
+                <!-- My Lifestyle (3)                          -->
+                <!-- ----------------------------------------- -->
+                <div class="header-select-list bgc-light-anthracite-mix">
                     
                     <div>My Lifestyle</div>
                     <div>1/3</div>
@@ -157,15 +158,23 @@
                 </div>
                 
                 <input id="radio-books" type="radio" name="radio-custom-select-category">
-                <label for="radio-books" class="lbl-custom-select">
+                <label for="radio-books" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/emoji-books.png" class="img-icon-big" alt="img">
                     <div>Bücher</div>
                 
                 </label>
 
+                <input id="radio-food" type="radio" name="radio-custom-select-category">
+                <label for="radio-food" class="lbl-select-item-custom">
+
+                    <img src="media/img/emojies/emojie-food.png" class="img-icon-big" alt="img">
+                    <div>Ernährung</div>
+                
+                </label>
+
                 <input id="radio-language" type="radio" name="radio-custom-select-category">
-                <label for="radio-language" class="lbl-custom-select">
+                <label for="radio-language" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/emojie-language.png" class="img-icon-big" alt="img">
                     <div>Sprachen</div>
@@ -174,7 +183,7 @@
                 </label>
 
                 <input id="radio-intelligence" type="radio" name="radio-custom-select-category">
-                <label for="radio-intelligence" class="lbl-custom-select">
+                <label for="radio-intelligence" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/emoji-thunder.png" class="img-icon-big" alt="img">
                     <div>Intelligenz</div>
@@ -183,7 +192,7 @@
                 </label>
 
                 <input id="radio-music" type="radio" name="radio-custom-select-category">
-                <label for="radio-music" class="lbl-custom-select">
+                <label for="radio-music" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/emojie-music.png" class="img-icon-big" alt="img">
                     <div>Musik</div>
@@ -192,7 +201,7 @@
                 </label>
 
                 <input id="radio-violine" type="radio" name="radio-custom-select-category">
-                <label for="radio-violine" class="lbl-custom-select">
+                <label for="radio-violine" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/icon-violine.png" class="img-icon-big" alt="img">
                     <div>Geige</div>
@@ -200,14 +209,17 @@
 
                 </label>
 
-                <div class="header-custom-select bgc-light-anthracite-mix">
+                <div class="header-select-list bgc-light-anthracite-mix">
                     <div>My Tech Passion</div>
                     <div>2/3</div>
                 </div>
 
-                <!-- Tech Passion (3) -->
+                <!-- ----------------------------------------- -->
+                <!-- My Tech Passion (3)                       -->
+                <!-- ----------------------------------------- -->
+                
                 <input id="radio-jsgames" type="radio" name="radio-custom-select-category">
-                <label for="radio-jsgames" class="lbl-custom-select">
+                <label for="radio-jsgames" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/emoji-gaming.png" class="img-icon-big" alt="img">
                     <div>JS - Spiele</div>                         
@@ -215,7 +227,7 @@
                 </label>
 
                 <input id="radio-software-projects" type="radio" name="radio-custom-select-category">
-                <label for="radio-software-projects" class="lbl-custom-select">
+                <label for="radio-software-projects" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/it-emoji.png" class="img-icon-big" alt="img">
                     <div>Software Projekte</div>                     
@@ -223,24 +235,26 @@
                 </label>
 
                 <input id="radio-tech-tutorials" type="radio" name="radio-custom-select-category">
-                <label for="radio-tech-tutorials" class="lbl-custom-select">
+                <label for="radio-tech-tutorials" class="lbl-select-item-custom">
 
                     <img src="media/img/emojies/emojie-tutorials.png" class="img-icon-big" alt="img">
                     <div>Tech Tutorials</div>                   
 
                 </label>
 
-                <div class="header-custom-select bgc-light-anthracite-mix">
+                <div class="header-select-list bgc-light-anthracite-mix">
 
                     <div>About</div>
                     <div>3/3</div>
 
                 </div>
 
-                <!-- Über mich -->
+                <!-- ----------------------------------------- -->
+                <!-- Über Mich (3)                             -->
+                <!-- ----------------------------------------- -->
 
                 <input id="radio-about" type="radio" name="radio-custom-select-category">
-                <label for="radio-about" class="lbl-custom-select">
+                <label for="radio-about" class="lbl-select-item-custom">
 
                     <img src="media/img/cartoon/me-zwinker.png" class="img-icon-u-big" alt="img">
                     <div>Über mich</div>
@@ -250,114 +264,131 @@
 
             </div>
 
-            
             <!-- --------------------------------------------------------- -->
-            <!-- Select Chapter Content -->
+            <!-- Custom Select - Content Chapter                           -->
             <!-- --------------------------------------------------------- -->
+            <div class="custom-select-container" id="js-custom-select-content-chapter" >
 
-            <div id="custom-select-content-chapter" class="custom-select" >
-
-                <input id="radio-aktuell-am-lesen" type="radio" name="radio-select-chapter-content">
-                <label for="radio-aktuell-am-lesen" class="lbl-custom-select">
-
-                    <img src="media/img/emojies/emojie-eyes.png" class="img-icon-big" alt="img">
-                    <div>Aktuell am lesen</div>
-                    <div class="chapter-content-entry">
-                        <span>( </span>
-                        <span class="chapter-element-counts">2</span>
-                        <span>) </span>
+                <!-- -------------------------------------------------------------- -->
+                <!-- Selected Item | Custom                                         -->
+                <!-- -------------------------------------------------------------- -->
+                <div class="selected-item-custom" id="js-selected-item-content-chapter">
+                   
+                    <div class="title-select-item-custom">
+                        <img src="media/img/emojies/emojie-eyes.png" class="img-icon-b-medium" alt="img">
+                        <div>aktuell am lesen</div>
                     </div>
 
-                </label>
+                    <img src="media/img/icons/pfeil-nach-unten-grey.png" class="img-icon-vvu-big img-arrow-down" alt="img" id="js-img-arrow-selected-item-content-chapter">
 
-                <input id="radio-personality" type="radio" name="radio-select-chapter-content">
-                <label for="radio-personality" class="lbl-custom-select">
+                </div>
 
-                    
-                    <img src="media/img/emojies/emojie-plant.png" class="img-icon-big" alt="img">
-                    <div>Persönlichkeitsentwicklung</div>
-                    <div class="chapter-content-entry">
-                        <span>( </span>
-                        <span class="chapter-element-counts">2</span>
-                        <span>) </span>
-                    </div>
+                <!-- -------------------------------------------------------------- -->
+                <!-- Select List | Custom                                           -->
+                <!-- -------------------------------------------------------------- -->
+                <div class="select-list-custom hide" id="js-select-list-content-chapter" >
+                
 
-                </label>
+                    <input id="radio-aktuell-am-lesen" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-aktuell-am-lesen" class="lbl-select-item-custom border-r-tl-0-3-tr-0-3em">
+    
+                        <img src="media/img/emojies/emojie-eyes.png" class="img-icon-big" alt="img">
+                        <div>Aktuell am lesen</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">2</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-personality" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-personality" class="lbl-select-item-custom">
+    
+                        
+                        <img src="media/img/emojies/emojie-plant.png" class="img-icon-big" alt="img">
+                        <div>Persönlichkeitsentwicklung</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">2</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-biografien" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-biografien" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-person.png" class="img-icon-big" alt="img">
+                        <div>Biografien</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">6</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-thriller" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-thriller" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-arr.png" class="img-icon-big" alt="img">
+                        <div>Thriller</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">4</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-fantasy" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-fantasy" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-stars.png" class="img-icon-big" alt="img">
+                        <div>Fantasy</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">12</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-english" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-english" class="lbl-select-item-custom">
+    
+                        <img src="media/img/flag/gb-flag.png" class="img-icon-b-medium" alt="img">
+                        <div>English</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">3</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-andere" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-andere" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-loop.png" class="img-icon-big" alt="img">
+                        <div>Andere</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">3</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+                
 
-                <input id="radio-biografien" type="radio" name="radio-select-chapter-content">
-                <label for="radio-biografien" class="lbl-custom-select">
-
-                    <img src="media/img/emojies/emoji-person.png" class="img-icon-big" alt="img">
-                    <div>Biografien</div>
-                    <div class="chapter-content-entry">
-                        <span>( </span>
-                        <span class="chapter-element-counts">6</span>
-                        <span>) </span>
-                    </div>
-
-                </label>
-
-                <input id="radio-thriller" type="radio" name="radio-select-chapter-content">
-                <label for="radio-thriller" class="lbl-custom-select">
-
-                    <img src="media/img/emojies/emoji-arr.png" class="img-icon-big" alt="img">
-                    <div>Thriller</div>
-                    <div class="chapter-content-entry">
-                        <span>( </span>
-                        <span class="chapter-element-counts">4</span>
-                        <span>) </span>
-                    </div>
-
-                </label>
-
-                <input id="radio-fantasy" type="radio" name="radio-select-chapter-content">
-                <label for="radio-fantasy" class="lbl-custom-select">
-
-                    <img src="media/img/emojies/emoji-stars.png" class="img-icon-big" alt="img">
-                    <div>Fantasy</div>
-                    <div class="chapter-content-entry">
-                        <span>( </span>
-                        <span class="chapter-element-counts">12</span>
-                        <span>) </span>
-                    </div>
-
-                </label>
-
-                <input id="radio-english" type="radio" name="radio-select-chapter-content">
-                <label for="radio-english" class="lbl-custom-select">
-
-                    <img src="media/img/flag/gb-flag.png" class="img-icon-b-medium" alt="img">
-                    <div>English</div>
-                    <div class="chapter-content-entry">
-                        <span>( </span>
-                        <span class="chapter-element-counts">3</span>
-                        <span>) </span>
-                    </div>
-
-                </label>
-
-                <input id="radio-andere" type="radio" name="radio-select-chapter-content">
-                <label for="radio-andere" class="lbl-custom-select">
-
-                    <img src="media/img/emojies/emoji-loop.png" class="img-icon-big" alt="img">
-                    <div>Andere</div>
-                    <div class="chapter-content-entry">
-                        <span>( </span>
-                        <span class="chapter-element-counts">3</span>
-                        <span>) </span>
-                    </div>
-
-                </label>
-            
+                </div>
 
             </div>
-
-
-           
+            
             <!-- --------------------------------------------------------- -->
             <!-- Main Content  -->
             <!-- --------------------------------------------------------- -->
-
             <div id="main-content">
 
                 
@@ -401,10 +432,6 @@
 
             
 
-        
-
-
-
         </main>
         
     
@@ -436,48 +463,14 @@
         <!-- header  -->
         <script src="js/page/header/header.js"></script>
 
+        <!-- main  -->
+        <script src="js/page/main/main.js"></script>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <script src="js/js-page/update-header.js"></script> -->
-
-        <!-- ---------------------- -->
-        <!--  Default -->
-        <!-- ---------------------- -->
-
-            <!-- book present list  -->
-            <!-- <script src="css/page-content/book-content/book-present-list.js"></script> -->
-
-            <!-- custom select  -->
-            <!-- <script src="js/js-default/custom-select.js"></script> -->
     
-        <!-- ---------------------- -->
-        <!--  Page -->
-        <!-- ---------------------- -->
-
-            <!-- <script src="js/js-page/set-main-select-box.js"></script> -->
-
-        <!-- ---------------------- -->
-        <!--  Content -->
-        <!-- ---------------------- -->
-
-            <!-- <script src="js/js-books/set-book-select-box.js"></script> -->
-       
-        
 </body>
 
 

@@ -39,29 +39,34 @@
     }
 
     /* ---------------------------------------------------------------------------- */
-    /* Category / Chapter Content Custom Select & Page Content 
+    /* Main
     /* ---------------------------------------------------------------------------- */
- 
-    .custom-select {
-
-        /* padding left,right 12px */
-        width: 824px;
-
-    }
 
     #main-body {
 
         justify-items: center;
     }
+ 
+    /* ----------------------------------- */
+    /* Custom Select 
+    /* ----------------------------------- */
+    #js-custom-select-content-category,
+    #js-custom-select-content-chapter {
 
+        width: 824px;
+    }
 
-    
+    /* ----------------------------------- */
+    /* Main Content 
+    /* ----------------------------------- */
+
     #main-content {
 
-       width: 95%;
-       
-
+        width: 90%;
     }
+   
+
+
 
    
 
