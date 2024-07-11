@@ -1,0 +1,351 @@
+ foods: {
+
+        food: [
+
+            'food.png',
+            'Meine Top 15. Gerichte',
+            'my-top15-meals'
+        ],
+
+        food: [
+
+            'vegetarische.png',
+            'Vegetarische Gerichte',
+            'veggy-meals'
+        ]
+    },
+
+    languages: {
+
+        language: [
+
+            'food.png',
+            'Englisch',
+            'language-english'
+        ],
+
+        language: [
+
+            'vegetarische.png',
+            'Spanisch',
+            'language-spanish'
+        ],
+
+        language: [
+
+            'vegetarische.png',
+            'Polnisch',
+            'language-polish'
+        ],
+
+        language: [
+
+            'vegetarische.png',
+            'Griechisch',
+            'language-greece'
+        ],
+
+        language: [
+
+            'vegetarische.png',
+            'Französisch',
+            'language-france'
+        ],
+
+        language: [
+
+            'vegetarische.png',
+            'Italenisch',
+            'language-italy'
+        ],
+
+        language: [
+
+            'vegetarische.png',
+            'Türkisch',
+            'language-turkish'
+        ],
+
+        language: [
+
+            'vegetarische.png',
+            'Japanisch',
+            'language-japan'
+        ],
+
+    },
+
+    intelligence: {
+
+        item: [
+
+            'food.png',
+            'Meine Top 15. Gerichte',
+            'my-top15-meals'
+        ],
+
+        item: [
+
+            'vegetarische.png',
+            'Vegetarische Gerichte',
+            'veggy-meals'
+        ]
+    },
+
+    knowledge: {
+
+        item: [
+
+            'food.png',
+            'Meine Top 15. Gerichte',
+            'my-top15-meals'
+        ],
+
+        item: [
+
+            'vegetarische.png',
+            'Vegetarische Gerichte',
+            'veggy-meals'
+        ]
+    },
+    
+    musics: {
+
+        music: [
+
+            'food.png',
+            'Russisch',
+            'music-russian'
+        ],
+
+        music: [
+
+            'vegetarische.png',
+            'Spanisch',
+            'music-spanish'
+        ],
+
+        music: [
+
+            'vegetarische.png',
+            'Polnisch',
+            'music-spanish'
+        ],
+
+        music: [
+
+            'vegetarische.png',
+            'Grichisch',
+            'music-greece'
+        ],
+
+        
+        music: [
+
+            'vegetarische.png',
+            'Italenisch',
+            'music-italian'
+        ],
+
+        music: [
+
+            'vegetarische.png',
+            'Meditation',
+            'music-meditation'
+        ],
+
+        music: [
+
+            'vegetarische.png',
+            'Geige',
+            'music-violine'
+        ],
+
+    },
+
+    violine: {
+
+        topic: [
+
+            'theorie.png',
+            'Theorie',
+            'violine-theory'
+        ],
+
+        topic: [
+
+            'practice.png',
+            'Praxis',
+            'violine-practice'
+        ]
+    },
+
+    jsgames: {
+
+        jsgame: [
+
+            'theorie.png',
+            'Retro Games',
+            'jsgame-retro'
+        ],
+
+        jsgame: [
+
+            'practice.png',
+            'Others',
+            'jsgame-retro'
+        ]
+    },
+
+    softwareProjects: {
+
+        sproject: [
+
+            'theorie.png',
+            'Web Technologie',
+            'jsgame-retro'
+        ],
+
+        sproject: [
+
+            'practice.png',
+            'Java & Co',
+            'jsgame-retro'
+        ]
+    },
+
+    techDocs: {
+
+        tDoc: [
+
+            'theorie.png',
+            'Web Technogien',
+            'jsgame-retro'
+        ],
+
+        tDoc: [
+
+            'practice.png',
+            'Others',
+            'jsgame-retro'
+        ]
+    },
+
+    aboutMe: {
+
+        about: [
+
+            'theorie.png',
+            'Kurzinfos',
+            'jsgame-retro'
+        ],
+
+        about: [
+
+            'practice.png',
+            'Skills',
+            'jsgame-retro'
+        ],
+
+        
+        nextChallaenges: [
+
+            'practice.png',
+            'Next Challenge',
+            'jsgame-retro'
+        ]
+    },
+
+
+
+ <input id="radio-aktuell-am-lesen" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-aktuell-am-lesen" class="lbl-select-item-custom border-r-tl-0-3-tr-0-3em">
+    
+                        <img src="media/img/emojies/emojie-eyes.png" class="img-icon-big" alt="img">
+                        <div>Aktuell am lesen</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">2</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-personality" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-personality" class="lbl-select-item-custom">
+    
+                        
+                        <img src="media/img/emojies/emojie-plant.png" class="img-icon-big" alt="img">
+                        <div>Persönlichkeitsentwicklung</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">2</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-biografien" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-biografien" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-person.png" class="img-icon-big" alt="img">
+                        <div>Biografien</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">6</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-thriller" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-thriller" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-arr.png" class="img-icon-big" alt="img">
+                        <div>Thriller</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">4</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-fantasy" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-fantasy" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-stars.png" class="img-icon-big" alt="img">
+                        <div>Fantasy</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">12</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-english" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-english" class="lbl-select-item-custom">
+    
+                        <img src="media/img/flag/gb-flag.png" class="img-icon-b-medium" alt="img">
+                        <div>English</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">3</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>
+    
+                    <input id="radio-andere" type="radio" name="radio-select-chapter-content">
+                    <label for="radio-andere" class="lbl-select-item-custom">
+    
+                        <img src="media/img/emojies/emoji-loop.png" class="img-icon-big" alt="img">
+                        <div>Andere</div>
+                        <div class="chapter-content-entry">
+                            <span>( </span>
+                            <span class="chapter-element-counts">3</span>
+                            <span>) </span>
+                        </div>
+    
+                    </label>

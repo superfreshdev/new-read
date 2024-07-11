@@ -6,6 +6,7 @@ console.log('### main.js')
 /* ------------------------------------------------------------------- */   
 
 
+
 /* ------------------------------------------------------------------- */
 /* Click | Selected Item | Category Content 
 /* ------------------------------------------------------------------- */  
@@ -22,35 +23,39 @@ selectedItemContentChapter.addEventListener( 'click' , ()=> {
 /* Click | Label Select Items | Category Content
 /* ------------------------------------------------------------------- */  
 
-for( let i=0; i < lblChapterItems.length; i++ ) {
+// for( let i=0; i < lblCategoryItems.length; i++ ) {
 
-    lblChapterItems[i].addEventListener( 'click' , ()=> {
+//     lblCategoryItems[i].addEventListener( 'click' , ()=> {
 
-        // Step 0 - Open Select List & Change Img Arrow View
+        
+
+//         // Step 0 - Open Select List & Change Img Arrow View
        
-        newCatgegoryIndex = i;
+//         // newCatgegoryIndex = i;
 
-        // Step 2 - Set clicked new chapter
-        updateViewSelectedItemContentChapter( selectedItemContentChapter ,
-        lblChapterItems[i].querySelector('img').getAttribute('src') ,
-        lblChapterItems[i].querySelector('img').getAttribute('class'),
-        lblChapterItems[i].querySelector('div:nth-of-type(1)').innerText , 
-        lblChapterItems[i].querySelector('.chapter-content-entry').innerText )
+//         // // Step 2 - Set clicked new chapter
+//         // updateViewSelectedItemContentChapter( selectedItemContentChapter ,
+//         // lblChapterItems[i].querySelector('img').getAttribute('src') ,
+//         // lblChapterItems[i].querySelector('img').getAttribute('class'),
+//         // lblChapterItems[i].querySelector('div:nth-of-type(1)').innerText , 
+//         // lblChapterItems[i].querySelector('.chapter-content-entry').innerText )
 
-        // Step 3 - Set new chapter index 
-        setRadioChecked( radioChapterConents , i ) 
+//         // // Step 3 - Set new chapter index 
+//         // setRadioChecked( radioChapterConents , i ) 
        
 
-        // Step 4 - Close Select List & Img Arrow
-        selectListItemsContentChapter.classList.toggle('hide');
-        imgArrowSelectedItemContentChapter.classList.toggle('img-arrow-open');
+//         // Step 4 - Close Select List & Img Arrow
+//         selectListItemsContentChapter.classList.toggle('hide');
+//         imgArrowSelectedItemContentChapter.classList.toggle('img-arrow-open');
 
+//         // Step 5 - Set Content 
+        
        
-    } )
-}
+//     } )
+// }
 
 
-console.log( 'L= ' + lblChapterItems.length )
+// console.log( 'L= ' + lblChapterItems.length )
 
 
 

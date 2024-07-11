@@ -8,21 +8,40 @@ const chkNavHeader = document.getElementById('chk-header-nav');
 const selectCategory = document.getElementById('custom-select-content-category');
 
 
-const categorySubTitles = [
-
-    'die ich gelesen habe',
-    'gesunde & coole Gerichte',
-    'lernen',
-    'trainieren & verbessern',
-    'viel von mir gehörte',
-    'lernen nach meinem Style',
-    'von mir spielen',
-    'von mir entwickelte',
-    'von mir erstellte',
-    'mehr erfahren'
-]
 
 
+/*
+
+    meine top 15 Gerichte 
+    rein vegetarische Gerichte 
+
+    englisch , spanisch 
+    französisch, portugisisch 
+    türkisch , arabisch , grichisch
+    südkoranisch , japanisch , polnisch , italenisch 
+
+    merken , kopfrechnen 
+
+    musik - griechisch ....
+
+    geige - thoerie , praxis , tutorial seiten 
+
+    js spiele , memomry , running man , pinball 
+
+    software projekte - memory , angular , angular , angular , java , java 
+
+    tech tutorials - web , software , backend , tech tools 
+
+    über mich - 
+
+    kurz über mich 10 sek
+
+    mein Skills 
+
+    meine aktuellen to dos 
+
+
+*/
 
 /* ------------------------------------------------------------------- */
 /* Change | Checked/unchecked | slide in/out nav header select
@@ -47,25 +66,30 @@ for( let i=0; i < lblCategoryItems.length; i++ ) {
 
         console.log(' clicked - lblCategoryItems')
 
-        // Step 0 - Open Select List & Change Img Arrow View
+        setContent( i , 0 )
+
+        // // Step 0 - Open Select List & Change Img Arrow View
        
-        newCatgegoryIndex = i;
+        // newCatgegoryIndex = i;
 
-        // Step 2 - Set clicked new chapter
-        updateViewHeaderTitle( headerTitleContainer ,
-            lblCategoryItems[i].querySelector('img').getAttribute('src') ,
-            lblCategoryItems[i].querySelector('div:nth-of-type(1)').innerText , 
-            categorySubTitles[i] )
+        // // Step 2 - Set clicked new chapter
+        // updateViewHeaderTitle( headerTitleContainer ,
+        //     lblCategoryItems[i].querySelector('img').getAttribute('src') ,
+        //     lblCategoryItems[i].querySelector('div:nth-of-type(1)').innerText , 
+        //     categorySubTitles[i] )
 
-        // Step 3 - Set new chapter index 
-        setRadioChecked( radioCategoryContents , i ) 
+        // // Step 3 - Set new chapter index 
+        // setRadioChecked( radioCategoryContents , i ) 
        
 
-        // Step 4 - Close Select List & Img Arrow
+        // // Step 4 - Close Select List & Img Arrow
         selectListItemsContentCategory.classList.toggle('hide');
 
-        // show hamburger icon again
+        // // show hamburger icon again
         chkNavHeader.checked = false;
+
+        // // Step 5 - Set Content 
+        // updatePageList( i )
 
        
     } )
