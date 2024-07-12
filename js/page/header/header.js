@@ -66,7 +66,10 @@ for( let i=0; i < lblCategoryItems.length; i++ ) {
 
         console.log(' clicked - lblCategoryItems')
 
-        setContent( i , 0 )
+        // Set New Category Index 
+        newCatgegoryIndex = i;
+
+        setContent( i ,  newChapterIndex[i] )
 
         // // Step 0 - Open Select List & Change Img Arrow View
        

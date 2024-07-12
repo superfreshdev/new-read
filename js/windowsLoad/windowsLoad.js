@@ -5,6 +5,8 @@ console.log('### windowsLoad');
 /* ---------------------------------------------------------------------------------------------- */
 
 
+
+
 /* -------------------------------------------------- */
 /* Header | Category Content Sub Titles
 /* -------------------------------------------------- */
@@ -68,6 +70,7 @@ const arrayChaptersOfCategories = [
         ["russia-flag.png", "img-icon-big", "Russisch","russian"],
         ["japan-flag.png", "img-icon-big", "Japanisch","japan"],
         ["south-corea-flag.png", "img-icon-big", "Südkoranisch","south-corean"],
+        ["flag-vietnam.png", "img-icon-big", "Vienamesisch","vietnam"],   
 
     ] ,
 
@@ -87,7 +90,7 @@ const arrayChaptersOfCategories = [
 
 
     [
-        ["emojie-entspannend.png", "img-icon-big", "Meditation","south-corean"],
+        ["emojie-entspannend.png", "img-icon-big", "Meditation","meditation"],
         ["gb-flag.png", "img-icon-big", "Englisch","english"],
         ["spain-flag.png", "img-icon-big", "Spanisch","spanish"],
         ["italian-flag.png", "img-icon-big", "Italenisch","italian"],
@@ -97,7 +100,7 @@ const arrayChaptersOfCategories = [
         ["turkey-flag.png", "img-icon-big", "Türkisch","turkish"],
         ["russia-flag.png", "img-icon-big", "Russisch","russian"],
         ["japan-flag.png", "img-icon-big", "Japanisch","japan"],
-        ["south-corea-flag.png", "img-icon-big", "Südkoranisch","south-corean"],   
+        ["flag-vietnam.png", "img-icon-big", "Vienamesisch","vietnam"],   
 
     ],
 
@@ -163,7 +166,7 @@ const lblCategoryItems = selectListItemsContentCategory.querySelectorAll('.lbl-s
 /* Main | Custom Select | Chapter Content 
 /* -------------------------------------------------- */
 
-var newChapterIndex = 0;
+var newChapterIndex = [];
 
 // selected item 
 const selectedItemContentChapter = document.getElementById('js-selected-item-content-chapter')
@@ -221,6 +224,22 @@ window.addEventListener( 'load' , ()=> {
 
 
     /* ---------------------------------------------- */
+    /* Step 0 - Reset Chapter Select Sets by default
+    /* ---------------------------------------------- */
+
+    // reset every time setted chapterIndex array 
+    // to begin by default if reload
+    newChapterIndex = []
+
+    // Add all Chapter Items at Index 0 at beginning
+    for( let i=0; i < lblCategoryItems.length; i++ ) {
+
+        newChapterIndex.push( 0 ) 
+    }
+    
+
+
+    /* ---------------------------------------------- */
     /* Step 1 - Set Default Content
     /* ---------------------------------------------- */
 
@@ -230,7 +249,7 @@ window.addEventListener( 'load' , ()=> {
 
 
     // set content by checked category & chapter
-    setContent( newCatgegoryIndex , newChapterIndex ) 
+    setContent( newCatgegoryIndex , newChapterIndex[ 0 ] ) 
 
    
 
@@ -419,7 +438,7 @@ function createChapterSelectItems ( categoryIndex ) {
 
 
 
-    console.log( '[createSelectItems] = ' + categoryIndex + " | " )
+    // console.log( '[createSelectItems] = ' + categoryIndex + " | " )
 
     // Info: Template must be exist (empty)
 
@@ -429,7 +448,7 @@ function createChapterSelectItems ( categoryIndex ) {
     
     // Delete old Elements if its true 
 
-    console.log("Label Elements = " +  selectListItemsContentChapter.querySelectorAll('.lbl-select-item-custom').length )
+    // console.log("Label Elements = " +  selectListItemsContentChapter.querySelectorAll('.lbl-select-item-custom').length )
    
     if( selectListItemsContentChapter.querySelectorAll('.lbl-select-item-custom').length > 0 ) {
 
@@ -521,6 +540,25 @@ function createChapterSelectItems ( categoryIndex ) {
 }
 
 
+function updateSelectedItemView( lblChapterItem , idSelected ) {
+
+    console.log(' updateSelectedItem #### ')
+
+    // get Data from chapter Index
+
+    var srcIcon = lblChapterItem.querySelector('img:nth-of-type(1)').getAttribute( 'src' ) ;
+    var classIcon = lblChapterItem.querySelector('img:nth-of-type(1)').getAttribute( 'class' )
+    var txtTitle = lblChapterItem.querySelector('div:nth-of-type(1)').innerText ;
+    var countChapterItems = 0;
+
+    // Set Data from chapter Index to Selected Item Div
+    idSelected.querySelector('.title-select-item-custom > img').setAttribute( 'src' , srcIcon )
+    idSelected.querySelector('.title-select-item-custom > img').setAttribute( 'class' , classIcon )
+
+    idSelected.querySelector('.title-select-item-custom > div:nth-of-type(1)').innerText = txtTitle + " " + "( " + countChapterItems + " )";
+
+}
+
 
 
 
@@ -531,7 +569,7 @@ function promiseCreateChapterSelectItems( categoryIndex , chapterIndex ) {
 
         resolve( createChapterSelectItems ( categoryIndex ) )
 
-        console.log('### create end ### now we can use elements = ' + chapterIndex + " >> ")
+        // console.log('### create end ### now we can use elements = ' + chapterIndex + " >> ")
 
         /* --------------------------------------------------- */
         // Create Dynamically Dom Elements
@@ -542,14 +580,77 @@ function promiseCreateChapterSelectItems( categoryIndex , chapterIndex ) {
         // labels of select list 
         var lblChapterItems = document.querySelectorAll('#js-custom-select-content-chapter .lbl-select-item-custom')
 
-        console.log('### create end ### now we can use elements = ' + chapterIndex + " >> " + lblChapterItems.length )
+        // console.log('### create end ### now we can use elements = ' + chapterIndex + " >> " + lblChapterItems.length )
 
         // set radio chapter Index
         setRadioChecked( radioChapterConents , chapterIndex ) 
 
+        // var choseLabel = document.querySelectorAll('#js-custom-select-content-chapter .lbl-select-item-custom')[]
+        updateSelectedItemView( lblChapterItems[ chapterIndex ] , selectedItemContentChapter )
+
+        // Add Click Listeners on all generates Labels ( react only by clicking )
+        addClickListenersToChapterItems( lblChapterItems )
+
        
     })
 }
+
+
+function addClickListenersToChapterItems( lblChapterItems ) {
+
+    for( let i=0; i < lblChapterItems.length; i++ ) {
+
+        lblChapterItems[i].addEventListener( 'click' , ()=> {
+
+            
+            /* --------------------------------------------- */
+            /* Step 0 - Set new selected item 
+            /* --------------------------------------------- */
+            newChapterIndex[ newCatgegoryIndex ] = i;
+            setRadioChecked( document.querySelectorAll('#js-custom-select-content-chapter input') , i ) 
+
+
+            /* --------------------------------------------- */
+            /* Step 1 - Update View selected item 
+            /* --------------------------------------------- */
+            
+            updateSelectedItemView( lblChapterItems[i] , selectedItemContentChapter )
+
+            
+        
+
+            // Step 4 - Close Select List & Img Arrow
+            selectListItemsContentChapter.classList.toggle('hide');
+            imgArrowSelectedItemContentChapter.classList.toggle('img-arrow-open');
+
+            // Step 5 - Set Content 
+            
+        
+        } )
+    }
+}
+
+
+ // newChapterIndex[ newCatgegoryIndex ] = i;
+        // setRadioChecked( radioChapterConents , i ) 
+
+
+
+/* ------------------------------------------------------------- */
+/* Update View | Selected Item ( Custom Select )
+/* ------------------------------------------------------------- */
+
+// function updateViewSelectedItemContentChapter( idSelected ,  srcIcon , classIcon,  chapterTitle , countElements ) {
+
+//     // Set's 
+//     idSelected.querySelector('.title-select-item-custom > img').setAttribute( 'src' , srcIcon )
+//     idSelected.querySelector('.title-select-item-custom > img').setAttribute( 'class' , classIcon )
+
+//     idSelected.querySelector('.title-select-item-custom > div:nth-of-type(1)').innerText = chapterTitle + " " + countElements;
+   
+
+// }
+
 
 
 // function createElements() {
@@ -582,3 +683,43 @@ function promiseCreateChapterSelectItems( categoryIndex , chapterIndex ) {
 //     // no case to define
 //     // reject()
 // } )
+
+
+/*
+
+
+
+1. Update - Selected Item - Chapter Select 
+
+2. Merken von gesetzten Chapter Selects aus unterschiedlichen Category ( array  , push , default array[0] = 0, klick 2 , array[0] = 2 )
+
+3. Chapter Select Item Click , schließen & Content anzeigen 
+
+4. Chapter Count Items ( 0 )
+
+    - /json/books/ actually/actually-overview-list.json | /book-playlists/cafe-am-rande-der-welt.json   | personality | biographie | thriller | fantasy | english | others 
+    - /json/food/ top-every-dishes.json | top-vegan.json 
+    - /json/language
+    - /json/intelligence
+    - /json/knowledge 
+    - /json/music
+    - /json/violine
+    - /json/js-games
+    - /json/s-projects
+    - /json/tech-tutorials
+    - /json/about -> direkte View kein Swipe rechts/links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
