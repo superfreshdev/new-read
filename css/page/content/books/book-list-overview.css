@@ -1,0 +1,223 @@
+
+
+/* ------------------------------------------------------------------ */
+/* Book List Overview Item Container 
+/* ------------------------------------------------------------------ */
+
+
+.book-list-overview-item-container {
+
+
+    border-radius: .3em;
+
+    background-color: var(--c-white);
+
+}
+
+/* ------------------------------------------------------------------ */
+/* [1/2] - Info Container - Book List Overview Item 
+/* ------------------------------------------------------------------ */
+
+.info-container-book-list-overview-item {
+
+    height: 130px;
+
+    display: flex;
+    column-gap: .6em;
+    
+
+}
+
+
+/* ----------------------------------------------------- */
+/* [1.1/1.2] - Img Book Overview Container 
+/* ----------------------------------------------------- */
+.img-book-overview-container {
+
+    width: 90px;
+    height: 130px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: .3em 0em 0em 0em;
+
+    background-color: yellow;
+
+}
+
+.img-book-overview {
+
+    width: 90px;
+    height: 130px;
+
+    border-radius: .3em 0em 0em 0em;
+
+}
+
+/* ----------------------------------------------------- */
+/* [1.2/1.2] - Info Book Overview Container 
+/* ----------------------------------------------------- */
+
+.info-book-overview-container {
+
+    height: 130px;
+    width: 100%;
+    /* background-color: red; */
+
+    display: grid;
+    justify-content: space-between;
+    grid: auto 1fr auto / 1fr;
+
+    border-radius: 0em .3em 0em 0em;
+
+}
+
+/* ------------------------------------------- */
+/* Header Number Container 
+/* ------------------------------------------- */
+.header-number-container {
+
+    height: 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: green; */
+
+}
+
+.data-item {
+
+    font-size: .85em;
+    color:var(--c-light-grey-2);
+}
+
+.index-overview-item {
+
+    align-self: flex-start;
+
+    height: 1.5em;
+    width: 2.3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color:var(--c-light-grey-2);
+    background-color: var(--c-light-white-1);
+
+    border-radius: 0em .3em 0em .3em;
+}
+
+/* ------------------------------------------- */
+/* Title Info Container 
+/* ------------------------------------------- */
+.title-info-container {
+
+    padding-right: .3em;
+    line-height: 1.2em;
+
+    /* background-color: green; */
+
+}
+
+
+.book-title-overview {
+
+    font-weight: bold;
+}
+
+.book-autor-overview {
+
+    font-size: .9em;
+    
+}
+
+/* ------------------------------------------- */
+/* Specs Info Container 
+/* ------------------------------------------- */
+.specs-info-container {
+
+    height: 2.2em;
+    padding-right: .3em;
+  
+
+    font-size: .8em;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    /* background-color: pink; */
+
+}
+
+.specs-info-panel {
+
+    
+    display: flex;
+    align-items: center;
+    column-gap: .8em;
+}
+
+.spec-info-item {
+
+    color:var(--c-light-grey-2);
+
+
+    line-height: 1.1em;
+    text-align: center;
+
+    display: flex;
+    column-gap: .3em;
+    align-items: center;
+}
+
+.spec-info-item a {
+
+    color:var(--c-light-grey-2);
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* [2/2] - Label Navigate to Present Container 
+/* ------------------------------------------------------------------ */
+
+.book-list-overview-item-container input { display: none; }
+
+.label-navigate-to-present-container {
+
+    height: 3em;
+    padding: 0em 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    border-radius: 0em 0em .3em .3em;
+
+    background-color: var(--c-light-white-1);
+
+    transition: all .4s ease;
+    cursor: pointer;
+
+}
+
+.label-navigate-to-present-container:hover {
+
+    background-color: var(--c-light-grey-1);
+
+}
+
+.navigate-info-block-to-present-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+    font-weight: bold;
+
+}

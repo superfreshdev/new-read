@@ -41,7 +41,12 @@
     /* margin-top: 12px; */
     /* padding: 12px; */
 
-    background-color: rgb(152, 217, 152);
+    padding: 12px 0px;
+
+    display: grid;
+    row-gap: 2em;
+
+    /* background-color: rgb(152, 217, 152); */
     border-radius: .3em;
 
 }
