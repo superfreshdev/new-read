@@ -48,7 +48,27 @@
     justify-content: center;
 
     /* background-color: green; */
+   
 }
+
+
+.backHeaderContainer {
+
+    border-radius: .3em;
+    cursor: pointer;
+
+    background-color: rgba(97, 97, 97, 0.6);
+
+    transition: all .4s ease;
+
+}
+
+.backHeaderContainer:hover {
+
+    background-color: black;
+}
+
+#img-back-header { height: .9em; transform: rotate(180deg); }
 
 #img-left-header {  height: 1.8em; }
 
@@ -117,7 +137,7 @@
 
     border-radius: .3em;
 
-    background-color: rgba(241, 241, 241, .6);
+    background-color: #f1f1f199;
 
     /* --c-light-white-1: rgb(241, 241, 241); */
     /* background-color: rgb(101, 101, 101);

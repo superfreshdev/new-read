@@ -19,18 +19,61 @@
 
 #main-body {
 
-    position: relative;
-    top:0;
-
     padding: 0px 12px 12px 12px;
 
+    display: grid;
+    overflow-x: hidden;
+}
+
+.pages-container {
+
+    display: flex;
+    /* column-gap: 2em; */
+    width: 200%;
+    /* box-sizing: border-box; */
+
+   
+
+}
+
+.page-01 {
+
+    /* früher main-body  */
+    position: relative;
+    top:0;
+    
+    /* padding: 0px 12px 12px 12px; */
+
+    transform: translateX(0%);
+
+    width: 100%;
+   
+
+    transition: all .4s ease;
+
+    box-sizing: border-box;
+
+}
+
+.page-content-01{
 
     display: grid;
     grid: auto auto 1fr / 100%;
     row-gap: 12px;
     justify-content: center;
-    
 
+}
+
+.page-02 {
+
+    background-color: red;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    transform: translateX(10%);
+    transition: all .4s ease;
 }
 
 /* --------------------------------------------------------------------------------- */
