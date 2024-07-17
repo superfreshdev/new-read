@@ -21,8 +21,9 @@
 
     padding: 0px 12px 12px 12px;
 
-    display: grid;
+    /* display: grid; */
     overflow-x: hidden;
+
 }
 
 .pages-container {
@@ -47,6 +48,10 @@
     transform: translateX(0%);
 
     width: 100%;
+
+   
+
+    
    
 
     transition: all .4s ease;
@@ -55,14 +60,16 @@
 
 }
 
-.page-content-01{
+.page-content-01 {
 
     display: grid;
-    grid: auto auto 1fr / 100%;
+    grid: auto auto 1fr / 1fr;
     row-gap: 12px;
     justify-content: center;
 
 }
+
+
 
 .page-02 {
 
