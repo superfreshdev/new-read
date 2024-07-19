@@ -59,9 +59,12 @@
 
 .btn-text-container {
 
+    padding-right: 6px;
+
     display: flex;
     align-items: center;
     column-gap: .6em;
+    
 }
 
 /* ------------------------------------------------ */

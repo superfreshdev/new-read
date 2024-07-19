@@ -140,7 +140,31 @@
 
 
 
+/* ------------------------------------------ */
+/* Doc Info Overview 
+/* ------------------------------------------ */
 
+.doc-info-overview {
 
+    padding-bottom: 6px;
 
+    display: grid;
+    row-gap: .3em;
 
+    font-size: .9em;
+
+}
+
+.doc-title-overview {
+
+    line-height: 1.2em;
+    font-weight: bold;
+
+}
+
+.doc-short-info-container-overview {
+
+    display: grid;
+    color: var(--c-light-grey-5);
+
+}
