@@ -1,6 +1,86 @@
 
-
-
 /* ------------------------------------------------------------------------------------- */
 /* [3/3] - Float Left Layout 
 /* ------------------------------------------------------------------------------------- */
+
+
+.body-float-layout-chapter-item-overview {
+
+    border-radius: .4em .3em 0em 0em;
+
+    background-color: var(--c-white);
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* [1/2] - IMG Container & IMG ( float left )
+/* ------------------------------------------------------------------------------------- */
+
+/* for exampe food */
+.body-float-layout-chapter-item-overview .img-landscape-chapter-item-overview-box {
+
+
+    position: relative;
+    top:0;
+
+    float: left;
+    padding-right: .6em;
+
+    width: 120px;
+    height: auto;
+
+    border-radius: .4em 0em .3em 0em;
+
+    background-color: yellow;
+
+}
+
+/* for exampe food */
+.body-float-layout-chapter-item-overview .img-landscape-chapter-item-overview-box > .img-chapter-item-overview {
+
+
+    width: 120px;
+    height: auto;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    border-radius: .3em 0em .3em 0em;
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* [2/2] - Content ()
+/* ------------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------ */
+/* Header 
+/* ------------------------------------ */
+.body-float-layout-chapter-item-overview .header-chapter-item-overview {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.body-float-layout-chapter-item-overview .header-chapter-item-overview .header-title-chapter-item-overview {
+
+    font-size: .85em;
+    color: var(--c-light-grey-5);
+}
+
+
+/* ------------------------------------ */
+/* Text
+/* ------------------------------------ */
+
+.body-float-layout-chapter-item-overview .content-info-boxes-container-chapter-item-overview {
+
+    padding: 6px 6px 0px 6px;
+
+    line-height: 1.3em;
+}

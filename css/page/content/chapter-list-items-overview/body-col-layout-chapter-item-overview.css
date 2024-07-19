@@ -13,14 +13,16 @@
 }
 
 
+
 /* ------------------------------------------------------------------------ */
-/* [1/2] - IMG Container & IMG                                              */
+/* [1/2] - IMG Container & IMG ( float left )                               */
 /* ------------------------------------------------------------------------ */
 
 .body-col-layout-chapter-item-overview .img-chapter-item-overview-box {
 
     position: relative;
     top:0;
+
 
     width: 95px;
     height: 130px;
@@ -40,6 +42,8 @@
 
     border-radius: .3em 0em .3em 0em;
 }
+
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -168,3 +172,18 @@
     color: var(--c-light-grey-5);
 
 }
+
+/* ------------------------------------------ */
+/* default description Overview 
+/* ------------------------------------------ */
+
+.default-description-chapter-item-overview {
+
+    font-size: .9em;
+
+    padding-bottom: 12px;
+    padding-right: 6px;
+
+}
+
+
