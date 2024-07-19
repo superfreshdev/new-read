@@ -1,0 +1,1181 @@
+   <div style="display: none;">
+
+                            <!-- --------------------------------------------------------- -->
+                            <!-- Book List Overview Item Container                          -->
+                            <!-- --------------------------------------------------------- --> 
+                            <div class="book-list-overview-item-container" >
+
+
+                                    <!-- --------------------------------------------------------------------- -->
+                                    <!-- [1/2] - Info Container - Book List Overview Item --> 
+                                    <!-- --------------------------------------------------------------------- -->
+                                    <div class="info-container-book-list-overview-item">
+
+                                        <!-- ------------------------------------------------------ -->
+                                        <!-- Img Book Overview Container  --> 
+                                        <!-- ------------------------------------------------------ -->
+                                        <div class="img-book-overview-container">
+                                            <img src="media/content/books/cafe-am-rande-der-welt/cafe-am-rande-der-welt-hoch.png" class="img-book-overview" alt="img">
+                                        </div>
+
+                                        <!-- ------------------------------------------------------ -->
+                                        <!-- Info Book Overview Container --> 
+                                        <!-- ------------------------------------------------------ -->
+                                        <div class="info-book-overview-container">
+                                        
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- Header Number Container --> 
+                                            <!-- --------------------------------------------------------- -->
+                                            <div class="header-number-container">
+                                                
+                                                <div class="data-item">(2003)</div>
+
+                                                <div class="index-overview-item">01</div>
+                                                
+                                            </div> 
+
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- Title Info Container  --> 
+                                            <!-- --------------------------------------------------------- -->
+                                            <div class="title-info-container">
+
+                                                <div class="book-title-overview">Angular Web Plattform für die interne Unternehmensdaten Darstellung & Verwaltung</div>
+                                                <div class="book-autor-overview">John Srelecky</div>
+                                                
+                                            
+                                            </div> 
+
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- Specs Info Container  --> 
+                                            <!-- --------------------------------------------------------- -->
+                                            <div class="specs-info-container">
+
+                                                <div class="specs-info-panel">
+
+                                                    <div class="spec-info-item">
+
+                                                        <img src="media/img/icons/youtube-grey.png" class="img-icon-small" alt="img">
+                                                        <a href="" target="_blank">YouTube</a>                                           
+
+                                                    </div>
+
+                                                    <div class="spec-info-item">
+
+                                                        <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-v-medium" alt="img">
+                                                        <div>1260 | 15/15 </div>                                           
+
+                                                    </div>
+
+                                                    <div class="spec-info-item">
+
+                                                        <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-v-medium" alt="img">
+                                                        <div>99,59 Std.</div>                                            
+
+                                                    </div>
+
+
+
+                                                </div>
+
+                                            </div> 
+
+                                        </div>
+
+                                    </div> 
+
+                                    <!-- --------------------------------------------------------------------- -->
+                                    <!-- [2/2] - Label Navigate to Present Container  --> 
+                                    <!-- --------------------------------------------------------------------- -->
+                                    <input id="radio-book-overview-item-cardw" type="radio" name="">
+                                    <label class="label-navigate-to-present-container" for="radio-book-overview-item-cardw" >
+
+                                        <div class="navigate-info-block-to-present-container">
+
+                                            <img src="media/img/icons/horen.png" class="img-icon-b-medium" alt="img">
+                                            <div>anhöhren</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>
+
+                                    </label>
+
+
+                            </div>
+
+                            <!-- --------------------------------------------------------- -->
+                            <!-- Book List Overview Item Container                          -->
+                            <!-- --------------------------------------------------------- --> 
+                            <div class="book-list-overview-item-container" >
+
+
+                                <!-- --------------------------------------------------------------------- -->
+                                <!-- [1/2] - Info Container - Book List Overview Item --> 
+                                <!-- --------------------------------------------------------------------- -->
+                                <div class="info-container-book-list-overview-item">
+
+                                    <!-- ------------------------------------------------------ -->
+                                    <!-- Img Book Overview Container  --> 
+                                    <!-- ------------------------------------------------------ -->
+                                    <div class="img-book-overview-container">
+                                        <img src="media/content/books/mossad/mossad.jpg" class="img-book-overview" alt="img">
+                                    </div>
+
+                                    <!-- ------------------------------------------------------ -->
+                                    <!-- Info Book Overview Container --> 
+                                    <!-- ------------------------------------------------------ -->
+                                    <div class="info-book-overview-container">
+                                    
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Header Number Container --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="header-number-container">
+                                            
+                                            <div class="data-item">(2001)</div>
+
+                                            <div class="index-overview-item">02</div>
+                                            
+                                        </div> 
+
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Title Info Container  --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="title-info-container">
+
+                                            <div class="book-title-overview">Die Geheimakte - Mossad </div>
+                                            <div class="book-autor-overview">Victor Ostrovsky</div>
+                                            
+                                        
+                                        </div> 
+
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Specs Info Container  --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="specs-info-container">
+
+                                            <div class="specs-info-panel">
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-small" alt="img">
+                                                    <a href="" target="_blank">YouTube</a>                                           
+
+                                                </div>
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-v-medium" alt="img">
+                                                    <div>380 | 32/32 </div>                                           
+
+                                                </div>
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-v-medium" alt="img">
+                                                    <div>99,59 Std.</div>                                            
+
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div> 
+
+                                    </div>
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------------------- -->
+                                <!-- [2/2] - Label Navigate to Present Container  --> 
+                                <!-- --------------------------------------------------------------------- -->
+                                <input id="radio-book-overview-item-cardw" type="radio" name="">
+                                <label class="label-navigate-to-present-container" for="radio-book-overview-item-cardw" >
+
+                                    <div class="navigate-info-block-to-present-container">
+
+                                        <img src="media/img/icons/horen.png" class="img-icon-b-medium" alt="img">
+                                        <div>anhöhren</div>
+                                        <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                    </div>
+
+                                </label>
+
+
+                            </div>
+
+                            <!-- --------------------------------------------------------- -->
+                            <!-- Book List Overview Item Container                          -->
+                            <!-- --------------------------------------------------------- --> 
+                            <div class="book-list-overview-item-container">
+
+
+                                <!-- --------------------------------------------------------------------- -->
+                                <!-- [1/2] - Info Container - Book List Overview Item --> 
+                                <!-- --------------------------------------------------------------------- -->
+                                <div class="info-container-book-list-overview-item">
+
+                                    <!-- ------------------------------------------------------ -->
+                                    <!-- Img Book Overview Container  --> 
+                                    <!-- ------------------------------------------------------ -->
+                                    <div class="img-book-overview-container">
+                                        <img src="media/content/books/steve-jobs/steve-jobs.jpg" class="img-book-overview" alt="img">
+                                    </div>
+
+                                    <!-- ------------------------------------------------------ -->
+                                    <!-- Info Book Overview Container --> 
+                                    <!-- ------------------------------------------------------ -->
+                                    <div class="info-book-overview-container">
+                                    
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Header Number Container --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="header-number-container">
+                                            
+                                            <div class="data-item">(2011)</div>
+
+                                            <div class="index-overview-item">03</div>
+                                            
+                                        </div> 
+
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Title Info Container  --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="title-info-container">
+
+                                            <div class="book-title-overview">Steve Jobs ( Biographie ) </div>
+                                            <div class="book-autor-overview">Isaac Jackson</div>
+                                            
+                                        
+                                        </div> 
+
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Specs Info Container  --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="specs-info-container">
+
+                                            <div class="specs-info-panel">
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-small" alt="img">
+                                                    <a href="" target="_blank">YouTube</a>                                           
+
+                                                </div>
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-v-medium" alt="img">
+                                                    <div>666 | 42/42 </div>                                           
+
+                                                </div>
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-v-medium" alt="img">
+                                                    <div>99,59 Std.</div>                                            
+
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div> 
+
+                                    </div>
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------------------- -->
+                                <!-- [2/2] - Label Navigate to Present Container  --> 
+                                <!-- --------------------------------------------------------------------- -->
+                                <input id="radio-book-overview-item-cardw" type="radio" name="">
+                                <label class="label-navigate-to-present-container" for="radio-book-overview-item-cardw" >
+
+                                    <div class="navigate-info-block-to-present-container">
+
+                                        <img src="media/img/icons/horen.png" class="img-icon-b-medium" alt="img">
+                                        <div>anhöhren</div>
+                                        <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                    </div>
+
+                                </label>
+
+
+                            </div>
+
+
+                            <!-- --------------------------------------------------------- -->
+                            <!-- Book List Overview Item Container                          -->
+                            <!-- --------------------------------------------------------- --> 
+                            <div class="book-list-overview-item-container">
+
+
+                                <!-- --------------------------------------------------------------------- -->
+                                <!-- [1/2] - Info Container - Book List Overview Item --> 
+                                <!-- --------------------------------------------------------------------- -->
+                                <div class="info-container-book-list-overview-item">
+
+                                    <!-- ------------------------------------------------------ -->
+                                    <!-- Img Book Overview Container  --> 
+                                    <!-- ------------------------------------------------------ -->
+                                    <div class="img-book-overview-container">
+                                        <img src="media/content/books/bill-gates/bill-gates.jpg" class="img-book-overview" alt="img">
+                                    </div>
+
+                                    <!-- ------------------------------------------------------ -->
+                                    <!-- Info Book Overview Container --> 
+                                    <!-- ------------------------------------------------------ -->
+                                    <div class="info-book-overview-container">
+                                    
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Header Number Container --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="header-number-container">
+                                            
+                                            <div class="data-item">(2002)</div>
+
+                                            <div class="index-overview-item">04</div>
+                                            
+                                        </div> 
+
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Title Info Container  --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="title-info-container">
+
+                                            <div class="book-title-overview">Bill Gates ( Biographie ) </div>
+                                            <div class="book-autor-overview">Nathan Ecekry & Janette Bilokondingo</div>
+                                            
+                                        
+                                        </div> 
+
+                                        <!-- --------------------------------------------------------- -->
+                                        <!-- Specs Info Container  --> 
+                                        <!-- --------------------------------------------------------- -->
+                                        <div class="specs-info-container">
+
+                                            <div class="specs-info-panel">
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/youtube-grey.png" class="img-icon-small" alt="img">
+                                                    <a href="" target="_blank">YouTube</a>                                           
+
+                                                </div>
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/offenes-buch-grey.png" class="img-icon-v-medium" alt="img">
+                                                    <div>666 | 42/42 </div>                                           
+
+                                                </div>
+
+                                                <div class="spec-info-item">
+
+                                                    <img src="media/img/icons/lautsprecher-grey.png" class="img-icon-v-medium" alt="img">
+                                                    <div>99,59 Std.</div>                                            
+
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div> 
+
+                                    </div>
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------------------- -->
+                                <!-- [2/2] - Label Navigate to Present Container  --> 
+                                <!-- --------------------------------------------------------------------- -->
+                                <input id="radio-book-overview-item-cardw" type="radio" name="">
+                                <label class="label-navigate-to-present-container" for="radio-book-overview-item-cardw" >
+
+                                    <div class="navigate-info-block-to-present-container">
+
+                                        <img src="media/img/icons/horen.png" class="img-icon-b-medium" alt="img">
+                                        <div>anhöhren</div>
+                                        <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                    </div>
+
+                                </label>
+
+
+                            </div>
+
+                        </div>
+
+
+
+                          <div style="display: none;">
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Default Chapter Item Overview                             -->
+                                <!-- --------------------------------------------------------- --> 
+                                <div class="default-chapter-item-overview-container">
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Header Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <div class="header-chapter-item-overview">
+
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Img Chapter Item Box                                       -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="img-chapter-item-overview-box">
+                                            <img src="media/content/food/allday/tomaten-brot/Schritt-06.jfif" class="img-default-chapter-item-overview" alt="img">
+                                        </div>
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Content Chapter Item Box                                    -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="content-chapter-item-overview-box">
+
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Nr Header Content Chapter Item --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="nr-header-content-chapter-item-overview-box">
+                                                
+                                                <div class="info-header-content-chapter-item-overview">
+                                                    ~ 15 Min.
+                                                </div>
+
+                                                <div class="nr-item-header-content-chapter-item-overview-box">
+                                                    01
+                                                </div>
+
+                                            </div>
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Content Chapter Item  --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="content-chapter-item-overview">
+                                                Tomaten Brot mit Gurken , Zwiebeln , Gewürzen 
+                                                und einem frisch gepresstem Zitronenwasser Glas.
+                                                Dies könnte zusätzlich noch eine weitere Beschriebung
+                                                dessen sein wovon ich aber keine Ahnung habe.
+                                            </div>
+
+                                        </div> 
+
+
+                                    </div>
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Footer Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <label for="" class="footer-lbl-chapter-item-overview default-footer-item-overview">
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Optional Zip / GitHub Icon -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div style="display: none;">
+                                            <div>Zip</div>
+                                            <div>G.</div>
+                                        </div>        
+
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Slide to Right Content -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div class="footer-slide-right-box">
+                                            
+                                            <img src="media/img/icons/lecker.png" class="img-icon-b-medium" alt="img">
+                                            <div>Rezept</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>                                     
+
+                                    </label>
+
+                                    
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Default Chapter Item Overview                             -->
+                                <!-- --------------------------------------------------------- --> 
+                                <div class="default-chapter-item-overview-container" style="display: none;">
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Header Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <div class="header-chapter-item-overview">
+
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Img Chapter Item Box                                       -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="img-chapter-item-overview-box">
+                                            <img src="media/content/food/allday/radischen-brot/radischen-brot.jpg" class="img-default-chapter-item-overview" alt="img">
+                                        </div>
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Content Chapter Item Box                                    -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="content-chapter-item-overview-box">
+
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Nr Header Content Chapter Item --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="nr-header-content-chapter-item-overview-box">
+                                                
+                                                <div class="info-header-content-chapter-item-overview">
+                                                    ~ 15 Min.
+                                                </div>
+
+                                                <div class="nr-item-header-content-chapter-item-overview-box">
+                                                    02
+                                                </div>
+
+                                            </div>
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Content Chapter Item  --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="content-chapter-item-overview">
+                                                Radischen Brot mit Frischkäse, Lauchzwiebln 
+                                                Graskräuter und kleinen Tomaten.
+                                            </div>
+
+                                        </div> 
+
+
+                                    </div>
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Footer Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <label for="" class="footer-lbl-chapter-item-overview default-footer-item-overview">
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Optional Zip / GitHub Icon -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div style="display: none;">
+                                            <div>Zip</div>
+                                            <div>G.</div>
+                                        </div>        
+
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Slide to Right Content -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div class="footer-slide-right-box">
+                                            
+                                            <img src="media/img/icons/lecker.png" class="img-icon-b-medium" alt="img">
+                                            <div>Rezept</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>                                     
+
+                                    </label>
+
+                                    
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Default Chapter Item Overview                             -->
+                                <!-- --------------------------------------------------------- --> 
+                                <div class="default-chapter-item-overview-container" style="display: none;">
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Header Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <div class="header-chapter-item-overview">
+
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Img Chapter Item Box                                       -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="img-chapter-item-overview-box">
+                                            <img src="media/content/food/allday/radischen-brot/spanish-language.png" class="img-default-chapter-item-overview" alt="img">
+                                        </div>
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Content Chapter Item Box                                    -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="content-chapter-item-overview-box">
+
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Nr Header Content Chapter Item --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="nr-header-content-chapter-item-overview-box">
+                                                
+                                                <div class="info-header-content-chapter-item-overview">
+                                                    50 Vokabeln
+                                                </div>
+
+                                                <div class="nr-item-header-content-chapter-item-overview-box">
+                                                    01
+                                                </div>
+
+                                            </div>
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Content Chapter Item  --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="content-chapter-item-overview">
+                                                Basis Vokabeln lernen , testen und Sätze bilden
+                                            </div>
+
+                                        </div> 
+
+
+                                    </div>
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Footer Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <label for="" class="footer-lbl-chapter-item-overview default-footer-item-overview">
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Optional Zip / GitHub Icon -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div style="display: none;">
+                                            <div>Zip</div>
+                                            <div>G.</div>
+                                        </div>        
+
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Slide to Right Content -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div class="footer-slide-right-box">
+                                            
+                                            <img src="media/img/icons/sprache.png" class="img-icon-b-medium" alt="img">
+                                            <div>Lernen</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>                                     
+
+                                    </label>
+
+                                    
+
+                                </div>
+                                
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Default Chapter Item Overview                             -->
+                                <!-- --------------------------------------------------------- --> 
+                                <div class="default-chapter-item-overview-container" style="display: none;">
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Header Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <div class="header-chapter-item-overview">
+
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Img Chapter Item Box                                       -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="img-chapter-item-overview-box">
+                                            <img src="media/content/violine/theory/geige-saiten.png" class="img-default-chapter-item-overview" alt="img">
+                                        </div>
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Content Chapter Item Box                                    -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="content-chapter-item-overview-box">
+
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Nr Header Content Chapter Item --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="nr-header-content-chapter-item-overview-box">
+                                                
+                                                <div class="info-header-content-chapter-item-overview">
+                                                    Instrument beherschen
+                                                </div>
+
+                                                <div class="nr-item-header-content-chapter-item-overview-box">
+                                                    01
+                                                </div>
+
+                                            </div>
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Content Chapter Item  --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="content-chapter-item-overview">
+                                                14. Saiten Theorie 
+                                            </div>
+
+                                        </div> 
+
+
+                                    </div>
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Footer Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <label for="" class="footer-lbl-chapter-item-overview default-footer-item-overview">
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Optional Zip / GitHub Icon -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div style="display: none;">
+                                            <div>Zip</div>
+                                            <div>G.</div>
+                                        </div>        
+
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Slide to Right Content -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div class="footer-slide-right-box">
+                                            
+                                            <img src="media/img/icons/violine.png" class="img-icon-b-medium" alt="img">
+                                            <div>Lernen</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>                                     
+
+                                    </label>
+
+                                    
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Default Chapter Item Overview                             -->
+                                <!-- --------------------------------------------------------- --> 
+                                <div class="default-chapter-item-overview-container">
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Header Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <div class="header-chapter-item-overview">
+
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Img Chapter Item Box                                       -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="img-chapter-item-overview-box">
+                                            <img src="media/content/js-games/mini-games/memory-game.png" class="img-default-chapter-item-overview" alt="img">
+                                        </div>
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Content Chapter Item Box                                    -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="content-chapter-item-overview-box">
+
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Nr Header Content Chapter Item --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="nr-header-content-chapter-item-overview-box">
+                                                
+                                                <div class="info-header-content-chapter-item-overview">
+                                                    Mini Game
+                                                </div>
+
+                                                <div class="nr-item-header-content-chapter-item-overview-box">
+                                                    01
+                                                </div>
+
+                                            </div>
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Content Chapter Item  --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="content-chapter-item-overview">
+                                                Memory Spiel für Spaß 
+                                                und konfigurierbare Möglichkeit um spielerisch mit eigen erstellten
+                                                Paar - Karten zu lernen.
+                                            </div>
+
+                                        </div> 
+
+
+                                    </div>
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Footer Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <label for="" class="footer-lbl-chapter-item-overview default-footer-item-overview">
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Optional Zip / GitHub Icon -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div style="display: none;">
+                                            <div>Zip</div>
+                                            <div>G.</div>
+                                        </div>        
+
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Slide to Right Content -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div class="footer-slide-right-box">
+                                            
+                                            <img src="media/img/icons/spiel.png" class="img-icon-b-medium" alt="img">
+                                            <div>Go to Play</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>                                     
+
+                                    </label>
+
+                                    
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Default Chapter Item Overview                             -->
+                                <!-- --------------------------------------------------------- --> 
+                                <div class="default-chapter-item-overview-container">
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Header Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <div class="header-chapter-item-overview">
+
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Img Chapter Item Box                                       -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="img-chapter-item-overview-box">
+                                            <img src="media/content/tech-docs/frontend/angular/angular-grundlagen.png" class="img-default-chapter-item-overview" alt="img">
+                                        </div>
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Content Chapter Item Box                                    -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="content-chapter-item-overview-box">
+
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Nr Header Content Chapter Item --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="nr-header-content-chapter-item-overview-box">
+                                                
+                                                <div class="info-header-content-chapter-item-overview">
+                                                Angular 17
+                                                </div>
+
+                                                <div class="nr-item-header-content-chapter-item-overview-box">
+                                                    01
+                                                </div>
+
+                                            </div>
+
+                                            <!-- -------------------------------------------------- -->
+                                            <!-- Content Chapter Item  --> 
+                                            <!-- -------------------------------------------------- -->
+                                            <div class="content-chapter-item-overview">
+                                                Angular - Grundlagen Tutorial<br>
+                                                * orientiert an Linkedin Learning <br>
+                                                * weiteren Internetquellen <br>
+                                            </div>
+
+                                        </div> 
+
+
+                                    </div>
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Footer Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <label for="" class="footer-lbl-chapter-item-overview default-footer-item-overview">
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Optional Zip / GitHub Icon -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div style="display: none;">
+                                            <div>Zip</div>
+                                            <div>G.</div>
+                                        </div>        
+
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Slide to Right Content -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div class="footer-slide-right-box">
+                                            
+                                            <img src="media/img/icons/liste.png" class="img-icon-b-medium" alt="img">
+                                            <div>Zu den Kapiteln</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>                                     
+
+                                    </label>
+
+                                    
+
+                                </div> 
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Default Chapter Item Overview                             -->
+                                <!-- --------------------------------------------------------- --> 
+                                <div class="default-chapter-item-overview-container">
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Header Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <div class="header-chapter-item-overview-software-projects">
+
+
+                                        <!-- -------------------------------------------------- -->
+                                        <!-- Nr Header Content Chapter Item --> 
+                                        <!-- -------------------------------------------------- -->
+                                        <div class="nr-header-content-chapter-item-overview-box-software-projects">
+                                            
+                                            <div class="info-header-content-chapter-item-overview">
+                                                Angular Projekt 
+                                            </div>
+
+                                            <div class="nr-item-header-content-chapter-item-overview-box">
+                                                01
+                                            </div>
+
+                                        </div>
+
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <!-- Img Chapter Item Box                                       -->
+                                        <!-- ------------------------------------------------------------------ -->
+                                        <div class="img-chapter-item-overview-box-software-projects">
+                                            <img src="media/content/sf-projects/web/angular-memory-game/test.png" class="img-default-chapter-item-overview-software-projects" alt="img">
+                                        </div>
+
+                                        <!-- -------------------------------------------------- -->
+                                        <!-- Content Chapter Item  --> 
+                                        <!-- -------------------------------------------------- -->
+                                        <div class="content-chapter-item-overview-software-projects">
+
+                                            <div>
+                                                Konfigurierbares Memoryspiel gegen Computer 
+                                                oder gegen jemand anderem. Hier könnte noch etwas 
+                                                mehr Text zur Beschreibung dienen. Damit dieses Projekt 
+                                                etwas deutlicher formuliert werden kann.
+                                            </div>
+
+                                            <!-- -------------------------------------------------- -->
+                                                <!-- Tech Specs  --> 
+                                                <!-- -------------------------------------------------- -->
+                                                <div class="tech-specs-container">
+                                                    
+                                                    <div>Angular</div>
+                                                    <div>Typescript</div>
+                                                    <div>Unit Tests</div>
+                                                    <div>Rest API</div>
+                                                    <div>Material Design</div>
+
+                                                </div>
+
+                                        </div>
+
+                                    
+                                    
+
+
+                                    </div>
+
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <!-- Footer Chapter Item Ovierview                                     -->
+                                    <!-- ------------------------------------------------------------------ -->
+                                    <label for="" class="footer-lbl-chapter-item-overview default-footer-item-overview">
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Optional Zip / GitHub Icon -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div style="display: none;">
+                                            <div>Zip</div>
+                                            <div>G.</div>
+                                        </div>        
+
+
+                                        <!-- ------------------------------------------------------------- -->
+                                        <!-- Slide to Right Content -->
+                                        <!-- ------------------------------------------------------------- -->
+                                        <div class="footer-slide-right-box">
+                                            
+                                            <img src="media/img/icons/auge.png" class="img-icon-b-medium" alt="img">
+                                            <div>Zu den Details</div>
+                                            <img src="media/img/icons/zwei-linke-pfeile.png" class="img-icon-b-medium" alt="img">
+
+                                        </div>                                     
+
+                                    </label>
+
+                                    
+
+                                </div> 
+
+                            </div>
+
+
+                            /* -------------------------------------------------------------------- */
+/* [1/2] - Header Chapter Item Overview 
+/* -------------------------------------------------------------------- */
+
+.header-chapter-item-overview {
+
+    display: flex;
+    /* align-items: center; */
+    column-gap: .6em;
+
+    width: 100%;
+
+    border-radius: .4em .3em 0em 0em;
+
+    background-color: white;
+}
+
+.header-chapter-item-overview-software-projects {
+
+    display: grid;
+    row-gap: .8em;
+    grid: auto auto 1fr / 1fr;
+
+    width: 100%;
+
+    border-radius: .4em .3em 0em 0em;
+
+    background-color: white;
+
+
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/* Img Chapter item Box
+/* -------------------------------------------------------------------- */
+
+.img-chapter-item-overview-boxa {
+
+    min-width: 100px;
+    max-width: 100px;
+
+    height: auto;
+
+    /* min-height: 120px;
+    max-height: 120px; */
+
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+
+    border-radius: .3em 0em 0em 0em;
+    
+}
+
+.img-chapter-item-overview-box-software-projects {
+
+    display: flex;
+    padding: 0 8px;
+
+    /* background-color: blue; */
+}
+
+.img-default-chapter-item-overview {
+
+    align-self: flex-start;
+
+    height: auto;
+    width: 100%;
+
+    border-radius: .3em 0em  .3em 0em;
+
+}
+
+.img-default-chapter-item-overview-software-projects {
+
+    align-self: flex-start;
+
+    height: auto;
+    width: 100%;
+
+    border-radius: .3em;
+
+} 
+
+
+
+
+/* -------------------------------------------------------------------- */
+/* Content Chapter Item Box
+/* -------------------------------------------------------------------- */
+
+
+
+.nr-header-content-chapter-item-overview-box-software-projects {
+
+    
+    position: relative;
+    top:0;
+
+    height: 2em;
+
+    padding-left: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: .3em .3em 0em 0em;
+    /* background-color: red; */
+
+}
+
+.info-header-content-chapter-item-overview {
+
+    font-size: .85em;
+
+    color: var(--c-light-grey-3);
+
+}
+
+
+
+.content-chapter-item-overview-software-projects {
+
+    padding: 0px 8px 16px 8px;
+
+    display: grid;
+    row-gap: .6em;
+
+    font-size: .9em;
+
+    line-height: 1.3em;
+    
+
+    background-color: var(--c-white);
+
+    /* background-color: red; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* auslagern in software projects  */
+
+.sp-footer-item-overview {
+
+    display: flex;
+    justify-content: space-between;
+
+}

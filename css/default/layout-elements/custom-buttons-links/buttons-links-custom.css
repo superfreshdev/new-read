@@ -1,0 +1,179 @@
+/*
+   default-buttons.css 
+*/
+
+/* ------------------------------------------------ */
+/* Button Link Elements Container
+/* ------------------------------------------------ */
+
+.button-link-elements-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+}
+
+/* ------------------------------------------------ */
+/* Buttons Container - Default
+/* ------------------------------------------------ */
+
+.btn-container {
+
+    font-size: 1rem;
+
+    border:0px;
+
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+/* ------------------------------------------------ */
+/* Buttons Container - Art Style
+/* ------------------------------------------------ */
+
+.btn-container-art-chapter-item-overview {
+
+    font-size: .9em;
+   
+    height: 55px;
+    padding: 0em 10px;
+
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+
+    border-radius: 0em 0em .3em .3em;
+
+    transition: all .3s ease;
+
+    background-color: var(--c-light-white-1);
+
+}
+
+.btn-container-art-chapter-item-overview:hover {
+
+    background-color: var(--c-light-grey-3);
+}
+
+.btn-text-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+}
+
+/* ------------------------------------------------ */
+/* Buttons & Link Buttons - Default
+/* ------------------------------------------------ */
+
+.btn-default,
+.link-btn-default,
+.btn-default-bold,
+.link-btn-default-bold {
+
+    padding: 0em 10px;
+
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+
+    text-decoration: none;
+
+    border:0px;
+
+    border-radius: .3em;
+
+    cursor: pointer;
+
+    transition: all .3s;
+
+}
+
+.link-btn-default,
+.link-btn-default-bold {
+
+    height: 30px;
+}
+
+
+.link-btn-default:hover,
+.link-btn-default-bold:hover {
+
+    background-color: var(--c-pastell-red-1);
+}
+
+.btn-default ,
+.btn-default-bold {
+
+    height: 35px;
+}
+
+.btn-default-bold,
+.link-btn-default-bold { font-weight: bold; }
+
+
+.btn-default:hover,
+.btn-default-bold:hover {
+
+    background-color: var(--c-light-grey-3);
+} 
+
+
+/* --------------------------------------------------------------- */
+/* Button - Light Greys Black Font
+/* --------------------------------------------------------------- */
+
+.btn-art-light-grey-black-font {
+
+    color: var(--c-black);
+    background-color: var(--c-light-grey-1);
+}
+
+
+/* --------------------------------------------------------------- */
+/* Button - Light Greys
+/* --------------------------------------------------------------- */
+
+.btn-art-light-grey {
+
+    color: var(--c-light-antrahazit-1);
+    background-color: var(--c-light-grey-1);
+
+}
+
+/* --------------------------------------------------------------- */
+/* Button - Antrahzite
+/* --------------------------------------------------------------- */
+
+.btn-art-antrahzite {
+
+    color: var(--c-light-grey-1);
+
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Button - Dark Red
+/* --------------------------------------------------------------- */
+
+.btn-art-dark-red {
+
+   color: var(--c-light-white-2);
+   background-color: var(--c-dark-red-1);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Hover - BG: Dark Red | C: Light White 
+/* -------------------------------------------------------------- */
+
+
+
+
+
+

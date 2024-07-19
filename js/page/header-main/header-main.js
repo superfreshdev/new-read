@@ -16,6 +16,7 @@ const categorySubTitles = [
     'vom häufigen Gebrauch',
     'viel von mir gehörte',
     'lernen nach meinem Style',
+    'nach Superfresh Art',
     'von mir spielen',
     'von mir entwickelte',
     'von mir erstellte',
@@ -107,6 +108,16 @@ const arrayChaptersOfCategories = [
 
     [
 
+        ["me-zwinker.png", "img-icon-big", "60 Min. Training","theory"],
+        ["me-zwinker.png", "img-icon-big", "120 Min. Training","theory"],
+        ["me-zwinker.png", "img-icon-big", "Rückenübungen","theory"],
+        ["me-zwinker.png", "img-icon-big", "Venentraining","practice"],
+        ["me-zwinker.png", "img-icon-big", "Kraftraining","theory"],
+    
+    ] ,
+
+    [
+
         ["emojie-hacker-icon.png", "img-icon-big", "Mini Games","theory"],
         ["emojie-alien.png", "img-icon-big", "Big Games","practice"]
 
@@ -135,10 +146,12 @@ const arrayChaptersOfCategories = [
     [
 
         ["me-zwinker.png", "img-icon-big", "Kurz zu mir","theory"],
-        ["me-zwinker.png", "img-icon-big", "Meine Skills"],
+        ["me-zwinker.png", "img-icon-big", "Meine Skills","theory"],
         ["me-zwinker.png", "img-icon-big", "Weitere Eindrücke","practice"],
 
     ] ,
+
+   
 
 ]
 

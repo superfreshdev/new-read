@@ -1,177 +1,85 @@
 
-/* -------------------------------------------------------------------- */
-/* Default Chapter Item Overview Container 
-/* -------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+/* Chapter Item Overview Container 
+/* ----------------------------------------------------------------------------------------------------- */
 
-.default-chapter-item-overview-container {
-
+.chapter-item-overview-container {
 
     display: grid;
-
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-
-}
-
-/* -------------------------------------------------------------------- */
-/* [1/2] - Header Chapter Item Overview 
-/* -------------------------------------------------------------------- */
-
-.header-chapter-item-overview {
-
-    display: flex;
-    /* align-items: center; */
-    column-gap: .6em;
-
-    width: 100%;
-
-    border-radius: .4em .3em 0em 0em;
-
-    background-color: white;
-}
-
-.header-chapter-item-overview-software-projects {
-
-    display: grid;
-    row-gap: .8em;
-    grid: auto auto 1fr / 1fr;
-
-    width: 100%;
-
-    border-radius: .4em .3em 0em 0em;
-
-    background-color: white;
-
-
-}
-
-
-
-/* -------------------------------------------------------------------- */
-/* Img Chapter item Box
-/* -------------------------------------------------------------------- */
-
-.img-chapter-item-overview-box {
-
-    min-width: 100px;
-    max-width: 100px;
-
-    height: auto;
-
-    /* min-height: 120px;
-    max-height: 120px; */
-
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: flex-start; */
-
-    border-radius: .3em 0em 0em 0em;
-    
-}
-
-.img-chapter-item-overview-box-software-projects {
-
-    display: flex;
-    padding: 0 8px;
-
-    /* background-color: blue; */
-}
-
-.img-default-chapter-item-overview {
-
-    align-self: flex-start;
-
-    height: auto;
-    width: 100%;
-
-    border-radius: .3em 0em  .3em 0em;
-
-}
-
-.img-default-chapter-item-overview-software-projects {
-
-    align-self: flex-start;
-
-    height: auto;
-    width: 100%;
 
     border-radius: .3em;
 
-} 
+}
 
 
+/* --------------------------------------------------------------------------------------------- */
+/* Body | Chapter Item Overview 
+/* --------------------------------------------------------------------------------------------- */
+
+.body-chapter-item-overview {
 
 
-/* -------------------------------------------------------------------- */
-/* Content Chapter Item Box
-/* -------------------------------------------------------------------- */
+}
 
-.content-chapter-item-overview-box {
 
-    height: 100%;
-    width: 100%;
+/* ------------------------------------------------------------------------------------- */
+/* [1/3] - Row Layout 
+/* ------------------------------------------------------------------------------------- */
+
+.body-row-layout-chapter-item-overview {
 
     display: grid;
-    grid: auto 1fr / 1fr;
-
     background-color: var(--c-white);
 
     border-radius: .3em .3em 0em 0em;
-
 }
 
-.nr-header-content-chapter-item-overview-box {
+/* ------------------------------------------------ */
+/* header  */
+/* ------------------------------------------------ */
 
-    position: relative;
-    top:0;
+.body-row-layout-chapter-item-overview > .header-chapter-item-overview {
 
-    height: 2em;
-
-    padding-left: 0px;
+    height: 2.5em;
+    padding-left: 12px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     border-radius: .3em .3em 0em 0em;
+
     /* background-color: red; */
+   
 
 }
 
-.nr-header-content-chapter-item-overview-box-software-projects {
-
-    
-    position: relative;
-    top:0;
-
-    height: 2em;
-
-    padding-left: 8px;
+/* header title  */
+.header-title-chapter-item-overview {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-    border-radius: .3em .3em 0em 0em;
-    /* background-color: red; */
+    column-gap: .4em;
 
 }
 
-.info-header-content-chapter-item-overview {
+.body-row-layout-chapter-item-overview > .header-chapter-item-overview > .header-title-chapter-item-overview > div:nth-last-of-type(1) {
 
-    font-size: .85em;
-
-    color: var(--c-light-grey-3);
-
+    font-weight: bold;
+    font-size: .9em;
 }
 
-.nr-item-header-content-chapter-item-overview-box {
+/* header nr item  */
+.header-nr-item-chapter-item-overview {
 
     align-self: flex-start;
 
-    height: 1.8em;
-    width: 2.5em;
+    font-size: .9em;
 
-    font-size: .85em;
+    height: 100%;
+    width: 2.8em;
+
 
     display: flex;
     align-items: center;
@@ -181,54 +89,55 @@
 
     border-radius: 0em .3em 0em .3em;
 
-    color: var(--c-light-grey-2);
+    color: var(--c-light-antrahazit-1);
     background-color: var(--c-light-white-1);
-}
-
-.content-chapter-item-overview {
-
-    font-size: .9em;
-
-    line-height: 1.3em;
-    padding: 0px 8px 8px 0px;
-
-    background-color: var(--c-white);
- 
 
 }
 
-.content-chapter-item-overview-software-projects {
 
-    padding: 0px 8px 16px 8px;
+/* ------------------------------------------------ */
+/* Content  */
+/* ------------------------------------------------ */
+
+.body-row-layout-chapter-item-overview > .content-chapter-item-overview {
+
+    padding: 16px 12px;
 
     display: grid;
-    row-gap: .6em;
+    row-gap: .3em;
 
-    font-size: .9em;
-
-    line-height: 1.3em;
-    
-
-    background-color: var(--c-white);
-
-    /* background-color: red; */
+    /* background-color: yellow; */
 
 }
 
+.img-chapter-item-overview-max-width {
+
+    width: 100%;
+    border-radius: .3em;
+}
+
+
+.content-info-boxes-container-chapter-item-overview {
+
+    font-size: .9em;
+    line-height: 1.4em;
+
+    display: grid;
+    row-gap: .8em;
+
+   
+}
 
 
 /* ---------------------------------------------------- */
-/* Tech Specs */
+/* Tech Specs                                           */
+/* ---------------------------------------------------- */
 
-.tech-specs-container {
+.tech-specs-container,
+.book-specs-container {
 
     font-size: .85em;
-
     line-height: 1.3em;
-
-
-
-    /* background-color: red; */
 
     display: flex;
     flex-wrap: wrap;
@@ -238,70 +147,165 @@
     align-items: center;
 }
 
-.tech-specs-container > div {
+.tech-specs-container > div,
+.book-specs-container > div {
 
     padding: 0 .3em;
 
-    border-radius: .2em;
-
-    color: var(--c-light-grey-2);
-    background-color: var(--c-light-white-1);
-
-}
-
-
-
-
-
-
-
-/* -------------------------------------------------------------------- */
-/* [2/2] - Footer Chapter Item Overview 
-/* -------------------------------------------------------------------- */
-
-.footer-lbl-chapter-item-overview {
-
-    height: 2.8em;
-    padding: 0 12px;
-
-    border-radius: 0em 0em .3em .3em;
-
-    background-color: var(--c-light-white-1);
-
-    cursor: pointer;
-    transition: all .4s ease;
-}
-
-.footer-lbl-chapter-item-overview:hover {
-
-    background-color: var(--c-light-grey-3);
-}
-
-.default-footer-item-overview {
-
     display: flex;
     align-items: center;
+    column-gap: .4em;
+
+    border-radius: .2em;
+
+    color: var(--c-light-antrahazit-1);
+    background-color: var(--c-light-white-1);
+
+}
+
+.book-specs-container {
+
+    padding: 6px 0px;
+   
+    /* padding-bottom: 8px; */
+    /* padding: 12px 0px; */
+    /* background-color: gold; */
     justify-content: flex-end;
 }
 
-.footer-slide-right-box {
+/* ------------------------------------------------------------------------------------- */
+/* [2/3] - Col Layout 
+/* ------------------------------------------------------------------------------------- */
+
+.body-col-layout-chapter-item-overview {
+
+    /* height: 150px; */
+
+    width: 100%;
+
+    display: flex;
+    column-gap: .6em;
+    background-color: var(--c-white);
+
+    border-radius: .4em .3em 0em 0em;
+}
+
+/* ------------------------------------------- */
+/* Img Chapter Item Overview Box
+/* ------------------------------------------- */
+
+.body-col-layout-chapter-item-overview .img-chapter-item-overview-box {
+
+    position: relative;
+    top:0;
+
+    width: 95px;
+    height: 130px;
+
+    border-radius: .4em 0em .3em 0em;
+    background-color: yellow;
+
+}
+
+.body-col-layout-chapter-item-overview .img-chapter-item-overview-box > .img-chapter-item-overview {
+
+    width: 95px;
+    height: 130px;
+
+    border-radius: .3em 0em .3em 0em;
+}
+
+/* ------------------------------------------- */
+/* Content Chapter Item Overview 
+/* ------------------------------------------- */
+.body-col-layout-chapter-item-overview .content-chapter-item-overview {
+
+    width: 100%;
+
+    display: grid;
+    align-items: flex-start;
+    grid: auto 1fr / 1fr;
+
+    /* background-color: red; */
+
+    border-radius: 0em .3em 0em 0em;
+}
+
+
+/* ------------------------------ */
+/* header 
+/* ------------------------------ */
+.body-col-layout-chapter-item-overview .header-chapter-item-overview {
+
+    height: 35px;
 
     display: flex;
     align-items: center;
-    column-gap: .6em;
-
-    font-weight: bold;
-
-}
-
-
-
-/* ------------------------------------------------------- */
-/* auslagern in software projects  */
-
-.sp-footer-item-overview {
-
-    display: flex;
     justify-content: space-between;
 
+    border-radius: 0em .3em 0em 0em;
+   
+    /* background-color: red; */
 }
+
+.body-col-layout-chapter-item-overview .header-chapter-item-overview > .header-title-chapter-item-overview > div:nth-of-type(1) {
+
+    font-size: .8em;
+}
+
+.body-col-layout-chapter-item-overview .header-chapter-item-overview > .header-nr-item-chapter-item-overview {
+
+    height: 2em;
+}
+/* ------------------------------ */
+/* content info boxes
+/* ------------------------------ */
+
+
+.body-col-layout-chapter-item-overview .content-info-boxes-container-chapter-item-overview {
+
+    height: 100%;
+
+    /* background-color: red; */
+    /* padding-bottom: 12px; */
+
+    /* display: grid; */
+    /* align-content: space-between; */
+
+    /* padding-bottom: 12px; */
+    /* width: 100%;
+    display: grid; */
+    /* justify-content: space-between; */
+
+    line-height: 1.25em;
+
+    padding-right: 8px;
+    
+   
+
+   
+}
+
+.book-info-overview {
+
+    line-height: 1.2em;
+}
+
+.book-autor-overview {
+
+    color: black;
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* [3/3] - Float Left Layout 
+/* ------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* Footer | Chapter Item Overview 
+/* --------------------------------------------------------------------------------------------- */
