@@ -1,0 +1,162 @@
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* Body Row Layout  | Chapter Item Overview 
+/* --------------------------------------------------------------------------------------------- */
+
+.body-row-layout-chapter-item-overview {
+
+    display: grid;
+    background-color: var(--c-white);
+
+    border-radius: .3em .3em 0em 0em;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* [1/2] - Header                                                           */
+/* ------------------------------------------------------------------------ */
+
+.body-row-layout-chapter-item-overview > .header-chapter-item-overview {
+
+    height: 2.5em;
+    padding-left: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: .3em .3em 0em 0em;
+
+    /* background-color: red; */
+   
+
+}
+
+/* ---------------------------------------------- */
+/* Header Title | Chapter Item Overview           */
+/* ---------------------------------------------- */
+
+.body-row-layout-chapter-item-overview > .header-chapter-item-overview > .header-title-chapter-item-overview {
+
+    padding-top: 6px;
+}
+
+.body-row-layout-chapter-item-overview > .header-chapter-item-overview > .header-title-chapter-item-overview > div:nth-last-of-type(1) {
+
+    font-weight: bold;
+    font-size: .9em;
+}
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* [2/2] - Content                                                           */
+/* ------------------------------------------------------------------------ */
+
+.body-row-layout-chapter-item-overview > .content-chapter-item-overview {
+
+    padding: 10px 10px 12px 10px;
+
+    display: grid;
+    row-gap: .3em;
+
+    /* background-color: yellow; */
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* [1/2] - IMG Container 
+/* ---------------------------------------------------------------------- */
+
+.img-max-width-chapter-item-overview {
+
+    width: 100%;
+    border-radius: .3em;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/* [2/2] - Content Info Boxes Container 
+/* ---------------------------------------------------------------------- */
+
+.body-row-layout-chapter-item-overview .content-info-boxes-container-chapter-item-overview {
+
+    font-size: .9em;
+    line-height: 1.4em;
+
+    padding: 8px 3px;
+
+    display: grid;
+    row-gap: .8em;
+
+    /* background-color: red; */
+}
+
+
+/* ---------------------------------------------------- */
+/* Description Container | Chapter Item Overview        */
+/* ---------------------------------------------------- */
+
+.description-container-chapter-item-overview {
+
+    color:var(--c-light-antrahazit-1);
+
+}
+
+
+/* ---------------------------------------------------- */
+/* Tech Specs                                           */
+/* ---------------------------------------------------- */
+
+.tech-specs-container,
+.book-specs-container {
+
+    font-size: .85em;
+    line-height: 1.3em;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .4em;
+    row-gap: .4em;
+    
+    align-items: center;
+}
+
+.book-specs-container {
+
+    padding: 6px 0px;
+    justify-content: flex-end;
+}
+
+.tech-specs-container > div,
+.book-specs-container > div {
+
+    padding: 0 .3em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+
+    border-radius: .2em;
+
+}
+
+.tech-specs-container > div {
+
+    color:var(--c-black);
+    background-color: var(--c-light-white-1);
+
+}
+
+.book-specs-container > div {
+
+    color: var(--c-light-antrahazit-1);
+
+}
+

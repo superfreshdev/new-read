@@ -1,0 +1,63 @@
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* Chapter Item Overview Container ( default )
+/* ----------------------------------------------------------------------------------------------------- */
+
+.chapter-item-overview-container {
+
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    border-radius: .3em;
+
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* Header Title Chapter Item Overview ( default )                            */
+/* ------------------------------------------------------------------------- */
+
+.header-title-chapter-item-overview {
+
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Header Nr Box Chapter Item Overview ( default )                            */
+/* ------------------------------------------------------------------------- */
+
+.header-nr-box-chapter-item-overview {
+
+    align-self: flex-start;
+
+    font-size: .9em;
+
+    height: 2em;
+    width: 2.8em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+
+    border-radius: 0em .3em 0em .3em;
+
+    color: var(--c-light-grey-5);
+    background-color: var(--c-light-white-1);
+
+}
+
+
+
+
+
+
+
+
+
