@@ -2,6 +2,8 @@
    default-single-sets.css 
 */
 
+
+
 /* ------------------------------------------------ */
 /* Default - Others
 /* ------------------------------------------------ */
@@ -13,3 +15,13 @@
 .cursor-pointer { cursor: pointer; }
 
 .margin-top-12px { margin-top: 12px;}
+
+
+/* ------------------------------------------------ */
+/* Font Sizes 
+/* ------------------------------------------------ */
+
+.fs-18 { font-size: 18px; }
+.fs-16 { font-size: 16px; }
+.fs-14 { font-size: 14px; }
+.fs-12 { font-size: 12px; }

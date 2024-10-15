@@ -27,8 +27,8 @@ const categorySubTitles = [
 /* Main | Chapter Items of Categories
 /* -------------------------------------------------- */
 
-const emojiPath = "media/img/emojies/";
-const flagPath = "media/img/flag/";
+const emojiPath = "media/img/icons/02-emojies/";
+const flagPath = "media/img/icons/03-flags/";
 
 const arrayChaptersOfCategories = [
     

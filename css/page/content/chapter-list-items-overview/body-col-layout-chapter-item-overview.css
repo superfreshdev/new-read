@@ -130,6 +130,7 @@
 .book-autor-overview {
 
     /* padding-top: 3px; */
+    line-height: 1.2em;
     color: var(--c-light-grey-5);
 }
 
