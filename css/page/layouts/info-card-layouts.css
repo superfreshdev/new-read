@@ -421,6 +421,74 @@
 /* Img Book Cover | book
 /* ---------------------------------------------------------- */ 
 
+#img-cafe-am-rande-der-welt { 
+
+    /* position: absolute;
+    top: 0px;
+
+    z-index: 200; */
+}
+
+#img-fullsize {
+
+    border-radius: 12px;
+
+    height: 900px;
+    
+}
+
+/* testing testing testing  */
+
+.root-page-layout-container {
+
+    position: absolute;
+    top: 0px;
+    left:0;
+    right: 0;
+
+    padding: 36px;
+
+    height: 100vh;
+
+    z-index: 100;
+
+    /* width: 500px; */
+    /* height: 800px; */
+    background-color: rgb(74, 74, 74);
+
+   
+
+    /* transition: all .4s; */
+
+    display: none;
+    
+    
+    justify-items: center;
+
+    grid: auto 1fr / 1fr;
+    row-gap: 24px;
+
+}
+
+.root-page-layout-container > div:nth-of-type(1) {
+
+    background-color: green;
+    height: 50px;
+
+    display: flex;
+    column-gap: 12px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.root-page-layout-container > div:nth-of-type(2) {
+
+    background-color: yellow;
+}
+
+
+
 .img-topic-cover-small,
 .img-topic-cover-fullsize {
 
@@ -428,8 +496,16 @@
 
 .img-topic-cover-small {
 
+    cursor: pointer;
+    transition: all .4s;
+
     height: 200px;
     border-radius: 12px 0px 12px 0px;
+}
+
+.img-topic-cover-small:hover {
+
+    opacity: .8;
 }
 
 .img-topic-cover-fullsize {
