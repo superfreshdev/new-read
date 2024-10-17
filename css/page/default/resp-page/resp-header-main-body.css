@@ -32,7 +32,7 @@
 
     #header-container {
 
-        width: 800px;
+        width: 900px;
         background-color: red;
 
         border-radius: .3em;
@@ -45,6 +45,9 @@
     #main-body {
 
         justify-items: center;
+
+        background-color: red;
+       
     }
  
     /* ----------------------------------- */
@@ -53,7 +56,8 @@
     #js-custom-select-content-category,
     #js-custom-select-content-chapter {
 
-        width: 824px;
+        /* width: 824px; */
+        width: 924px;
     }
 
     /* ----------------------------------- */
@@ -63,6 +67,7 @@
     #main-content {
 
         width: 90%;
+        background-color: green;
     }
    
 

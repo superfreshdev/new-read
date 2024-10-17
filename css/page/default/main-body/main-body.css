@@ -19,10 +19,13 @@
 
 #main-body {
 
-    padding: 0px 12px 12px 12px;
+    /* padding: 0px 12px 12px 12px; */
 
     /* display: grid; */
     overflow-x: hidden;
+
+    /* overflow: hidden; */
+
 
 }
 
@@ -33,6 +36,7 @@
     width: 200%;
     /* box-sizing: border-box; */
 
+   
    
 
 }
@@ -50,13 +54,11 @@
     width: 100%;
 
    
-
-    
-   
-
     transition: all .4s ease;
 
     box-sizing: border-box;
+
+    
 
 }
 
@@ -65,7 +67,10 @@
     display: grid;
     grid: auto auto 1fr / 1fr;
     row-gap: 12px;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-items: center;
+
+   
 
 }
 

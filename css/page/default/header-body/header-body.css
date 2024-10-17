@@ -17,7 +17,7 @@
 #header-container {
 
     height: 5em;
-    padding: 0em .9em 0em .6em;
+    padding: 0em 12px 0em 12px;
 
     display: flex;
     align-items:center;

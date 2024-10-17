@@ -1,12 +1,25 @@
 console.log('### js-create-img-click-small-fullsize-layout.js')
 
-var imgTopicInfoCard = document.getElementById('img-cafe-am-rande-der-welt');
-
+// fullsize container 
+var rootPageFullsizeContainer = document.getElementById('root-page-fullsize');
+var linkCloseFullsizeMode = document.getElementById('link-close-img-fullsize-view');
 var imgAddSrcFullsize = document.getElementById('img-fullsize');
 
-var linkCloseFullsizeMode = document.getElementById('close-img-fullsize-mode');
+// small img topic cover 
+var arrImgTopicCover = document.getElementsByClassName('img-topic-cover-small')
+// convert non array to array ( special js thing )
+arrImgTopicCover = Array.from(arrImgTopicCover);
 
-var rootPageFullsizeContainer = document.getElementById('root-page-fullsize');
+// console.log( "Array Test = " + Array.isArray(arrImgTopicCover) )
+// console.log( "Array Lenght = " + arrImgTopicCover.length )
+
+// arrImgTopicCover.forEach(element => {
+    
+//     console.log("P = " + element.getAttribute('src') );
+
+// });
+
+
 
 
 /*
@@ -15,24 +28,31 @@ var rootPageFullsizeContainer = document.getElementById('root-page-fullsize');
 
 */
 
+arrImgTopicCover.forEach(imgTopicCover => {
+    
+    imgTopicCover.addEventListener('click', ()=> {
 
-imgTopicInfoCard.addEventListener('click', ()=> {
+        console.log("clicked > img > imgTopicCover") 
 
-    console.log("clicked > img > cafe am rande der Welt")
+        rootPageFullsizeContainer.style.top = "0%"
+        // rootPageFullsizeContainer.style.zIndex = "100";
 
-    rootPageFullsizeContainer.style.display = "grid";
+        // set img src from clicked img
+        imgAddSrcFullsize.setAttribute('src', imgTopicCover.getAttribute('src') );
+    
+    });
 
-    // console.log("D" + imgTopicInfoCard.getAnimations('src') )
-
-    imgAddSrcFullsize.setAttribute('src', imgTopicInfoCard.getAttribute('src') );
-})
-
-
+});
 
 
 linkCloseFullsizeMode.addEventListener('click', ()=> {
 
     console.log("clicked > close > fullsize mode ")
 
-    rootPageFullsizeContainer.style.display = "none";
+    // rootPageFullsizeContainer.style.zIndex = "-1";
+    // rootPageFullsizeContainer.style.opacity = "0";
+    rootPageFullsizeContainer.style.top = "-200%"
+
 })
+
+

@@ -433,7 +433,7 @@
 
     border-radius: 12px;
 
-    height: 900px;
+    width: 750px;
     
 }
 
@@ -442,45 +442,104 @@
 .root-page-layout-container {
 
     position: absolute;
-    top: 0px;
+    top: -200%;
     left:0;
     right: 0;
 
-    padding: 36px;
-
-    height: 100vh;
+    padding: 36px 8px;
 
     z-index: 100;
+    /* opacity: 0;  */
 
-    /* width: 500px; */
-    /* height: 800px; */
-    background-color: rgb(74, 74, 74);
+    height: 100%; 
 
-   
 
-    /* transition: all .4s; */
-
-    display: none;
-    
+    display: grid;
     
     justify-items: center;
+    align-content: flex-start;
 
     grid: auto 1fr / 1fr;
     row-gap: 24px;
 
+    transition: all .4s ease-out;
+    
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+
 }
 
-.root-page-layout-container > div:nth-of-type(1) {
+#header-img-fullsize-view {
 
-    background-color: green;
+    width: 40%;
+   
     height: 50px;
+    padding: 0px 0px 0px 8px;
 
     display: flex;
-    column-gap: 12px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    background-color: rgba(128, 128, 128, .3);
+    border-radius: 8px;
     
 }
+
+#nr-box-header-img-fullsize-view {
+
+    height: 35px;
+    padding: 0px 12px;
+
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+
+
+    /* background-color: rgba(208, 208, 208 , .1); */
+    color: rgb(192, 192, 192);
+
+    border-radius: 6px;
+    
+}
+
+
+
+#link-close-img-fullsize-view {
+
+    width: 50px;
+    height: 50px;
+
+    display: grid;
+    row-gap: .4em;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: .3em;
+
+    cursor: pointer;
+    transition: all .4s;
+
+    background-color: var(--c-dark-red-1);
+}
+
+
+#link-close-img-fullsize-view:hover {
+
+    background-color: var(--c-black);
+}
+
+#link-close-img-fullsize-view> img {
+
+    height: 22px;
+}
+
+
+
+
+
 
 .root-page-layout-container > div:nth-of-type(2) {
 
